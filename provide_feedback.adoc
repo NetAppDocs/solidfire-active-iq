@@ -1,0 +1,25 @@
+---
+permalink: provide_feedback.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about sorting and filtering list information on pages in Active IQ.'
+---
+= Provide feedback
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can help improve the Active IQ user interface and address any UI issues by using the feedback form that is accessible throughout the UI.
+
+.Steps
+
+. From any page in the UI, select image:/media/feedback.PNG[Feedback button].
+. Enter relevant information in the Summary and Description fields.
+. Attach any helpful screenshots.
+. Enter a name and email address.
+. Select the check box to include data about your current environment.
+. For more information, select on the link *What is included in the data about my current environment?*.
+. Select *Submit*.
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

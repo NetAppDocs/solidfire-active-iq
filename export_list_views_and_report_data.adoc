@@ -1,0 +1,18 @@
+---
+permalink: export_list_views_and_report_data.html
+sidebar: sidebar
+keywords: solidfire, active, iq, enable, reporting
+summary: 'Get started with SolidFire Active IQ.'
+---
+= Export list views and report data
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can export an entire list view or graph data to a comma-separated values (CSV) format. Only the information displayed in the list view or graph is exported. If there is a certain sort order or if a filter is used to limit the displayed entries, that sort order and filter are preserved in the exported file.
+
+.Steps
+. In a list view or graph, select image:/media/export_button.PNG[Export button] 
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

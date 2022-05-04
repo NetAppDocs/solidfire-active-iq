@@ -1,0 +1,20 @@
+---
+permalink: sort_lists.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= Sort lists
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can sort list information by one or more columns on certain pages within the Active IQ UI. This helps you arrange the information you need on the screen.
+
+.Steps
+
+. To sort on a single column, select the column heading until the information is sorted in the desired order.
+. To sort using multiple columns, select the column heading for each column you wish to sort by until the information in each column is sorted in the desired order. This functionality is not available on all pages.
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

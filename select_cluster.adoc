@@ -1,0 +1,21 @@
+---
+permalink: select_cluster.html
+sidebar: sidebar
+keywords: solidfire, active, iq, enable, reporting
+summary: 'Learn about viewing information about a cluster in Active IQ.'
+---
+= Select a cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In Active IQ, you can view information about an individual cluster in your environment.
+
+.Steps
+. From the Active IQ dashboard, select *Select a Cluster*.
+. The drop-down menu lists any clusters available to you.
+. Use the search field to locate the desired cluster or recently viewed clusters.
+. Select the name to select the cluster.
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

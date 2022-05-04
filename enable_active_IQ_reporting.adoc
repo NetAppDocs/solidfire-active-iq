@@ -1,0 +1,19 @@
+---
+permalink: enable_active_IQ_reporting.html
+sidebar: sidebar
+keywords: solidfire, active, iq, enable, reporting
+summary: 'Learn about enabling SolidFire Active IQ reporting capability on the management node.'
+---
+= Enable SolidFire Active IQ reporting
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must enable SolidFire Active IQ reporting capability on the management node before the Active IQ server can connect to a cluster and receive cluster information. When the connection has been successfully set up, the cluster sends information to the Active IQ server. You can then view the cluster in the Active IQ UI, which displays cluster information.
+
+NOTE: For additional details about the management node and enabling Active IQ, see the latest version of the https://docs.netapp.com/us-en/element-software/mnode/task_mnode_enable_activeIQ.html[management node procedure for NetApp Element software^].
+
+NOTE: Google Chrome and Firefox browsers are supported to run with Active IQ.
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
