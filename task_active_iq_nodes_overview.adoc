@@ -1,0 +1,20 @@
+---
+permalink: task_active_iq_nodes_overview.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= Nodes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+On the *Nodes* page, available from the side panel for a selected cluster, you can view information for the nodes in your cluster.
+
+The available details vary based on your system:
+
+* link:task_active_iq_view_solidfire_node_details.html[View SolidFire storage node details]
+* link:task_active_iq_view_hci_node_details.html[View NetApp HCI storage and compute node details]
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

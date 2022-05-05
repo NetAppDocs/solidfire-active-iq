@@ -26,15 +26,25 @@ sidebar:
             - title: Alerts
               url: /task_active_iq_alerts.html
             - title: Capacity Licensing
-              url: /task_active_capacity_licensing.html
+              url: /task_active_iq_capacity_licensing.html
+        - title: Nodes
+          entries:
+            - title: Overview
+              url: /task_active_iq_nodes_overview.html
+            - title: View SolidFire storage node details
+              url: /task_active_iq_view_solidfire_node_details.html
+            - title: View NetApp HCI storage and compute node details
+              url: /task_active_iq_view_hci_node_details.html
 homepage:
   tiles:
     - title: Work with SolidFire Active IQ
       links:
         - title: Get started
           url: /get_started_with_sf_active_iq.html
-        - title: The All Cluster View page
+        - title: All Cluster View details
           url: /task_active_iq_all_clusters_view_overview.html
+        - title: SolidFire and NetApp HCI node details
+          url: /task_active_iq_nodes_overview.html
     - title: Troubleshoot
       links:
         - title: Troubleshoot

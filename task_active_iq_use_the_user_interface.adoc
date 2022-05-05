@@ -22,8 +22,6 @@ Learn about the user interface features and functionality in SolidFire Active IQ
 
 == Use filters
 
-[%collapsible]
-====
 You can sort and filter list information on pages in Active IQ. When viewing lists (such as nodes, drives, volumes, and so on), you can use the filter functionality to focus the information and make it more easily fit on the screen.
 
 .Steps
@@ -42,24 +40,18 @@ The system runs the new filter on the information in the list and temporarily st
 . (Optional) Select (*x*) to remove the filters and display the unfiltered list information.
 
 NOTE: Some tables include the option to exclude columns from view. For best results, select *Columns* to ensure all required columns are showing when setting filters.
-====
 
 == Sort lists
 
-[%collapsible]
-====
 You can sort list information by one or more columns on certain pages within the Active IQ UI. This helps you arrange the information you need on the screen.
 
 .Steps
 
 . To sort on a single column, select the column heading until the information is sorted in the desired order.
 . To sort using multiple columns, select the column heading for each column you wish to sort by until the information in each column is sorted in the desired order. This functionality is not available on all pages.
-====
 
 == View graphs and select date ranges
 
-[%collapsible]
-====
 The graphs and date ranges in Active IQ are seamlessly integrated with each
 other. When selecting a date range, all graphs on that page adjust to the range selected. The default date range displayed for each graph is seven days.
 
@@ -68,22 +60,16 @@ You can select a date range from the calendar drop-down box or from a set of pre
 Position the mouse pointer over a graph line to see point-in-time details.
 
 image:/media/graphs_and_date_ranges.PNG[Graphs and date ranges]
-====
 
 == Export list views and report data
 
-[%collapsible]
-====
 You can export an entire list view or graph data to a comma-separated values (CSV) format. Only the information displayed in the list view or graph is exported. If there is a certain sort order or if a filter is used to limit the displayed entries, that sort order and filter are preserved in the exported file.
 
 .Steps
 . In a list view or graph, select image:/media/export_button.PNG[Export button]
-====
 
 == Select a cluster
 
-[%collapsible]
-====
 In Active IQ, you can view information about an individual cluster in your environment.
 
 .Steps
@@ -91,12 +77,9 @@ In Active IQ, you can view information about an individual cluster in your envir
 . The drop-down menu lists any clusters available to you.
 . Use the search field to locate the desired cluster or recently viewed clusters.
 . Select the name to select the cluster.
-====
 
 == Icon reference
 
-[%collapsible]
-====
 You might see the following icons when viewing the UI for Active IQ.
 
 [cols=2*,options="header",cols="25,75"]
@@ -129,15 +112,12 @@ a|
 image:/media/more_information.PNG[More information icon]
 |More information. Select for other options.
 a|
-image:/media/more_details.PNG[More details icon]
+image:/media/more_details.png[More details icon]
 |Select for more details.
 |===
-====
 
 == Provide feedback
 
-[%collapsible]
-====
 You can help improve the Active IQ user interface and address any UI issues by using the feedback form that is accessible throughout the UI.
 
 .Steps
@@ -149,7 +129,6 @@ You can help improve the Active IQ user interface and address any UI issues by u
 . Select the check box to include data about your current environment.
 . For more information, select on the link *What is included in the data about my current environment?*.
 . Select *Submit*.
-====
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

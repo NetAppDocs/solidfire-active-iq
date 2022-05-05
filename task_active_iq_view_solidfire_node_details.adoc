@@ -1,0 +1,61 @@
+---
+permalink: task_active_iq_view_solidfire_node_details.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= View SolidFire storage node details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Each node is a collection of solid state drives (SSD). Each storage node comes with CPU, networking, cache, and storage resources. The storage node resources are pooled into a cluster of nodes.
+
+On the *Nodes* page, the information bar provides a quick overview of the following data:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|MVIP |Management Virtual IP Address
+|MVIP VLAN ID	|Virtual LAN ID for the MVIP
+|SVIP |Storage Virtual IP Address
+|SVIP VLAN ID |Virtual LAN ID for the SVIP
+|===
+
+== View information about storage nodes
+The following information is available for each storage node in the cluster:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|ID	|System-generated ID for the node.
+|Status
+a|
+The status of the node. Possible values:
+
+* Healthy: The node has no critical errors associated with it.
+* Offline: The node cannot be accessed. Select the link to view the Error Log.
+* Fault: There are errors associated with this node. Select the link to view the Error Log.
+|Name |The system-generated node name.
+|Type |Displays the model type of the node.
+|Version |Version of Element software running on each node.
+|Service Tag |Unique service tag number assigned to the node.
+|Serial Number |Unique serial number assigned to the node.
+|Management IP |Management IP (MIP) address assigned to node for 1GbE or 10GbE network admin tasks.
+|Cluster IP	|Cluster IP (CIP) address assigned to the node used for the communication between nodes in the same cluster.
+|Storage IP	|Storage IP (SIP) address assigned to the node used for iSCSI network discovery and all data network traffic.
+|Replication Port	|The port used on nodes for remote replication.
+|Role
+a|
+Identifies what role the node has in the cluster. Possible values:
+
+* Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
+* Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
+* Fibre Channel: A Fibre Channel node in the cluster.
+|Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
+|Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
+|Average Latency (µs) Last 30 mins |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary. To report this metric based on active volumes, only non-zero latency values are used.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
