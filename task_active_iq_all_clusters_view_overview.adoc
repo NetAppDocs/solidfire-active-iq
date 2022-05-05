@@ -15,7 +15,7 @@ Learn about what you can access from the *All Clusters View*:
 
 * link:task_active_iq_all_clusters_view_dashboard.html[All Clusters View dashboard]
 * link:task_active_iq_alerts.html[Alerts]
-* link:[Capacity licensing]
+* link:task_active_capacity_licensing.html[Capacity licensing]
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

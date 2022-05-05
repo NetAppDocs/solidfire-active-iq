@@ -16,7 +16,7 @@ sidebar:
             - title: Enable SolidFire Active IQ reporting
               url: /task_active_iq_enable_reporting.html
             - title: Use the Active IQ user interface
-              url: /task_active_iq_use_the_active_iq_ui.html
+              url: /task_active_iq_use_the_user_interface.html
         - title: All Clusters View
           entries:
             - title: Overview
