@@ -17,16 +17,16 @@ sidebar:
               url: /task_active_iq_enable_reporting.html
             - title: Use the Active IQ user interface
               url: /task_active_iq_use_the_active_iq_ui.html
-    - title: All Clusters View
-      entries:
-        - title: Overview
-          url: /task_active_iq_all_clusters_view_overview.html
-        - title: All Clusters View Dashboard
-          url: /task_active_iq_all_clusters_view_dashboard.html
-        - title: Alerts
-          url: /task_active_iq_alerts.html
-        - title: Capacity Licensing
-          url: /task_active_capacity_licensing.html
+        - title: All Clusters View
+          entries:
+            - title: Overview
+              url: /task_active_iq_all_clusters_view_overview.html
+            - title: All Clusters View Dashboard
+              url: /task_active_iq_all_clusters_view_dashboard.html
+            - title: Alerts
+              url: /task_active_iq_alerts.html
+            - title: Capacity Licensing
+              url: /task_active_capacity_licensing.html
 homepage:
   tiles:
     - title: Work with SolidFire Active IQ
@@ -39,5 +39,5 @@ homepage:
       links:
         - title: Troubleshoot
           url: /troubleshoot.html
-        - title: Contact technicl support
-          url: /https://mysupport.netapp.com/site/global/dashboard
+        - title: Contact technical support
+          url: https://mysupport.netapp.com/site/global/dashboard
