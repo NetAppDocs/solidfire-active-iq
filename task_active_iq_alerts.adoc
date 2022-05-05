@@ -1,0 +1,234 @@
+---
+permalink: task_active_iq_alerts.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= Alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the *Alerts* drop-down menu within *All Clusters View*, you can view the alert history, create and manage alert policies, and view and suppress cluster notifications.
+
+Learn about or perform alerts-related tasks:
+
+* <<View Alerts History>>
+* <<Alerts History details>>
+* <<View Alert Policies>>
+* <<create_alert_policy,Create an Alert Policy>>
+* <<alert_policy_types,Alert Policy types>>
+* <<Edit an Alert Policy>>
+* <<Delete an Alert Policy>>
+* <<View Suppressed Clusters>>
+* <<Suppress cluster notifications>>
+* <<Remove Cluster Suppression from a cluster>>
+* <<Alert notification email>>
+
+== View Alerts History
+You can view the history for either unresolved or resolved alerts.
+
+.Steps
+. Select *Alerts* > *History*.
+. Select either the *Unresolved* or *Resolved* tab to view the history of alerts for the cluster.
+. (Optional) Select image:/media/export_button.PNG[Export button] to export the data to a CSV file.
+
+== Alerts History details
+The History page in the Alerts drop-down menu within All Clusters View shows up to 10000 entries of alert history, including all unresolved alerts and alerts resolved in the last 30 days.
+
+The following list describes the details that are available to you:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|Alert ID |Unique ID for each alert.
+|Alert Triggered |The time the alert was triggered in Active IQ, not on the cluster itself.
+|Last Notification |The time the most recent alert email was sent.
+|Resolved	|Shows if the cause of the alert has been resolved.
+|Resolution Time |The time an issue was resolved.
+|Policy Name |This is the user-defined alert policy name.
+|Severity	|Severity assigned at the time the alert policy was created.
+|Value |This value depends the type of alert policy selected. For example, this can be a threshold value, API method, time frame, percentage, or other value.
+|Destination |The email address or addresses selected to receive the alert email.
+|Customer	|Name of customer associated with the alert.
+|Cluster |Displays the cluster name for which the alert policy was added.
+|Condition |The user-defined setting that triggered the alert.
+|===
+
+== View Alert Policies
+The *Policies* page in the *Alerts* drop-down menu within *All Clusters View* shows the following policy information for all clusters.
+
+The following list describes the details that are available to you:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|Policy Name |User-defined alert policy name.
+|Destination |Email address defined in the alert policy.
+|Severity	|Severity assigned in the alert policy.
+|Cluster |Number and name of each cluster defined in the alert policy. Click the info icon to reveal associated clusters.
+|Condition |User-defined setting for when an alert should be triggered.
+|Actions |Select the vertical drop-down menu for edit and delete options for the selected policy.
+|===
+
+<<create_alert_policy,Create an Alert Policy>>
+== Create an Alert Policy
+
+You can create an alert policy to monitor information from the *All Clusters View* in Active IQ. Alert policies allow you to be notified of a status or performance event with one or more clusters across an installation so that action can be taken in advance of, or in response to, a more serious event.
+
+.Steps
+
+. Select *Alerts* > *Policies*.
+. Select *Create Policy*.
+. Select an alert type from the *Policy Type* list. See <<alert_policy_types,Alert Policy types>>.
++
+NOTE: There are additional policy-specific fields within the *Create Policy* dialog box depending on the policy type selected.
+
+. Enter a name for the new alert policy.
++
+NOTE: Alert policy names should describe the condition the alert is being created for. Descriptive titles help identify the alert easily. Alert policy names are displayed as a reference elsewhere in the system.
+
+. Select a severity level.
++
+TIP: Alert policy severity levels are color coded and can be filtered easily from the *Alerts* > *History page*.
+
+. Select one or more clusters to include in the policy.
++
+CAUTION: When you add a new cluster to your installation after you have created the policy, the cluster will not automatically be added to existing alert policies. You must edit an existing alert policy and select the new cluster you want to associate with the policy.
+
+. Enter one or more email addresses to which alert notifications will be sent. If you are entering multiple addresses, be sure to use a comma to separate each address.
+. Select *Save Alert Policy*.
+
+<<alert_policy_types,Alert Policy types>>
+== Alert Policy types
+You can create alert policies based on available policy types listed in the *Create Policy* dialog box from *Alarms* > *Policies*.
+
+Available policy alerts include the following types:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Policy Type |Description
+|Cluster Fault |Sends a notification when a specific type or any type of cluster fault occurs.
+|Event |Sends a notification when a specific event type occurs.
+|Failed Drive |Sends a notification when a drive failure occurs.
+|Available Drive |Sends a notification when a drive comes online in _Available_ state.
+|Cluster Utilization |Sends a notification when the cluster capacity and performance being utilized is more than the specified percentage.
+|Usable Space |Sends a notification when usable cluster space is less than a specified percentage.
+|Provisionable Space |Sends a notification when provisionable cluster space is less than a specified percentage.
+|Collector Not Reporting |Sends a notification when the collector for Active IQ that runs on the management node fails to send data to Active IQ for the duration specified.
+|Drive Wear |Sends a notification when a drive in a cluster has less than a specified percentage of wear or reserve space remaining.
+|iSCSI Sessions |Sends a notification when the number of active iSCSI sessions is greater than the value specified.
+|Capacity Licensing |Sends a notification when provisioned licensed capacity (PLC) exceeds entitled licensed capacity (ELC) by the percentage specified.
+|Chassis Resiliency |Sends a notification when the used space of a cluster is greater than a user-specified percentage. You should select a percentage that is sufficient to give early notice before reaching the cluster resiliency threshold. After reaching this threshold, a cluster can no longer automatically heal from a chassis-level failure.
+|VMware Alarm |Sends a notification when a VMware alarm is triggered and reported to Active IQ.
+|===
+
+== Edit an Alert Policy
+You can edit an alert policy to add or remove clusters from a policy or change additional policy settings.
+
+.Steps
+
+. Select *Alerts* > *Policies*.
+. Select the menu for more options under *Actions*.
+. Select *Edit Policy*.
++
+NOTE: The policy type and type-specific monitoring criteria are not editable.
+
+. (Optional) Enter a revised name for the new alert policy.
++
+NOTE: Alert policy names should describe the condition the alert is being created for. Descriptive titles help identify the alert easily. Alert policy names are displayed as a reference elsewhere in the system.
+
+. (Optional) Select a different severity level.
++
+TIP: Alert policy severity levels are color coded and can be filtered easily from the Alerts > History page.
+
+. (Optional) Select or remove cluster associations with the policy.
++
+CAUTION: When you add a new cluster to your installation after you have created the policy, the cluster is not automatically be added to existing alert policies. You must select the new cluster you want to associate with the policy.
+
+. (Optional) Modify one or more email addresses to which alert notifications will be sent. If you are entering multiple addresses, be sure to use a comma to separate each address.
+. Select *Save Alert Policy*.
+
+== Delete an Alert Policy
+Deleting an alert policy removes it permanently from the system. Email notifications are no longer sent for that policy and cluster associations with the policy are removed.
+
+.Steps
+
+. Select *Alerts* > *Policies*.
+. Select the menu for more options under *Actions*.
+. Select *Delete Policy*.
+. Confirm the action.
++
+The policy is permanently removed from the system.
+
+== View Suppressed Clusters
+On the *Suppressed Clusters* page in the *Alerts* drop-down menu within the *All Clusters View*, you can view a list of clusters which have alert notifications suppressed.
+
+NetApp Support or customers can suppress alert notifications for a cluster when performing maintenance. When notifications are suppressed for a cluster using upgrade suppression, common alerts that occur during upgrades are not sent. There is also a full alert suppression option that stops alert notification for a cluster for a specified duration. You can view any email alerts that are not sent when notifications are suppressed on the *History* page of the *Alerts* menu. Suppressed notifications resume automatically after the defined duration elapses.
+
+The following information is available on *Suppressed Clusters* page.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Company |Company name assigned to the cluster.
+|Cluster ID |Assigned cluster number when the cluster is created.
+|Cluster Name |Name assigned to the cluster.
+|Start Time |Exact time that the suppression of notifications started.
+|End Time |Exact time that the suppression of notifications is scheduled to end.
+|Type
+a|
+The following types are possible:
+
+* Full: All alerts for the cluster are suppressed for the duration specified. No support cases or email alerts are generated.
+* Upgrades: Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generated support cases and emails.
+|Actions |Select the option to suppress or resume notifications for a cluster.
+|===
+
+== Suppress cluster notifications
+You can suppress alert notifications at the cluster level.
+
+.Steps
+
+. Do one of the following:
+.. From the *Dashboard* overview, select the Actions menu for the cluster that you want to suppress.
+.. From *Alerts* > *Suppressed Clusters*, select *Suppress Cluster*.
+. In the *Suppress Alerts for Cluster* dialog box, do the following:
+.. If you selected the *Suppress Cluster* button from the *Suppressed Clusters* page, select a cluster.
+.. Select an alert suppression type as either *Full* or *Upgrades*:
+* Full: All alerts for the cluster are suppressed for the duration specified. No support cases or email alerts are generated.
+* Upgrades: This is the default. Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generated support cases and emails. Although Element upgrades automatically suppress non-critical alerts and cases to Active IQ as part of the upgrade process, this manual upgrade suppression can be selected by users outside of the Element upgrade process for correlating maintenance activities.
+.. Select a common duration or enter a custom end date and time during which notifications should be suppressed.
+. Select *Suppress*.
++
+NOTE: This action also suppress certain or all notifications to NetApp Support. After cluster suppression is in effect, NetApp Support or any user that is entitled to view the cluster may update the suppression state.
+
+== Remove Cluster Suppression from a cluster
+You can remove cluster alert suppression on a cluster that was applied using the Suppress Cluster feature. This enables a cluster to resume its normal state of alert reporting.
+
+.Steps
+
+. From the *Dashboard* overview or *Alerts* > *Suppressed Clusters*, select the Actions menu for the cluster you want to resume normal alert reporting.
+. Select *Resume*.
+
+== Alert notification email
+Subscribers to Active IQ alerts receive different status emails for each alert that triggers on the system. There are three types of status emails associated with alerts:
+[cols=2*,options="header",cols="35,65"]
+|===
+|New Alert Email |This type of email is sent when an alert is triggered.
+|Reminder Alert Email |This type of email is sent once every 24 hours for as long as the alert remains active.
+|Alert Resolved Email |This type of email is sent when the issue is resolved.
+|===
+After an alert policy is created, and if a new alert is generated for this policy, an email is sent to the designated email address (see <<create_alert_policy,Create an Alert Policy>>).
+
+The alert email subject line uses one of the following formats depending on error type reported:
+
+* Unresolved cluster fault: `[cluster fault code] fault on [cluster name] ([severity])`
+* Resolved cluster fault: `Resolved: [cluster fault code] fault on [cluster name] ([severity])`
+* Unresolved alert: `[policy name] alert on [cluster name] ([severity])`
+* Resolved alert fault: `Resolved: [policy name] alert on [cluster name] ([severity])`
+
+The content of the notification email will be similar to the following example:
+image:/media/example_email.PNG[Example email]
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

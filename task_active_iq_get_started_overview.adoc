@@ -1,5 +1,5 @@
 ---
-permalink: get_started_with_sf_active_iq.html
+permalink: task_active_iq_get_started_overview.html
 sidebar: sidebar
 keywords: solidfire, active, iq, started
 summary: 'Learn about getting started with SolidFire Active IQ.'
@@ -13,8 +13,8 @@ Welcome to SolidFire Active IQ from NetApp, a web-based tool that provides conti
 
 No matter how you use SolidFire Active IQ, there are several things to know before you start using it:
 
-* Enabling Active IQ Reporting: The Active IQ reporting capability must be enabled on the management node before the Active IQ server can connect to a cluster and receive cluster information.
-* Using the Active IQ User Interface: Learn about the new or enhanced features such as filtering, sorting, exporting data, and cluster selection.
+* link:task_active_iq_enable_reporting.html[Enable SolidFire Active IQ Reporting]: You must enable the Active IQ reporting capability on the management node before the Active IQ server can connect to a cluster and receive cluster information.
+* link:task_active_iq_use_the_user_interface.html[Use the SolidFire Active IQ User Interface]: Learn about the new or enhanced features such as filtering, sorting, exporting data, and cluster selection.
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

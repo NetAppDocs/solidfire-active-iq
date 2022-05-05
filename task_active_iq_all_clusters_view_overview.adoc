@@ -1,0 +1,21 @@
+---
+permalink: task_active_iq_all_clusters_view_overview.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= All Clusters View
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The *All Clusters View* is the landing page for SolidFire Active IQ.
+
+Learn about what you can access from the *All Clusters View*:
+
+* link:task_active_iq_all_clusters_view_dashboard.html[All Clusters View dashboard]
+* link:task_active_iq_alerts.html[Alerts]
+* link:[Capacity licensing]
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

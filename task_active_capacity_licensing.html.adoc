@@ -1,0 +1,59 @@
+---
+permalink: task_active_capacity_licensing.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= Capacity Licensing
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+On the *Capacity Licensing* page within *All Clusters View*, you can view information about the NetApp Capacity Licensing model. Customers using standard SolidFire appliances should disregard this page.
+
+Capacity Licensing is an alternative licensing option available from NetApp. For more information, see https://www.netapp.com/knowledge-center/what-is-capacity-licensing/[Capacity Licensing^].
+
+Learn about or perform capacity licensing related tasks:
+
+* <<View Capacity Licensing>>
+* <<Capacity Licensing Details>>
+
+== View Capacity Licensing
+On the *Capacity Licensing* page, you can view the following information:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|Customer ID |Customer ID associated with the license.
+|Customer Name |Name of the customer associated with the license.
+|Number of Capacity Licensed Nodes |Number of capacity licensed nodes in a customer environment.
+|Entitled Licensed Capacity |Sum of software capacity licenses purchased.
+|Provisioned Licensed Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes in a customer environment.
+|Actions |Select the vertical drop-down menu for more details on capacity licensing for an individual customer.
+|===
+
+== Capacity Licensing Details
+From the *Capacity Licensing* page within *All Clusters View*, select the image:/media/more_information.PNG[more information] icon in the *Actions* column and select *Details*.
+
+You can view the following on the capacity licensing details page:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|Customer Name |Name of the customer associated with the license.
+|Entitled Licensed Capacity	|Sum of software capacity licenses purchased.
+|Provisioned Licensed Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes.
+2+a|*Provisioned Licensed Capacity by Cluster*
+|Cluster ID	|Cluster ID associated with the license.
+|Cluster Name	|Name of the cluster associated with the license.
+|Provisioned Licensed Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes in the cluster.
+|% of Total Provisioned Licensed Capacity |Percentage of the specific cluster relative to the Provisioned Licensed Capacity.
+2+a|*Capacity Licensed Nodes*
+|Cluster Name |Name of the cluster associated with the node.
+|Service Tag |Unique service tag number assigned to the node.
+|Model |Model name of the node.
+|Raw Capacity |Raw capacity of the node.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
