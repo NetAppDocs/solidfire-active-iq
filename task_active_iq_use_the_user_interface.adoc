@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: solidfire, active, iq, enable, reporting
 summary: 'Get started with SolidFire Active IQ.'
 ---
-= Use the Active IQ user interface
+= Use the Active IQ UI
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 
-Learn about the user interface features and functionality in SolidFire Active IQ:
+Learn about the UI features and functionality in SolidFire Active IQ:
 
 * <<Use filters>>
 * <<Sort lists>>
@@ -100,7 +100,7 @@ image:/media/menu.PNG[Menu icon]
 |Menu for account settings, documentation, support, and logout.
 a|
 image:/media/feedback.PNG[Feedback button]
-|Option to provide feedback about user interface.
+|Option to provide feedback about the UI.
 a|
 image:/media/copy.PNG[Copy to clipboard icon]
 |Select one time to copy to clipboard.
@@ -118,7 +118,7 @@ image:/media/more_details.png[More details icon]
 
 == Provide feedback
 
-You can help improve the Active IQ user interface and address any UI issues by using the feedback form that is accessible throughout the UI.
+You can help improve the Active IQ UI and address any UI issues by using the feedback form that is accessible throughout the UI.
 
 .Steps
 
