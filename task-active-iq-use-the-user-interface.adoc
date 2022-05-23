@@ -9,7 +9,6 @@ summary: 'Get started with SolidFire Active IQ.'
 :imagesdir: ../media/
 
 [.lead]
-
 Learn about the UI features and functionality in SolidFire Active IQ:
 
 * <<Use filters>>

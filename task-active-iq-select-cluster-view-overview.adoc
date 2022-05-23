@@ -1,0 +1,20 @@
+---
+permalink: task_active_iq_select_cluster_view_overview.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= Select a cluster view
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view cluster information for a specific cluster when you select a cluster from the *Select a Cluster* drop-down list. Each category of cluster information is presented in either a table format or a graphical format.
+
+Learn about the various lists and filters available from the *Dashboard* cluster overview or the *Reporting* drop-down menu in the side panel:
+
+* link:task_active_iq_view_solidfire_node_details.html[Dashboard in Single Cluster View]
+* link:task_active_iq_view_hci_node_details.html[Reporting options]
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
