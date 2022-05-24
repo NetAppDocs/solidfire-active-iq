@@ -1,0 +1,51 @@
+---
+permalink: task-active-iq-view-snapshots.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= View Snapshots
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the *Volumes* page, you can view snapshot information details:
+
+* <<View snapshot information>>
+* <<view snapshot details>>
+
+== View Snapshots
+You can view information about volume snapshots from *Volumes* > *Snapshots*.
+
+.Steps
+. Select *Volumes* > *Snapshots*. Alternatively, select *Volumes* > *Active Volumes* and select the link in the *Snapshots* column.
+. (Optional) If you want to export the list as a CSV file, select the link:media/export_button.PNG[Export button] icon.
+
+== View snapshot details
+You can view snapshot details from the *Volumes* > *Snapshots* page that is available from the side panel for a selected cluster.
+
+The following list describes the available details:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|ID	|Displays the snapshot ID assigned to the snapshot.
+|Volume ID |ID given when the volume was created.
+|Account ID	|ID of the account assigned to the volume.
+|UUID	|Universally unique identifier.
+|Size	|User-defined size of the snapshot.
+|Volume Size |Size of the volume from which the snapshot was created.
+|Create Time |The time at which the snapshot was created.
+|Retain Until |The day and time the snapshot will be deleted.
+|Group Snapshot ID |The group ID the snapshot belongs to if grouped together with other volume snapshots.
+|Replicated
+a|Displays the status of the snapshot on the remote cluster. Possible Values:
+
+* *Present*: The snapshot exists on a remote cluster.
+* *Not Present*: The snapshot does not exist on a remote cluster.
+* *Syncing*: The target cluster is currently replicating the snapshot.
+* *Deleted*: The target replicated the snapshot and then deleted it.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

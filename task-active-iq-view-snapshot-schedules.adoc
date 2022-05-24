@@ -1,0 +1,42 @@
+---
+permalink: task-active-iq-view-snapshot-schedules.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= View Snapshot Schedules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the *Volumes* page, you can view snapshot schedules and schedule details.
+
+* <<View Snapshot Schedules>>
+* <<Snapshots Schedules details>>
+
+== View Snapshot Schedules
+You can view a list of snapshot schedules and their active settings from the *Snapshot Schedules* page for a selected cluster.
+
+.Steps
+. Select *Volumes* > *Snapshot Schedules*.
+. (Optional) If you want to export the list as a CSV file, select the link:media/export_button.PNG[Export button] icon.
+
+== Snapshots Schedules details
+On the Volumes > Snapshot Schedules page, you can view the following information:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|ID	|The schedule ID assigned to the schedule.
+|Name	|User-assigned name of the schedule.
+|Frequency |The frequency at which the schedule is run. The frequency can be set in hours and minutes, weeks, or months.
+|Recurring |Indicates whether or not the schedule is recurring.
+|Volume IDs	|The volume IDs included in the scheduled snapshot.
+|Last Run	|The last time the schedule executed.
+|Last Run Status |The outcome of the last schedule execution.
+Possible values: `Success` or `Error`
+|Manually Paused |Identifies whether or not the schedule has been manually paused.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

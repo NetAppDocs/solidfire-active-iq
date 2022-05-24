@@ -1,0 +1,100 @@
+---
+permalink: task-active-iq-active-volumes-details.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= Active volumes details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the *Volumes* page, you can view active volumes details and individual volume details and performance graphs:
+
+* <<View active volume details>>
+* <<View individual volume details>>
+* <<View individual volume performance graphs>>
+
+== View active volume details
+On the *Volumes* > *Active Volumes* page for a selected cluster, you can view the following information in the list of active volumes.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading	|Description
+|ID	|ID given when the volume was created.
+|Account ID |ID of the account assigned to the volume.
+|Volume Size |Size of the volume from which the snapshot was created.
+|Used Capacity |Current used capacity of the volume. Green = up to 80%. Yellow = above 80%. Red = above 95%.
+512e	Identifies if 512e is enabled on a volume.
+|Primary Node ID |Primary node for this volume.
+|Secondary Node ID |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
+|QoS Throttle	|Identifies if the volume is being throttled due to high load on the primary storage node. Green = up to 20%. Yellow = above 20%. Red = above 80%.
+|Access	|The type of access assigned to the volume when it was created.
+|Min IOPS	|The minimum number of IOPS guaranteed for the volume.
+|Max IOPS	|The maximum number of IOPS allowed for the volume.
+|Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
+|Paired	|Indicates whether or not the volume is part of a volume pairing.
+|Configured Access Protocols |The type of protocol the volume is configured for.
+|Snapshots |The number of snapshots created for the volume.
+|Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
+|Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
+|Average Latency (µs) Last 30 min |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary.
+|Actions |Select the vertical drop-down menu for more details on an individual volume.
+|===
+
+== View individual volume details
+From the *Volumes* > *Active Volumes* page, you can select the icon in the *Actions* column to view more information for an individual volume.
+
+After the page opens for the active volume, you can view recent volume data from the information bar.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading	|Description
+|Account ID	|System-generated ID for the volume.
+|Volume Size |Total size of the volume.
+|Used Capacity |Shows how full the volume is. Green = up to 80%. Yellow = above 80%. Red = above 95%.
+|Average IOPS	|Average number of IOPS executed against the volume in the last 30 minutes.
+|Average |Throughput	Average throughput executed against the volume in the last 30 minutes.
+|Average Latency |The average time, in microseconds, to complete read and write operations to the volume in the last 30 minutes.
+2+a|You can view additional details from the Show Volume Details drop-down menu.
+|Access	|The read/write permissions assigned to the volume.
+|Access Groups	|Associated volume access groups.
+|Non-Zero Blocks |Total number of 4KiB blocks with data after the last round of garbage collection operation has completed.
+|Zero Blocks	|Total number of 4KiB blocks without data after the last round of garbage collection operation has completed.
+|Snapshot Count	|The number of associated snapshots.
+|512e Enabled	|Identifies if 512e is enabled on a volume.
+|Primary Node	|Primary node for this volume.
+|Secondary Nodes |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
+|Throttle	|Identifies if the volume is being throttled due to high load on the primary storage node.
+|Min IOPS	|The minimum number of IOPS guaranteed for the volume.
+|Max IOPS	|The maximum number of IOPS allowed for the volume.
+|Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
+|Volumes Paired	|Indicates if a volume has been paired or not.
+|Create Time |The time the volume creation task was completed.
+|Block Size	|Size of the blocks on the volume.
+|Unaligned Writes |For 512e volumes, the number of write operations that were not on a 4k sector boundary. High numbers of unaligned writes may indicate improper partition alignment.
+|IQN |The IQN of the volume.
+|scsiEUIDeviceID |Globally unique SCSI device identifier for the volume in EUI-64 based 16-byte format.
+|scsiNAADeviceID |Globally unique SCSI device identifier for the volume in NAA IEEE Registered Extended format.
+|Attributes	|List of Name/Value pairs in JSON object format.
+|===
+
+== View individual volume performance graphs
+You can view performance activity for each volume in a graphical format. This information provides real-time statistics for throughput, IOPS, latency, queue depth, average IO size, and capacity for each volume.
+
+.Steps
+. Select *Volumes* > *Active Volumes*.
+. In the *Actions* column, select the link:media/more_information.PNG[More information] icon for the volume you want and select *View Details*.
++
+A separate page opens to display an adjustable time line, which is synced with the performance graphs.
+. On the left, select a thumbnail graph to view performance graphs in detail. You can view the following graphs:
+** Throughput
+** IOPS
+** Latency
+** Queue Depth
+** Average IO Size
+** Capacity
+. (Optional) If you want to export each graph as a CSV file, select the link:media/export_button.PNG[Export button] icon.
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

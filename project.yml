@@ -33,8 +33,8 @@ sidebar:
               url: /task-active-iq-select-cluster-view-overview.html
             - title: Dashboard in Single Cluster view
               url: /task-active-iq-dashboard-in-single-cluster-view.html
-            - title: Reporting options
-              url: /task-active-iq-reporting-options-overview.html
+            - title: Reporting options for a selected cluster
+              url: /task-active-iq-reporting-options.html
         - title: Nodes
           entries:
             - title: Overview
@@ -43,6 +43,22 @@ sidebar:
               url: /task-active-iq-view-solidfire-node-details.html
             - title: View NetApp HCI storage and compute node details
               url: /task-active-iq-view-hci-node-details.html
+        - title: Drives
+          url: /task_active_iq_drives.html
+        - title: Volumes
+          entries:
+            - title: Overview
+              url: /task_active_iq_volumes_overview.html
+            - title: Active volumes details
+              url: task-active-iq-active-volumes-details.html
+            - title: View Snapshots
+              url: /task-active-iq-view-snapshots.html
+            - title: View Snapshot Schedules
+              url: /task-active-iq-view-snapshot-schedules.html
+        - title: Replication
+          url: /task_active_iq_replication.html
+        - title: Virtual Volumes
+          url: /task-active-iq-virtual-volumes.html
 homepage:
   tiles:
     - title: Work with SolidFire Active IQ

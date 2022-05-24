@@ -1,0 +1,58 @@
+---
+permalink: task_active_iq_replication.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+= Replication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The *Replication* page, available from the side panel for a selected cluster, provides information about cluster pairs and volumes pairs.
+
+Learn more about cluster and volume pairs:
+
+* <<Cluster Pairs>>
+* <<Volume Pairs>>
+
+== Cluster Pairs
+On the *Replication* > *Cluster Pairs* page for a selected cluster, you can view the following information about cluster pairs.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading	|Description
+|Cluster Pair ID |ID number given when the cluster pair was created.
+|Remote Cluster Name |Name of the remote cluster of the pair.
+|Remote MVIP |Management Virtual IP of the remote cluster.
+|Replicating Volumes |Represents the number of volumes that are replicated on the paired cluster.
+|Status	|State of the cluster pair.
+|UUID	|Universally unique identifier.
+|===
+
+== Volume Pairs
+On the Replication > Volume Pairs page for a selected cluster, you can view the following information about volume pairs.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading	|Description
+|Volume ID |ID number given when the volume was created.
+|Account ID	|ID of the account assigned to the volume.
+|Volume Status |State of the replicating volume.
+|Replication Mode	|Type of mode selected for the volume pair.
+|Direction a|Indicates the direction of the volume data:
+
+* *Source* indicates data is being written to a target outside the cluster.
+* *Target* indicates data is being written to the local volume from an outside source.
+|Async Delay
+a|
+Length of time since the volume was last synced with the remote cluster. If the volume is not paired, this is null.
+
+NOTE: A target volume in an active replication state always has an Async Delay of 0 (zero). Target volumes are system-aware during replication and assume async delay is accurate at all times.
+
+|Remote Cluster	|Name of the remote cluster on which the volume resides.
+|Remote Volume ID	|Volume ID of the volume on the remote cluster.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

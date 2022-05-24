@@ -13,8 +13,8 @@ You can view cluster information for a specific cluster when you select a cluste
 
 Learn about the various lists and filters available from the *Dashboard* cluster overview or the *Reporting* drop-down menu in the side panel:
 
-* link:task_active_iq_view_solidfire_node_details.html[Dashboard in Single Cluster View]
-* link:task_active_iq_view_hci_node_details.html[Reporting options]
+* link:task-active-iq-dashboard-in-single-cluster-view.html[Dashboard in Single Cluster view]
+* link:task-active-iq-reporting-options.html[Reporting options for a selected cluster]
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
