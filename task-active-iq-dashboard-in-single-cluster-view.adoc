@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire, active, iq, enable, reporting
 summary: 'Get started with SolidFire Active IQ.'
 ---
+
 = Dashboard in Single Cluster View
 :icons: font
 :imagesdir: ../media/

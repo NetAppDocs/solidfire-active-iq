@@ -1,0 +1,19 @@
+---
+permalink: task-active-iq-troubleshoot-support.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+
+= Troubleshoot and support
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you are having trouble, or running into a technical problem while using either Active IQ or other NetApp Element software-based products, there are many resources available to you to help solve your problem.
+
+* Search the https://kb.netapp.com/[knowledge base^] for answers to common technical problems.
+* Search https://www.netapp.com/support-and-training/documentation/[NetApp Documentation^] for answers related to NetApp SolidFire and NetApp HCI.
+* Feel free to talk to us online: https://mysupport.netapp.com/site/[mysupport.netapp.com^]. You can submit a question at any time. If support is offline, the support team will respond within a business day.
+* Give our support team a call at 888.4.NETAPP (888.463.8277).
+* link:task_active_iq_use_the_user_interface.html#provide-feedback[Provide feedback].

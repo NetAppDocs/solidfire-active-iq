@@ -1,0 +1,52 @@
+---
+permalink: task-active-iq-virtual-machines.html
+sidebar: sidebar
+keywords: solidfire, active, iq, started
+summary: 'Learn about getting started with SolidFire Active IQ.'
+---
+
+= Virtual Machines
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+From the *Virtual Machines* page, available from the side panel for a selected NetApp HCI cluster, you can view CPU and storage-related status information about virtual machines (VMs).
+
+NOTE: The *Virtual Machines* page is available only on a NetApp HCI cluster.
+
+learn about filtering and understanding VM data displayed in the UI:
+
+== Viewing Virtual Machine Details
+The *Virtual Machines* page, available from the side panel for a selected cluster, provides information about each active VM associated with the cluster.
+
+In addition to conventional filtering options that are available on all Active IQ pages, the *Virtual Machines* page has quick filter buttons that you can select to determine common VM states of availability.
+
+The information bar provides a quick overview of the following data:
+
+[cols=2*,cols="30,70"]
+|===
+|Virtual Machines |The number and various availability states of VMs associated with the storage cluster.
+|Status	|The number of warnings or errors for the VMs.
+|Provisioned Resources |Total storage and memory resources for all VMs associated with the storage cluster.
+|===
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading |Description
+|Name	|The friendly name of the VM.
+|Status	a|The availability status of the VM. Possible values:
+
+* *Normal*: The VM is responding as expected.
+* *Warning*: A warning has been reported. See vSphere for more details.
+* *Critical*: A critical error has been reported. See vSphere for more details.
+* *Unknown*: The VM is inaccessible.
+|Power State |Indicates whether the VM is powered on, powered off, or suspended.
+|Number of CPUs	|The number of CPUs for each VM.
+|CPU Usage |The percentage of actively used virtual CPU as a percentage of total available CPU in the VM.
+|Used Capacity |The percentage of VM storage resources in use.
+|Peak Disk Latency |The maximum detected disk latency in milliseconds.
+|Alarms	|The number of triggered vSphere alarms on the VM.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

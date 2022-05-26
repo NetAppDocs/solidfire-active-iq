@@ -4,14 +4,13 @@ sidebar: sidebar
 keywords: solidfire, active, iq, started
 summary: 'Learn about getting started with SolidFire Active IQ.'
 ---
+
 = Get started with SolidFire Active IQ
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Welcome to SolidFire Active IQ from NetApp, a web-based tool that provides continually updated historical views of cluster-wide statistics. Data is collected at defined intervals and might be archived for up to five years, depending on type of data. You can set up notifications to alert you about specified events, thresholds, or metrics on a cluster so that you can address them quickly when they arise. The SolidFire Active IQ tool makes monitoring, capacity, and performance, as well as being informed about cluster health, easy and accessible from anywhere.
-
-No matter how you use SolidFire Active IQ, there are several things to know before you start using it:
+The SolidFire Active IQ tool makes monitoring, capacity, and performance, as well as being informed about cluster health, easy and accessible from anywhere. No matter how you use SolidFire Active IQ, there are several things to know before you start using it:
 
 * link:task_active_iq_enable_reporting.html[Enable SolidFire Active IQ reporting]: You must enable the Active IQ reporting capability on the management node before the Active IQ server can connect to a cluster and receive cluster information.
 * link:task_active_iq_use_the_user_interface.html[Use the SolidFire Active IQ UI]: Learn about the new or enhanced features such as filtering, sorting, exporting data, and cluster selection.

@@ -50,7 +50,7 @@ sidebar:
             - title: Overview
               url: /task_active_iq_volumes_overview.html
             - title: Active volumes details
-              url: task-active-iq-active-volumes-details.html
+              url: /task-active-iq-active-volumes-details.html
             - title: View Snapshots
               url: /task-active-iq-view-snapshots.html
             - title: View Snapshot Schedules
@@ -59,19 +59,43 @@ sidebar:
           url: /task_active_iq_replication.html
         - title: Virtual Volumes
           url: /task-active-iq-virtual-volumes.html
+        - title: task-active-iq-qos-recommendations.html
+          url: /task-active-iq-qos-recommendations.html
+        - title: Virtual Machines
+          url: /task-active-iq-virtual-machines.html
+        - title: Troubleshoot and support
+          url: /task-active-iq-troubleshoot-support.html
 homepage:
   tiles:
-    - title: Work with SolidFire Active IQ
+    - title: Get started
       links:
-        - title: Get started
-          url: /get-started-with-sf-active-iq.html
-        - title: All Cluster View details
+        - title: Enable Active IQ reporting
+          url: /task_active_iq_enable_reporting.html
+        - title: Active IQ UI information
+          url: /task_active_iq_enable_reporting.html
+    - title: Active IQ page information
+      links:
+        - title: All Clusters View
           url: /task-active-iq-all-clusters-view_overview.html
-        - title: SolidFire and NetApp HCI node details
+        - title: Select a Cluster
+          url: /task_active_iq_select_cluster_view_overview.html
+        - title: Nodes
           url: /task-active-iq-nodes-overview.html
+        - title: Drives
+          url: /task_active_iq_drives.html
+        - title: Volumes
+          url: /task_active_iq_volumes_overview.html
+        - title: Replication
+          url: /task_active_iq_replication.html
+        - title: Virtual Volumes
+          url: /task-active-iq-virtual-volumes.html
+        - title: QoS Recommendations
+          url: /task-active-iq-qos-recommendations.html
+        - title: Virtual Machines
+          url: /task-active-iq-virtual-machines.html
     - title: Troubleshoot
       links:
         - title: Troubleshoot
-          url: /troubleshoot.html
+          url: /task-active-iq-troubleshooting-support.html
         - title: Contact technical support
           url: https://mysupport.netapp.com/site/global/dashboard

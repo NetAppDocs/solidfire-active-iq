@@ -4,6 +4,7 @@ sidebar: sidebar
 keywords: solidfire, active, iq, enable, reporting
 summary: 'Get started with SolidFire Active IQ.'
 ---
+
 = Use the Active IQ UI
 :icons: font
 :imagesdir: ../media/
@@ -115,6 +116,7 @@ image:/media/more_details.png[More details icon]
 |Select for more details.
 |===
 
+[[provide_feedback]]
 == Provide feedback
 
 You can help improve the Active IQ UI and address any UI issues by using the feedback form that is accessible throughout the UI.
