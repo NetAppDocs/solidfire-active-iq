@@ -15,7 +15,7 @@ From the *Volumes* page, you can view snapshot information details:
 * <<View snapshots>>
 * <<View snapshot details>>
 
-== View Snapshots
+== View snapshots
 You can view information about volume snapshots from *Volumes* > *Snapshots*.
 
 .Steps

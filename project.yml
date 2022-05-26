@@ -76,7 +76,7 @@ homepage:
     - title: Active IQ page information
       links:
         - title: All Clusters View
-          url: /task-active-iq-all-clusters-view_overview.html
+          url: /task-active-iq-all-clusters-view-overview.html
         - title: Select a Cluster
           url: /task_active_iq_select_cluster_view_overview.html
         - title: Nodes
