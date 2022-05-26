@@ -59,7 +59,7 @@ sidebar:
           url: /task_active_iq_replication.html
         - title: Virtual Volumes
           url: /task-active-iq-virtual-volumes.html
-        - title: task-active-iq-qos-recommendations.html
+        - title: QoS Recommendations
           url: /task-active-iq-qos-recommendations.html
         - title: Virtual Machines
           url: /task-active-iq-virtual-machines.html
@@ -70,9 +70,9 @@ homepage:
     - title: Get started
       links:
         - title: Enable Active IQ reporting
-          url: /task_active_iq_enable_reporting.html
+          url: /task-active-iq-enable-reporting.html
         - title: Active IQ UI information
-          url: /task_active_iq_enable_reporting.html
+          url: /task-active-iq-use-the-user-interface.html
     - title: Active IQ page information
       links:
         - title: All Clusters View
@@ -96,6 +96,6 @@ homepage:
     - title: Troubleshoot
       links:
         - title: Troubleshoot
-          url: /task-active-iq-troubleshooting-support.html
+          url: /task-active-iq-troubleshoot-support.html
         - title: Contact technical support
           url: https://mysupport.netapp.com/site/global/dashboard

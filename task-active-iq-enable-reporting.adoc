@@ -1,5 +1,5 @@
 ---
-permalink: task_active_iq_enable_reporting.html
+permalink: task-active-iq-enable-reporting.html
 sidebar: sidebar
 keywords: solidfire, active, iq, enable, reporting
 summary: 'Learn about enabling SolidFire Active IQ reporting capability on the management node.'

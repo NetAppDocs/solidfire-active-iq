@@ -12,8 +12,8 @@ summary: 'Learn about getting started with SolidFire Active IQ.'
 [.lead]
 From the *Volumes* page, you can view snapshot information details:
 
-* <<View snapshot information>>
-* <<view snapshot details>>
+* <<View snapshots>>
+* <<View snapshot details>>
 
 == View Snapshots
 You can view information about volume snapshots from *Volumes* > *Snapshots*.

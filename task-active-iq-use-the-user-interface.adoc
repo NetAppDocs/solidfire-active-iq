@@ -1,5 +1,5 @@
 ---
-permalink: task_active_iq_use_the_user_interface.html
+permalink: task-active-iq-use-the-user-interface.html
 sidebar: sidebar
 keywords: solidfire, active, iq, enable, reporting
 summary: 'Get started with SolidFire Active IQ.'
