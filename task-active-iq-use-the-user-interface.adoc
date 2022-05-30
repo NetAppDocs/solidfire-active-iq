@@ -6,7 +6,10 @@ summary: 'Get started with SolidFire Active IQ.'
 ---
 
 = Use the Active IQ UI
+:hardbreaks:
+:nofooter:
 :icons: font
+:linkattrs:
 :imagesdir: ../media/
 
 [.lead]
@@ -103,7 +106,7 @@ a|
 image:/media/feedback.PNG[Feedback button]
 |Option to provide feedback about the UI.
 a|
-image:/media/copy.PNG[Copy to clipboard icon]
+image:/media/copy.png[Copy to clipboard icon]
 |Select one time to copy to clipboard.
 a|
 image:/media/wrap_toggle.PNG[Wrap text toggle] image:/media/unwrap_toggle.PNG[Wrap text toggle]
