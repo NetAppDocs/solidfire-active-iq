@@ -1,8 +1,8 @@
 ---
 permalink: task-active-iq-qos-recommendations.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, qos, recommendations, quality, of, service
+summary: 'Learn about the QoS Recommendations page ing SolidFire Active IQ.'
 ---
 
 = QoS Recommendations

@@ -2,7 +2,7 @@
 permalink: task-active-iq-use-the-user-interface.html
 sidebar: sidebar
 keywords: solidfire, active, iq, enable, reporting
-summary: 'Get started with SolidFire Active IQ.'
+summary: 'Learn about the UI features and functionality in SolidFire Active IQ.'
 ---
 
 = Use the Active IQ UI

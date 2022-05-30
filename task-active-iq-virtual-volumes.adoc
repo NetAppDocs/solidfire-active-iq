@@ -1,8 +1,8 @@
 ---
 permalink: task-active-iq-virtual-volumes.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, virtual, volumes
+summary: 'Learn about the Virtual Volumes page in SolidFire Active IQ.'
 ---
 
 = Virtual Volumes
@@ -27,16 +27,20 @@ The *VVols* > *Virtual Volumes* page for a selected cluster provides information
 |===
 |Heading |Description
 |Volume ID |The ID of the underlying volume.
-|Snapshot ID |The ID of the underlying volume snapshot. The value is 0 if the virtual volume does not represent a snapshot.
+|Snapshot ID |The ID of the underlying volume snapshot. The value is zero if the virtual volume does not represent a snapshot.
 |Parent Virtual Volume ID	|The virtual volume ID of the parent virtual volume. If the ID is all zeros, the virtual volume is independent with no link to a parent.
-|Virtual Volume ID |The UUID of the virtual volume.
+|Virtual Volume ID |The universal unique identifier of the virtual volume.
 |Name	|The name assigned to the virtual volume.
 |Guest OS Type |Operating system associated with the virtual volume.
 |Type	|The virtual volume type: Config, Data, Memory, Swap, or Other.
 |Access	|The read/write permissions assigned to the virtual volume.
-|Size	|The size of the virtual volume in GB or GiB.
-|Used Capacity |Current used capacity of the volume. Green = up to 80%. Yellow = above 80%. Red = above 95%.
-|Snapshot	|The number of associated snapshots. Click the number to link to snapshot details.
+|Size	|The size of the virtual volume in gigabytes (GB) or gibibytes (GiB).
+|Used Capacity a|Current used capacity of the volume:
+
+* Green = up to 80%
+* Yellow = above 80%
+* Red = above 95%
+|Snapshot	|The number of associated snapshots. Select the number to link to the snapshot copy details.
 |Min IOPS	|The minimum IOPS QoS setting of the virtual volume.
 |Max IOPS	|The maximum IOPS QoS setting of the virtual volume.
 |Burst IOPS	|The maximum burst QoS setting of the virtual volume.
@@ -45,7 +49,7 @@ The *VVols* > *Virtual Volumes* page for a selected cluster provides information
 |===
 
 == Storage Containers
-On the VVols > Storage Containers page for a selected cluster, you can view the following information for all active storage containers on the cluster.
+On the *VVols* > *Storage Containers* page for a selected cluster, you can view the following information for all active storage containers on the cluster.
 
 [cols=2*,options="header",cols="30,70"]
 |===
@@ -54,12 +58,12 @@ On the VVols > Storage Containers page for a selected cluster, you can view the 
 |Name	The name of the storage container.
 |Status
 a|
-The status of the storage container. Possible values:
+The status of the storage container:
 
 * *Active*: The storage container is in use.
 * *Locked*: The storage container is locked.
 |PE Type |Indicates the protocol endpoint type (SCSI is the only available protocol for Element software).
-|Storage Container ID	|The UUID of the virtual volume storage container.
+|Storage Container ID	|The universal unique identifier (UUID) of the virtual volume storage container.
 |Active Virtual Volumes	|The number of active virtual volumes associated with the storage container.
 |===
 
@@ -74,14 +78,14 @@ The *VVols* > *Protocol Endpoints* page of the selected cluster provides protoco
 |Protocol Endpoint ID	|The UUID of the protocol endpoint.
 |Protocol Endpoint State
 a|
-The status of the protocol endpoint. Possible values:
+The status of the protocol endpoint:
 
 * *Active*: The protocol endpoint is in use.
 * *Start*: The protocol endpoint is starting.
 * *Failover*: The protocol endpoint has failed over.
 * *Reserved*: The protocol endpoint is reserved.
 |Provider Type
-a|The type of the protocol endpoint's provider. Possible values:
+a|The type of the protocol endpoint's provider:
 
 * *Primary*
 * *Secondary*
@@ -112,7 +116,7 @@ The *VVols* > *Bindings* page for a selected cluster provides binding informatio
 |Protocol Endpoint In Band ID	|The SCSI NAA device ID of the protocol endpoint.
 |Protocol Endpoint Type	|Indicates the protocol endpoint type (SCSI is the only available protocol for Element software).
 |VVol Binding ID |The binding UUID of the virtual volume.
-|VVol ID |The universally unique identifier (UUID) of the virtual volume.
+|VVol ID |The UUID of the virtual volume.
 |VVol Secondary ID |The secondary ID of the virtual volume that is a SCSI second level LUN ID.
 |===
 

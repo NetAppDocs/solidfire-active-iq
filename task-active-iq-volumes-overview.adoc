@@ -1,8 +1,8 @@
 ---
 permalink: task_active_iq_volumes_overview.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, volumes, cluster
+summary: 'Learn about the Volumes page in SolidFire Active IQ.'
 ---
 
 = Volumes

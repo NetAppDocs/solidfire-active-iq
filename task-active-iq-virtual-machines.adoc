@@ -1,8 +1,8 @@
 ---
 permalink: task-active-iq-virtual-machines.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, virtual, machines, vm
+summary: 'Learn about the Virtual Machines page in SolidFire Active IQ.'
 ---
 
 = Virtual Machines
@@ -14,7 +14,7 @@ From the *Virtual Machines* page, available from the side panel for a selected N
 
 NOTE: The *Virtual Machines* page is available only on a NetApp HCI cluster.
 
-learn about filtering and understanding VM data displayed in the UI:
+Learn about filtering and understanding VM data displayed in the UI.
 
 == Viewing Virtual Machine Details
 The *Virtual Machines* page, available from the side panel for a selected cluster, provides information about each active VM associated with the cluster.
@@ -34,7 +34,7 @@ The information bar provides a quick overview of the following data:
 |===
 |Heading |Description
 |Name	|The friendly name of the VM.
-|Status	a|The availability status of the VM. Possible values:
+|Status	a|The availability status of the VM:
 
 * *Normal*: The VM is responding as expected.
 * *Warning*: A warning has been reported. See vSphere for more details.

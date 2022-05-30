@@ -1,8 +1,8 @@
 ---
 permalink: task-active-iq-troubleshoot-support.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, troubleshoot, support
+summary: 'Troubleshoot SolidFire Active IQ issues.'
 ---
 
 = Troubleshoot and support

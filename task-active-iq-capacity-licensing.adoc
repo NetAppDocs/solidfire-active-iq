@@ -1,11 +1,11 @@
 ---
 permalink: task-active-iq-capacity-licensing.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, capacity, licensing
+summary: 'Learn about the Capacity Licensing page in SolidFire Active IQ.'
 ---
 
-= Capacity licensing
+= Capacity Licensing
 :icons: font
 :imagesdir: ../media/
 

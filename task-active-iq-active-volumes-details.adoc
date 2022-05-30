@@ -1,8 +1,8 @@
 ---
 permalink: task-active-iq-active-volumes-details.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, active, volumes
+summary: 'Learn about the Active volumes page in SolidFire Active IQ.'
 ---
 
 = Active volumes details
@@ -22,14 +22,23 @@ On the *Volumes* > *Active Volumes* page for a selected cluster, you can view th
 [cols=2*,options="header",cols="25,75"]
 |===
 |Heading	|Description
+
 |ID	|ID given when the volume was created.
 |Account ID |ID of the account assigned to the volume.
 |Volume Size |Size of the volume from which the snapshot was created.
-|Used Capacity |Current used capacity of the volume. Green = up to 80%. Yellow = above 80%. Red = above 95%.
-512e	Identifies if 512e is enabled on a volume.
+|Used Capacity a|Current used capacity of the volume:
+
+* Green = up to 80%
+* Yellow = above 80%
+* Red = above 95%
+|512e	|Identifies if 512e is enabled on a volume.
 |Primary Node ID |Primary node for this volume.
 |Secondary Node ID |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
-|QoS Throttle	|Identifies if the volume is being throttled due to high load on the primary storage node. Green = up to 20%. Yellow = above 20%. Red = above 80%.
+|QoS Throttle	a|Identifies if the volume is being throttled due to high load on the primary storage node:
+
+* Green = up to 20%
+* Yellow = above 20%
+* Red = above 80%
 |Access	|The type of access assigned to the volume when it was created.
 |Min IOPS	|The minimum number of IOPS guaranteed for the volume.
 |Max IOPS	|The maximum number of IOPS allowed for the volume.
@@ -50,14 +59,18 @@ After the page opens for the active volume, you can view recent volume data from
 
 [cols=2*,options="header",cols="25,75"]
 |===
-|Heading	|Description
+h|Heading	h|Description
 |Account ID	|System-generated ID for the volume.
 |Volume Size |Total size of the volume.
-|Used Capacity |Shows how full the volume is. Green = up to 80%. Yellow = above 80%. Red = above 95%.
+|Used Capacity a|Shows how full the volume is:
+
+* Green = up to 80%
+* Yellow = above 80%
+* Red = above 95%.
 |Average IOPS	|Average number of IOPS executed against the volume in the last 30 minutes.
 |Average |Throughput	Average throughput executed against the volume in the last 30 minutes.
 |Average Latency |The average time, in microseconds, to complete read and write operations to the volume in the last 30 minutes.
-2+a|You can view additional details from the Show Volume Details drop-down menu.
+2+h|You can view additional details from the *Show Volume Details* drop-down menu.
 |Access	|The read/write permissions assigned to the volume.
 |Access Groups	|Associated volume access groups.
 |Non-Zero Blocks |Total number of 4KiB blocks with data after the last round of garbage collection operation has completed.
@@ -74,7 +87,7 @@ After the page opens for the active volume, you can view recent volume data from
 |Create Time |The time the volume creation task was completed.
 |Block Size	|Size of the blocks on the volume.
 |Unaligned Writes |For 512e volumes, the number of write operations that were not on a 4k sector boundary. High numbers of unaligned writes may indicate improper partition alignment.
-|IQN |The IQN of the volume.
+|IQN |The iSCSI Qualified Name (IQN) of the volume.
 |scsiEUIDeviceID |Globally unique SCSI device identifier for the volume in EUI-64 based 16-byte format.
 |scsiNAADeviceID |Globally unique SCSI device identifier for the volume in NAA IEEE Registered Extended format.
 |Attributes	|List of Name/Value pairs in JSON object format.
@@ -85,7 +98,7 @@ You can view performance activity for each volume in a graphical format. This in
 
 .Steps
 . Select *Volumes* > *Active Volumes*.
-. In the *Actions* column, select the link:media/more_information.PNG[More information] icon for the volume you want and select *View Details*.
+. In the *Actions* column, select the image:more_information.PNG[More information] icon for the volume you want and select *View Details*.
 +
 A separate page opens to display an adjustable time line, which is synced with the performance graphs.
 . On the left, select a thumbnail graph to view performance graphs in detail. You can view the following graphs:
@@ -95,7 +108,7 @@ A separate page opens to display an adjustable time line, which is synced with t
 ** Queue Depth
 ** Average IO Size
 ** Capacity
-. (Optional) If you want to export each graph as a CSV file, select the link:media/export_button.PNG[Export button] icon.
+. (Optional) If you want to export each graph as a CSV file, select the image:export_button.PNG[Export button] icon.
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

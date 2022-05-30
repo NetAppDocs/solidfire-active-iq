@@ -1,8 +1,8 @@
 ---
 permalink: task-active-iq-alerts.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, alerts
+summary: 'Learn about the alerts-related tasks in SolidFire Active IQ.'
 ---
 
 = Alerts

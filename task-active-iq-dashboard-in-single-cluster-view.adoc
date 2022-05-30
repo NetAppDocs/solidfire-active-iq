@@ -1,8 +1,8 @@
 ---
 permalink: task-active-iq-dashboard-in-single-cluster-view.html
 sidebar: sidebar
-keywords: solidfire, active, iq, enable, reporting
-summary: 'Get started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, dashboard, single, cluster
+summary: 'Learn about the Dashboard page for a selected cluster in SolidFire Active IQ.'
 ---
 
 = Dashboard in Single Cluster View
@@ -40,7 +40,7 @@ Expand the information bar by selecting *Show Details* to show these values:
 |Utilization |This graph shows the percentage of cluster IOPS being consumed.
 |Capacity
 a|
-This shows the health and fullness of the installation's cluster.
+This shows the health and fullness of the installation's cluster:
 
 * *Provisioned*: The total capacity of all volumes created on the system.
 * *Physical*: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all efficiencies are applied).
@@ -70,7 +70,7 @@ Expand the information bar by selecting *Installation Details* to show these val
 * iSCSI Sessions
 |Compute Utilization |CPU and memory usage are represented in this graph.
 |Storage Capacity a|
-This shows the health and fullness of the installation's cluster.
+This shows the health and fullness of the installation's cluster:
 
 * *Provisioned*: The total capacity of all volumes created on the system.
 * *Physical*: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all * efficiencies are applied).

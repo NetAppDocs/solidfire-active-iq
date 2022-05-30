@@ -1,11 +1,11 @@
 ---
 permalink: task-active-iq-select-cluster-view-overview.html
 sidebar: sidebar
-keywords: solidfire, active, iq, started
-summary: 'Learn about getting started with SolidFire Active IQ.'
+keywords: solidfire, active, iq, cluster, information, specific
+summary: 'Learn about viewing cluster information in SolidFire Active IQ.'
 ---
 
-= Select a cluster view
+= Select a Cluster view
 :icons: font
 :imagesdir: ../media/
 
