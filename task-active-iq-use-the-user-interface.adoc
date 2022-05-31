@@ -59,15 +59,18 @@ You can select a date range from the calendar drop-down box or from a set of pre
 
 Position the mouse pointer over a graph line to see point-in-time details.
 
+.Graphs and date ranges example
+[%collapsible]
+====
 image:graphs_and_date_ranges.PNG[Graphs and date ranges]
-
+====
 
 == Export list views and report data
 
 You can export an entire list view or graph data to a comma-separated values (CSV) format. Only the information displayed in the list view or graph is exported. If there is a certain sort order or if a filter is used to limit the displayed entries, that sort order and filter are preserved in the exported file.
 
 .Steps
-. In a list view or graph, select image:export_button.PNG[Export button].
+. In a list view or graph, select the image:export_button.PNG[Export button] icon.
 
 == Select a cluster
 
@@ -125,7 +128,7 @@ You can help improve the Active IQ UI and address any UI issues by using the fee
 
 .Steps
 
-. From any page in the UI, select image:feedback.PNG[Feedback button].
+. From any page in the UI, select the image:feedback.PNG[Feedback button] icon.
 . Enter relevant information in the Summary and Description fields.
 . Attach any helpful screenshots.
 . Enter a name and email address.

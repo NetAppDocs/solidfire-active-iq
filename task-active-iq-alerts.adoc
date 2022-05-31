@@ -32,7 +32,7 @@ You can view the history for either unresolved or resolved alerts.
 .Steps
 . Select *Alerts* > *History*.
 . Select either the *Unresolved* or *Resolved* tab to view the history of alerts for the cluster.
-. (Optional) Select image:export_button.PNG[Export button] to export the data to a CSV file.
+. (Optional) Select the image:export_button.PNG[Export button] icon to export the data to a CSV file.
 
 == Alerts history details
 The *History* page in the Alerts drop-down menu within All Clusters View shows up to 10000 entries of alert history, including all unresolved alerts and alerts resolved in the last 30 days.
