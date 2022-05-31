@@ -7,7 +7,7 @@ summary: 'Learn about viewing Snapshot copy details in SolidFire Active IQ.'
 
 = View Snapshots
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 From the *Volumes* page, you can view snapshot information details:

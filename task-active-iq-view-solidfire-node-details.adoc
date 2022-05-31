@@ -7,7 +7,7 @@ summary: 'Learn about viewing SolidFire storage node details in SolidFire Active
 
 = View SolidFire storage node details
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 Each node is a collection of SSDs. Each storage node comes with CPU, networking, cache, and storage resources. The storage node resources are pooled into a cluster of nodes.

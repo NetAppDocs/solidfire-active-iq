@@ -7,7 +7,7 @@ summary: 'Learn about viewing NetApp HCI node details in SolidFire Active IQ.'
 
 = View NetApp HCI storage and compute node details
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 For NetApp H-series nodes, which comprise a NetApp HCI system, there are two types: compute and storage nodes.

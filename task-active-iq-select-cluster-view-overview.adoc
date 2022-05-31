@@ -7,7 +7,7 @@ summary: 'Learn about viewing cluster information in SolidFire Active IQ.'
 
 = Select a Cluster view
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 You can view cluster information for a specific cluster when you select a cluster from the *Select a Cluster* drop-down list. Each category of cluster information is presented in either a table format or a graphical format.

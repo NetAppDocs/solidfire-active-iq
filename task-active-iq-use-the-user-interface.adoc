@@ -91,7 +91,7 @@ a|
 image:refresh.PNG[Refresh icon]
 |Refresh
 a|
-image:media/filter.PNG[Filter icon]
+image:filter.PNG[Filter icon]
 |Filter
 a|
 image:export_button.PNG[Export button]
@@ -100,10 +100,10 @@ a|
 image:menu.PNG[Menu icon]
 |Menu for account settings, documentation, support, and logout.
 a|
-image:medfeedback.PNG[Feedback button]
+image:feedback.PNG[Feedback button]
 |Option to provide feedback about the UI.
 a|
-image:copy.png[Copy to clipboard icon]
+image:copy.gif[Copy to clipboard icon]
 |Select one time to copy to clipboard.
 a|
 image:wrap_toggle.PNG[Wrap text toggle]
@@ -114,7 +114,7 @@ a|
 image:more_information.PNG[More information icon]
 |More information. Select for other options.
 a|
-image:more_details.png[More details icon]
+image:more_details.PNG[More details icon]
 |Select for more details.
 |===
 
@@ -125,7 +125,7 @@ You can help improve the Active IQ UI and address any UI issues by using the fee
 
 .Steps
 
-. From any page in the UI, select image:/media/feedback.PNG[Feedback button].
+. From any page in the UI, select image:feedback.PNG[Feedback button].
 . Enter relevant information in the Summary and Description fields.
 . Attach any helpful screenshots.
 . Enter a name and email address.

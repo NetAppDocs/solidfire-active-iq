@@ -7,7 +7,7 @@ summary: 'Learn about viewing Snapshot copy schedules and details in SolidFire A
 
 = View Snapshot copy schedules
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 From the *Volumes* page, you can view snapshot copy schedules and schedule copy details.

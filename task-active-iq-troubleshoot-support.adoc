@@ -7,7 +7,7 @@ summary: 'Troubleshoot SolidFire Active IQ issues.'
 
 = Troubleshoot and support
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 If you are having trouble, or running into a technical problem while using either Active IQ or other NetApp Element software-based products, there are many resources available to you to help solve your problem.

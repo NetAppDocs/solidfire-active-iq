@@ -7,7 +7,7 @@ summary: 'Learn about getting started with SolidFire Active IQ.'
 
 = Get started with SolidFire Active IQ
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 The SolidFire Active IQ tool makes monitoring, capacity, and performance, as well as being informed about cluster health, easy and accessible from anywhere. No matter how you use SolidFire Active IQ, there are several things to know before you start using it:

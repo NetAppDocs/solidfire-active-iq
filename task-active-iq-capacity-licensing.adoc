@@ -7,7 +7,7 @@ summary: 'Learn about the Capacity Licensing page in SolidFire Active IQ.'
 
 = Capacity Licensing
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 On the *Capacity Licensing* page within the *All Clusters View*, you can view information about the NetApp Capacity Licensing model. Customers using standard SolidFire appliances should disregard this page.

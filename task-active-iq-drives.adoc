@@ -7,7 +7,7 @@ summary: 'Learn about the Drives page in SolidFire Active IQ.'
 
 = Drives
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 Each node contains one or more physical drives, which are used to store a portion of the data for the cluster. The cluster utilizes the capacity and performance of the drive after the drive is successfully added to a cluster.

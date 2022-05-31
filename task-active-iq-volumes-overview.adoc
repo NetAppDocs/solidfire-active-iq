@@ -7,7 +7,7 @@ summary: 'Learn about the Volumes page in SolidFire Active IQ.'
 
 = Volumes
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 On the *Volumes* page, available from the side panel for a selected cluster, you can view information about volumes that are provisioned on the cluster. Each category of volume information is presented in either a table format or a graphical format.

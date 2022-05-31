@@ -7,7 +7,7 @@ summary: 'Learn about the All Clusters View page in SolidFire Active IQ.'
 
 = All Clusters View
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 The *All Clusters View* is the landing page for SolidFire Active IQ.

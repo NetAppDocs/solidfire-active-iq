@@ -7,7 +7,7 @@ summary: 'Learn about the QoS Recommendations page ing SolidFire Active IQ.'
 
 = QoS Recommendations
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 The *QoS Recommendations* page, available from the side panel for a selected cluster, provides daily quality of service (QoS) recommendations for a cluster based on recent performance data. QoS recommendations are only supported for clusters on Element software 11.x or later.

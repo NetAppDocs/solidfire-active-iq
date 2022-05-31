@@ -7,7 +7,7 @@ summary: 'Learn about the Active volumes page in SolidFire Active IQ.'
 
 = Active volumes details
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 From the *Volumes* page, you can view active volumes details and individual volume details and performance graphs:

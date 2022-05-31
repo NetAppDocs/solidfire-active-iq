@@ -7,7 +7,7 @@ summary: 'Learn about the Virtual Machines page in SolidFire Active IQ.'
 
 = Virtual Machines
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 From the *Virtual Machines* page, available from the side panel for a selected NetApp HCI cluster, you can view CPU and storage-related status information about virtual machines (VMs).

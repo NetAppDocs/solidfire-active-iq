@@ -7,7 +7,7 @@ summary: 'Learn about the Replication page in SolidFire Active IQ.'
 
 = Replication
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 The *Replication* page, available from the side panel for a selected cluster, provides information about cluster pairs and volumes pairs.

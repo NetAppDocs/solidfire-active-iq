@@ -7,7 +7,7 @@ summary: 'Learn about the Virtual Volumes page in SolidFire Active IQ.'
 
 = Virtual Volumes
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 From the *VVols page*, available from the side panel for a selected cluster, you can view information about virtual volumes and their associated storage containers, protocol endpoints, bindings, and hosts.

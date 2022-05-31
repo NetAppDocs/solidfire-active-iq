@@ -7,7 +7,7 @@ summary: 'Learn about the reporting options for a selected cluster in SolidFire 
 
 = Reporting options for a selected cluster
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 Learn about the *Reporting* drop-down menu in the side panel:
