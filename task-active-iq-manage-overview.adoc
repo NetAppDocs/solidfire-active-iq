@@ -13,7 +13,7 @@ summary: 'Learn about the SolidFire Active IQ pages.'
 Learn about using the SoldFire Active IQ tool to monitor cluster capacity and performance:
 
 * link:task-active-iq-all-clusters-view-overview.html[All Clusters View]
-* link:task-active-iq-select-cluster-overview.html[Select a cluster]
+* link:task-active-iq-select-cluster-overview.html[Select a Cluster]
 * link:task-active-iq-nodes-overview.html[Nodes]
 * link:task_active_iq_drives.html[Drives]
 * link:task_active_iq_volumes_overview.html[Volumes]

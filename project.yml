@@ -40,13 +40,7 @@ sidebar:
                 - title: Reporting options for a selected cluster
                   url: /task-active-iq-reporting-options.html
             - title: Nodes
-              entries:
-                - title: Overview
-                  url: /task-active-iq-nodes-overview.html
-                - title: View SolidFire storage node details
-                  url: /task-active-iq-view-solidfire-node-details.html
-                - title: View NetApp HCI storage and compute node details
-                  url: /task-active-iq-view-hci-node-details.html
+              url: /task-active-iq-nodes.html
             - title: Drives
               url: /task_active_iq_drives.html
             - title: Volumes
@@ -76,7 +70,7 @@ homepage:
         - title: Get started
           url: /task-active-iq-get-started-overview.html
         - title: Manage SolidFire Active IQ
-          url: /task-active-iq-use-the-user-interface.html
+          url: /task-active-iq-manage-overview.html
     - title: Product documentation
       links:
         - title: SolidFire and Element Software

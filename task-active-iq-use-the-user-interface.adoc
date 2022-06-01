@@ -106,7 +106,7 @@ a|
 image:feedback.PNG[Feedback button]
 |Option to provide feedback about the UI.
 a|
-image:copy.gif[Copy to clipboard icon]
+image:copy.PNG[Copy to clipboard icon]
 |Select one time to copy to clipboard.
 a|
 image:wrap_toggle.PNG[Wrap text toggle]
