@@ -18,6 +18,7 @@ Learn about viewing information about snapshot copies and snaphsot copy schedule
 == Snapshot copies
 From the *Volumes* page, you can view information about <<view_snapshots,volume snapshots>> and <<view_snapshot_details,snapshot details>>:
 
+[[view_snapshots]]
 === View Snapshot copies
 You can view information about volume snapshots from *Volumes* > *Snapshots*.
 
