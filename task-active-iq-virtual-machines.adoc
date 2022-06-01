@@ -23,9 +23,9 @@ In addition to conventional filtering options that are available on all Active I
 
 The information bar provides a quick overview of the following data:
 
-* *Virtual Machines*: The number and various availability states of VMs associated with the storage cluster.
-* *Status*:	The number of warnings or errors for the VMs.
-* *Provisioned Resources*: The total storage and memory resources for all VMs associated with the storage cluster.
+* Virtual Machines: The number and various availability states of VMs associated with the storage cluster.
+* Status:	The number of warnings or errors for the VMs.
+* Provisioned Resources: The total storage and memory resources for all VMs associated with the storage cluster.
 
 [cols=2*,options="header",cols="30,70"]
 |===
@@ -33,10 +33,10 @@ The information bar provides a quick overview of the following data:
 |Name	|The friendly name of the VM.
 |Status	a|The availability status of the VM:
 
-* *Normal*: The VM is responding as expected.
-* *Warning*: A warning has been reported. See vSphere for more details.
-* *Critical*: A critical error has been reported. See vSphere for more details.
-* *Unknown*: The VM is inaccessible.
+* Normal: The VM is responding as expected.
+* Warning: A warning has been reported. See vSphere for more details.
+* Critical: A critical error has been reported. See vSphere for more details.
+* Unknown: The VM is inaccessible.
 |Power State |Indicates whether the VM is powered on, powered off, or suspended.
 |Number of CPUs	|The number of CPUs for each VM.
 |CPU Usage |The percentage of actively used virtual CPU as a percentage of total available CPU in the VM.

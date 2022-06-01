@@ -5,24 +5,28 @@ keywords: solidfire, active, iq, snapshot, details
 summary: 'Learn about viewing Snapshot copy details in SolidFire Active IQ.'
 ---
 
-= View Snapshots
+= Snapshot copy details and schedules
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-From the *Volumes* page, you can view snapshot information details:
+Learn about viewing information about snapshot copies and snaphsot copy schedules:
 
-* <<View snapshots>>
-* <<View snapshot details>>
+* <<Snapshot copies>>
+* <<Snapshot copy schedules>>
 
-== View snapshots
+== Snapshot copies
+From the *Volumes* page, you can view information about <<view_snapshots,volume snapshots>> and <<view_snapshot_details,snapshot details>>:
+
+=== View Snapshot copies
 You can view information about volume snapshots from *Volumes* > *Snapshots*.
 
 .Steps
 . Select *Volumes* > *Snapshots*. Alternatively, select *Volumes* > *Active Volumes* and select the link in the *Snapshots* column.
 . (Optional) If you want to export the list as a CSV file, select the image:export_button.PNG[Export button] icon.
 
-== View snapshot details
+[[view_snapshot_details]]
+=== View Snapshot copy details
 You can view snapshot details from the *Volumes* > *Snapshots* page that is available from the side panel for a selected cluster.
 
 The following list describes the available details:
@@ -42,10 +46,39 @@ The following list describes the available details:
 |Replicated
 a|Displays the status of the snapshot on the remote cluster:
 
-* *Present*: The snapshot exists on a remote cluster.
-* *Not Present*: The snapshot does not exist on a remote cluster.
-* *Syncing*: The target cluster is currently replicating the snapshot.
-* *Deleted*: The target replicated the snapshot and then deleted it.
+* Present: The snapshot exists on a remote cluster.
+* Not Present: The snapshot does not exist on a remote cluster.
+* Syncing: The target cluster is currently replicating the snapshot.
+* Deleted: The target replicated the snapshot and then deleted it.
+|===
+
+== Snapshot copy schedules
+From the *Volumes* page, you can view <<snapshot_schedules,snapshot copy schedules>> and <<snapshot_schedule,schedule details>>.
+
+[[snapshot_schedules]]
+=== View Snapshot copy schedules
+You can view a list of snapshot schedules and their active settings from the *Snapshot Schedules* page for a selected cluster.
+
+.Steps
+. Select *Volumes* > *Snapshot Schedules*.
+. (Optional) If you want to export the list as a CSV file, select the image:export_button.PNG[Export button] icon.
+
+[[snapshot_schedule]]
+=== Snapshot copy schedule details
+On the *Volumes* > *Snapshot Schedules* page, you can view the following information:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|ID	|The schedule ID assigned to the schedule.
+|Name	|User-assigned name of the schedule.
+|Frequency |The frequency at which the schedule is run. The frequency can be set in hours and minutes, weeks, or months.
+|Recurring |Indicates whether or not the schedule is recurring.
+|Volume IDs	|The volume IDs included in the scheduled snapshot.
+|Last Run	|The last time the schedule executed.
+|Last Run Status |The outcome of the last schedule execution.
+Possible values: `Success` or `Error`
+|Manually Paused |Identifies whether or not the schedule has been manually paused.
 |===
 
 == Find more information

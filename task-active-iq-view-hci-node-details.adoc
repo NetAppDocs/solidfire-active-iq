@@ -14,13 +14,9 @@ For NetApp H-series nodes, which comprise a NetApp HCI system, there are two typ
 
 On the *Nodes* page, the information bar provides a quick overview of the following data:
 
-[cols=2*,options="header",cols="25,75"]
-|===
-|Heading |Description
-|vCenter IP |IP address of the vCenter Server
-|MVIP |Management virtual IP address
-|SVIP |Storage virtual IP address
-|===
+* vCenter IP: IP address of the vCenter Server
+* MVIP: Management virtual IP address
+* SVIP: Storage virtual IP address
 
 == View information about storage nodes
 Select *Storage* to view the following information about the storage nodes in the cluster.
@@ -33,9 +29,9 @@ Select *Storage* to view the following information about the storage nodes in th
 a|
 The status of the node:
 
-* *Healthy*: The node has no critical errors associated with it.
-* *Offline*: The node cannot be accessed. Select the link to view the Error Log.
-* *Fault*: There are errors associated with this node. Select the link to view the Error Log.
+* Healthy: The node has no critical errors associated with it.
+* Offline: The node cannot be accessed. Select the link to view the Error Log.
+* Fault: There are errors associated with this node. Select the link to view the Error Log.
 |Type |Shows the model type of the node.
 |Chassis / Slot |Unique serial number assigned to the chassis and the slot location of the node.
 |Serial Number |Unique serial number assigned to the node.
@@ -46,8 +42,8 @@ The status of the node:
 a|
 Identifies what role the node has in the cluster:
 
-* *Cluster Master*: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
-* *Ensemble Node*: A node that participates in the cluster. There are either 3 or 5 ensemble nodes depending on cluster size.
+* Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
+* Ensemble Node: A node that participates in the cluster. There are either 3 or 5 ensemble nodes depending on cluster size.
 |Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
 |Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
 |Average Latency (µs) Last 30 mins |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary. To report this metric based on active volumes, only non-zero latency values are used.

@@ -67,7 +67,7 @@ The following list describes the details that are available to you:
 |Policy Name |User-defined alert policy name.
 |Destination |Email address defined in the alert policy.
 |Severity	|Severity assigned in the alert policy.
-|Cluster |Number and name of each cluster defined in the alert policy. Click the info icon to reveal associated clusters.
+|Cluster |Number and name of each cluster defined in the alert policy. Select the information icon to reveal associated clusters.
 |Condition |User-defined setting for when an alert should be triggered.
 |Actions |Select the vertical drop-down menu for edit and delete options for the selected policy.
 |===

@@ -42,11 +42,11 @@ Expand the information bar by selecting *Show Details* to show these values:
 a|
 This shows the health and fullness of the installation's cluster:
 
-* *Provisioned*: The total capacity of all volumes created on the system.
-* *Physical*: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all efficiencies are applied).
-* *Block Data Capacity*: The amount of block data capacity currently in use.
-* *Metadata Capacity*: The amount of metadata capacity currently in use.
-* *Efficiencies*: The amount of efficiencies the system is seeing due to compression, deduplication, and thin provisioning.
+* Provisioned: The total capacity of all volumes created on the system.
+* Physical: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all efficiencies are applied).
+* Block Data Capacity: The amount of block data capacity currently in use.
+* Metadata Capacity: The amount of metadata capacity currently in use.
+* Efficiencies: The amount of efficiencies the system is seeing due to compression, deduplication, and thin provisioning.
 |===
 
 == NetApp HCI system overview
@@ -72,11 +72,11 @@ Expand the information bar by selecting *Installation Details* to show these val
 |Storage Capacity a|
 This shows the health and fullness of the installation's cluster:
 
-* *Provisioned*: The total capacity of all volumes created on the system.
-* *Physical*: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all * efficiencies are applied).
-* *Block Capacity*: The amount of block data capacity currently in use.
-* *Metadata Capacity*: The amount of metadata capacity currently in use.
-* *Efficiencies*: The amount of efficiencies the system is seeing due to compression, deduplication, and thin provisioning.
+* Provisioned: The total capacity of all volumes created on the system.
+* Physical: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all * efficiencies are applied).
+* Block Capacity: The amount of block data capacity currently in use.
+* Metadata Capacity: The amount of metadata capacity currently in use.
+* Efficiencies: The amount of efficiencies the system is seeing due to compression, deduplication, and thin provisioning.
 |Storage Performance |IOPS and throughput are represented in this graph.
 |===
 

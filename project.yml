@@ -49,10 +49,8 @@ sidebar:
                   url: /task_active_iq_volumes_overview.html
                 - title: Active volumes details
                   url: /task-active-iq-active-volumes-details.html
-                - title: View Snapshots
+                - title: Snapshot copy details and schedules
                   url: /task-active-iq-view-snapshots.html
-                - title: View Snapshot Schedules
-                  url: /task-active-iq-view-snapshot-schedules.html
             - title: Replication
               url: /task_active_iq_replication.html
             - title: Virtual Volumes

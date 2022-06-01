@@ -12,11 +12,9 @@ summary: 'Learn about the Replication page in SolidFire Active IQ.'
 [.lead]
 The *Replication* page, available from the side panel for a selected cluster, provides information about cluster pairs and volumes pairs.
 
-Learn more about cluster and volume pairs:
+Learn more about the <<cluster_pairs,Cluster Pairs>> and <<volume_pairs,Volume Pairs>> pages.
 
-* <<Cluster Pairs>>
-* <<Volume Pairs>>
-
+[[cluster_pairs]]
 == Cluster Pairs
 On the *Replication* > *Cluster Pairs* page for a selected cluster, you can view the following information about cluster pairs.
 
@@ -31,6 +29,7 @@ On the *Replication* > *Cluster Pairs* page for a selected cluster, you can view
 |UUID	|Universally unique identifier.
 |===
 
+[[volume_pairs]]
 == Volume Pairs
 On the Replication > Volume Pairs page for a selected cluster, you can view the following information about volume pairs.
 
@@ -43,8 +42,8 @@ On the Replication > Volume Pairs page for a selected cluster, you can view the 
 |Replication Mode	|Type of mode selected for the volume pair.
 |Direction a|Indicates the direction of the volume data:
 
-* *Source*: indicates data is being written to a target outside the cluster.
-* *Target*: indicates data is being written to the local volume from an outside source.
+* Source: indicates data is being written to a target outside the cluster.
+* Target: indicates data is being written to the local volume from an outside source.
 |Async Delay
 a|
 Length of time since the volume was last synced with the remote cluster. If the volume is not paired, this is null.
