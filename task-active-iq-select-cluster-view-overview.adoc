@@ -1,11 +1,11 @@
 ---
-permalink: task-active-iq-select-cluster-view-overview.html
+permalink: task-active-iq-select-cluster-overview.html
 sidebar: sidebar
 keywords: solidfire, active, iq, cluster, information, specific
 summary: 'Learn about viewing cluster information in SolidFire Active IQ.'
 ---
 
-= Select a Cluster view
+= Select a Cluster
 :icons: font
 :imagesdir: ./media/
 

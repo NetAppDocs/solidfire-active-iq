@@ -23,12 +23,9 @@ In addition to conventional filtering options that are available on all Active I
 
 The information bar provides a quick overview of the following data:
 
-[cols=2*,cols="30,70"]
-|===
-|Virtual Machines |The number and various availability states of VMs associated with the storage cluster.
-|Status	|The number of warnings or errors for the VMs.
-|Provisioned Resources |Total storage and memory resources for all VMs associated with the storage cluster.
-|===
+* *Virtual Machines*: The number and various availability states of VMs associated with the storage cluster.
+* *Status*:	The number of warnings or errors for the VMs.
+* *Provisioned Resources*: The total storage and memory resources for all VMs associated with the storage cluster.
 
 [cols=2*,options="header",cols="30,70"]
 |===

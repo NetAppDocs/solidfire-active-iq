@@ -17,82 +17,74 @@ sidebar:
               url: /task-active-iq-enable-reporting.html
             - title: Use the Active IQ UI
               url: /task-active-iq-use-the-user-interface.html
-        - title: All Clusters View
+        - title: Manage SolidFire Active IQ
           entries:
             - title: Overview
-              url: /task-active-iq-all-clusters-view-overview.html
-            - title: All Clusters View Dashboard
-              url: /task-active-iq-all-clusters-view-dashboard.html
-            - title: Alerts
-              url: /task-active-iq-alerts.html
-            - title: Capacity Licensing
-              url: /task-active-iq-capacity-licensing.html
-        - title: Select a Cluster view
-          entries:
-            - title: Overview
-              url: /task-active-iq-select-cluster-view-overview.html
-            - title: Dashboard in Single Cluster view
-              url: /task-active-iq-dashboard-in-single-cluster-view.html
-            - title: Reporting options for a selected cluster
-              url: /task-active-iq-reporting-options.html
-        - title: Nodes
-          entries:
-            - title: Overview
-              url: /task-active-iq-nodes-overview.html
-            - title: View SolidFire storage node details
-              url: /task-active-iq-view-solidfire-node-details.html
-            - title: View NetApp HCI storage and compute node details
-              url: /task-active-iq-view-hci-node-details.html
-        - title: Drives
-          url: /task_active_iq_drives.html
-        - title: Volumes
-          entries:
-            - title: Overview
-              url: /task_active_iq_volumes_overview.html
-            - title: Active volumes details
-              url: /task-active-iq-active-volumes-details.html
-            - title: View Snapshots
-              url: /task-active-iq-view-snapshots.html
-            - title: View Snapshot Schedules
-              url: /task-active-iq-view-snapshot-schedules.html
-        - title: Replication
-          url: /task_active_iq_replication.html
-        - title: Virtual Volumes
-          url: /task-active-iq-virtual-volumes.html
-        - title: QoS Recommendations
-          url: /task-active-iq-qos-recommendations.html
-        - title: Virtual Machines
-          url: /task-active-iq-virtual-machines.html
+              url: /task-active-iq-manage-overview.html
+            - title: All Clusters View
+              entries:
+                - title: Overview
+                  url: /task-active-iq-all-clusters-view-overview.html
+                - title: All Clusters View Dashboard
+                  url: /task-active-iq-all-clusters-view-dashboard.html
+                - title: Alerts
+                  url: /task-active-iq-alerts.html
+                - title: Capacity Licensing
+                  url: /task-active-iq-capacity-licensing.html
+            - title: Select a Cluster
+              entries:
+                - title: Overview
+                  url: /task-active-iq-select-cluster-overview.html
+                - title: Dashboard in Single Cluster view
+                  url: /task-active-iq-dashboard-in-single-cluster-view.html
+                - title: Reporting options for a selected cluster
+                  url: /task-active-iq-reporting-options.html
+            - title: Nodes
+              entries:
+                - title: Overview
+                  url: /task-active-iq-nodes-overview.html
+                - title: View SolidFire storage node details
+                  url: /task-active-iq-view-solidfire-node-details.html
+                - title: View NetApp HCI storage and compute node details
+                  url: /task-active-iq-view-hci-node-details.html
+            - title: Drives
+              url: /task_active_iq_drives.html
+            - title: Volumes
+              entries:
+                - title: Overview
+                  url: /task_active_iq_volumes_overview.html
+                - title: Active volumes details
+                  url: /task-active-iq-active-volumes-details.html
+                - title: View Snapshots
+                  url: /task-active-iq-view-snapshots.html
+                - title: View Snapshot Schedules
+                  url: /task-active-iq-view-snapshot-schedules.html
+            - title: Replication
+              url: /task_active_iq_replication.html
+            - title: Virtual Volumes
+              url: /task-active-iq-virtual-volumes.html
+            - title: QoS Recommendations
+              url: /task-active-iq-qos-recommendations.html
+            - title: Virtual Machines
+              url: /task-active-iq-virtual-machines.html
         - title: Troubleshoot and support
           url: /task-active-iq-troubleshoot-support.html
 homepage:
   tiles:
-    - title: Get started
+    - title: Use the SolidFire Active IQ tool
       links:
-        - title: Enable Active IQ reporting
-          url: /task-active-iq-enable-reporting.html
-        - title: Active IQ UI information
+        - title: Get started
+          url: /task-active-iq-get-started-overview.html
+        - title: Manage SolidFire Active IQ
           url: /task-active-iq-use-the-user-interface.html
-    - title: Active IQ page information
+    - title: Product documentation
       links:
-        - title: All Clusters View
-          url: /task-active-iq-all-clusters-view-overview.html
-        - title: Select a Cluster
-          url: /task_active_iq_select_cluster_view_overview.html
-        - title: Nodes
-          url: /task-active-iq-nodes-overview.html
-        - title: Drives
-          url: /task_active_iq_drives.html
-        - title: Volumes
-          url: /task_active_iq_volumes_overview.html
-        - title: Replication
-          url: /task_active_iq_replication.html
-        - title: Virtual Volumes
-          url: /task-active-iq-virtual-volumes.html
-        - title: QoS Recommendations
-          url: /task-active-iq-qos-recommendations.html
-        - title: Virtual Machines
-          url: /task-active-iq-virtual-machines.html
+        - title: SolidFire and Element Software
+          url: https://docs.netapp.com/us-en/element-software/index.html
+        - title: NetApp HCI
+          url: https://docs.netapp.com/us-en/hci/index.html
+        - title: NetApp Product Documentation
+          url: https://www.netapp.com/support-and-training/documentation
     - title: Troubleshoot
       links:
         - title: Troubleshoot
