@@ -133,7 +133,7 @@ You can help improve the Active IQ UI and address any UI issues by using the fee
 . Attach any helpful screenshots.
 . Enter a name and email address.
 . Select the check box to include data about your current environment.
-. For more information, select on the link *What is included in the data about my current environment?*.
+. For more information, select the link *What is included in the data about my current environment?*.
 . Select *Submit*.
 
 == Find more information
