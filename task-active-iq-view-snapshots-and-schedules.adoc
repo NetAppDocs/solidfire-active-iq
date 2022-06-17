@@ -1,11 +1,11 @@
 ---
-permalink: task-active-iq-view-snapshots.html
+permalink: task-active-iq-view-snapshots-and-schedules.html
 sidebar: sidebar
-keywords: solidfire, active, iq, snapshot, details
-summary: 'Learn about viewing Snapshot copy details in SolidFire Active IQ.'
+keywords: solidfire, active, iq, snapshot, details, schedule
+summary: 'Learn about viewing Snapshot copy details and Snapshot copy schedule details in SolidFire Active IQ.'
 ---
 
-= Snapshot copy details and schedules
+= Snapshot copy and schedule details
 :icons: font
 :imagesdir: ./media/
 
