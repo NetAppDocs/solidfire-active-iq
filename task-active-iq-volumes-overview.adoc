@@ -14,7 +14,7 @@ On the *Volumes* page, available from the side panel for a selected cluster, you
 
 Learn about what is displayed from the *Volumes* page:
 
-* link:task-active-iq-active-volumes-details.html[Active volumes details]
+* link:task-active-iq-view-volume-details.html[View volume details]
 * link:task-active-iq-view-snapshots-and-schedules.html[Snapshot copy details and schedules]
 
 == Find more information

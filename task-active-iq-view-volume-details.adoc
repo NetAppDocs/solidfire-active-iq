@@ -1,11 +1,11 @@
 ---
-permalink: task-active-iq-active-volumes-details.html
+permalink: task-active-iq-view-volume-details.html
 sidebar: sidebar
 keywords: solidfire, active, iq, active, volumes
-summary: 'Learn about the Active volumes page in SolidFire Active IQ.'
+summary: 'Learn about viewing volume details in SolidFire Active IQ.'
 ---
 
-= Active volumes details
+= View volume details
 :icons: font
 :imagesdir: ./media/
 

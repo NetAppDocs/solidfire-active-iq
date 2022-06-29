@@ -10,7 +10,7 @@ summary: 'Troubleshoot SolidFire Active IQ issues.'
 :imagesdir: ./media/
 
 [.lead]
-If you are having trouble, or running into a technical problem while using either Active IQ or other NetApp Element software-based products, there are many resources available to you to help solve your problem.
+If you are having trouble, or running into a technical problem while using either SolidFire Active IQ or other NetApp Element software-based products, there are many resources available to you to help solve your problem.
 
 * Search the https://kb.netapp.com/[knowledge base^] for answers to common technical problems.
 * Search https://www.netapp.com/support-and-training/documentation/[NetApp Documentation^] for answers related to NetApp SolidFire and NetApp HCI.
