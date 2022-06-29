@@ -1,0 +1,38 @@
+---
+permalink: concept-active-iq-learn-about-active-iq.html
+sidebar: sidebar
+keywords: solidfire, active, iq, learn
+summary: 'Learn about SolidFire Active IQ.'
+---
+
+= Learn about SolidFire Active IQ
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Before you start using SolidFire Active IQ, you should be aware of how SolidFire Active IQ works and what information it collects.
+
+== How SolidFire Active IQ works
+Services such as collector and telemetry run on a management node. These services are configured with read-only access to a cluster and make API calls to a cluster on a scheduled basis to gather key performance, capacity, and health metrics. This information is uploaded to the Active IQ cloud database using HTTPs, where it is processed and made available to you and NetApp Support through the Active IQ UI. You can explore examples of API payloads and collection intervals in the Active IQ UI by logging in using your SSO credentials and selecting *API Collection* from the *Reporting* drop-down menu.
+
+== Information collected by SolidFire Active IQ
+SolidFire Active collects information about volumes, clusters, nodes, performance, and configurations:
+
+* Resource IDs such as volume, snapshot copy, and account node IDs
+* Performance and capacity data for clusters and volumes
+* Error and event history
+* NetApp HCI and Element software versions
+* Quality of Service (QoS) configurations
+* Volume details such as size, creation date, and so on
+* Volume access group and session configurations
+* Node and cluster network configurations
+
+SolidFire Active IQ does not collect the following customer sensitive information:
+
+* Actual end user data
+* Passwords
+* Challenge-Handshake Authentication Protocol (CHAP) secrets
+* Cluster administrative user information
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

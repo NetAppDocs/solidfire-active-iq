@@ -6,10 +6,12 @@ settings:
     pdf_enabled: true
 sidebar:
   entries:
-    - title: NetApp Solidfire Active IQ documentation
+    - title: NetApp SolidFire Active IQ
       url: /index.html
       entries:
-        - title: Get started with Solidfire Active IQ
+        - title: Learn about SolidFire Active IQ
+          url: /concept-active-iq-learn-about-active-iq.html
+        - title: Get started with SolidFire Active IQ
           entries:
             - title: Overview
               url: /task-active-iq-get-started-overview.html
@@ -65,6 +67,8 @@ homepage:
   tiles:
     - title: Use the SolidFire Active IQ tool
       links:
+        - title: Learn about SolidFire Active IQ
+          url: /concept-active-iq-learn-about-active-iq.html
         - title: Get started
           url: /task-active-iq-get-started-overview.html
         - title: Manage SolidFire Active IQ
