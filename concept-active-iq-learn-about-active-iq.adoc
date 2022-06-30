@@ -18,7 +18,7 @@ Services such as collector and telemetry run on a management node. These service
 == Information collected by SolidFire Active IQ
 SolidFire Active IQ collects information about volumes, clusters, nodes, performance, and configurations:
 
-* Resource IDs such as volume, snapshot copy, and account node IDs
+* Resource IDs such as volume, Snapshot copy, and account node IDs
 * Performance and capacity data for clusters and volumes
 * Error and event history
 * NetApp HCI and Element software versions
@@ -29,7 +29,7 @@ SolidFire Active IQ collects information about volumes, clusters, nodes, perform
 
 SolidFire Active IQ does not collect the following customer sensitive information:
 
-* Actual end user data
+* Actual end-user data
 * Passwords
 * Challenge-Handshake Authentication Protocol (CHAP) secrets
 * Cluster administrative user information
