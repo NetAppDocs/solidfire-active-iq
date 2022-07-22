@@ -9,12 +9,12 @@ sidebar:
     - title: NetApp SolidFire Active IQ
       url: /index.html
       entries:
-        - title: Learn about SolidFire Active IQ
-          url: /concept-active-iq-learn-about-active-iq.html
         - title: Get started with SolidFire Active IQ
           entries:
             - title: Overview
               url: /task-active-iq-get-started-overview.html
+            - title: Learn about SolidFire Active IQ
+              url: /concept-active-iq-learn-about-active-iq.html
             - title: Enable SolidFire Active IQ reporting
               url: /task-active-iq-enable-reporting.html
             - title: Use the Active IQ UI
@@ -67,8 +67,6 @@ homepage:
   tiles:
     - title: Use the SolidFire Active IQ tool
       links:
-        - title: Learn about SolidFire Active IQ
-          url: /concept-active-iq-learn-about-active-iq.html
         - title: Get started
           url: /task-active-iq-get-started-overview.html
         - title: Manage SolidFire Active IQ
