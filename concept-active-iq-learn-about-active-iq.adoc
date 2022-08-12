@@ -15,6 +15,8 @@ Before you start using SolidFire Active IQ, you should be aware of how SolidFire
 == How SolidFire Active IQ works
 Services such as collector and telemetry run on a management node. These services are configured with read-only access to a cluster and make API calls to a cluster on a scheduled basis to gather key performance, capacity, and health metrics. This information is uploaded to the Active IQ cloud database by using HTTPs, where it is processed and made available to you and NetApp Support through the Active IQ UI. You can explore examples of API payloads and collection intervals in the Active IQ UI by logging in using your SSO credentials and selecting *API Collection* from the *Reporting* drop-down menu.
 
+link:https://activeiq.solidfire.com/[Access SolidFire Active IQ (login required)^]
+
 == Information collected by SolidFire Active IQ
 SolidFire Active IQ collects information about volumes, clusters, nodes, performance, and configurations:
 

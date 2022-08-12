@@ -78,6 +78,7 @@ https://<ManagementNodeIP>/mnode
 +
 The Active IQ service is automatically restarted whenever assets are changed. Modifying assets results in a short delay before settings are applied.
 
+. Log in to link:https://activeiq.solidfire.com/[SolidFire Active IQ^] and confirm that you can view your clusters.
 // https://raw.githubusercontent.com/NetAppDocs/element-software/main/_include/enable_active_iq.adoc[]
 
 == Find more information
