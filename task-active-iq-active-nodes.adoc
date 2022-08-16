@@ -1,16 +1,16 @@
 ---
-permalink: task-active-iq-nodes.html
+permalink: task-active-iq-active-nodes.html
 sidebar: sidebar
 keywords: solidfire, active, iq, nodes
 summary: 'Learn about the Nodes page in SolidFire Active IQ.'
 ---
 
-= Nodes
+= Active Nodes
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-On the *Nodes* page, available from the side panel for a selected cluster, you can view information for the nodes in your cluster.
+On the *Nodes* > *Active Nodes* page, available from the side panel for a selected cluster, you can view information for the nodes in your cluster.
 
 The available details vary based on your system:
 
@@ -49,7 +49,10 @@ The status of the node:
 |Management IP |Management IP MIP address assigned to node for 1GbE or 10GbE network admin tasks.
 |Cluster IP	|Cluster IP address assigned to the node used for the communication between nodes in the same cluster.
 |Storage IP	|Storage IP address assigned to the node used for iSCSI network discovery and all data network traffic.
-|Replication Port	|The port used on nodes for remote replication.
+|Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
+|Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
+|Average Latency (µs) Last 30 mins |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary. To report this metric based on active volumes, only non-zero latency values are used.
+Replication Port	|The port used on nodes for remote replication.
 |Role
 a|
 Identifies what role the node has in the cluster:
@@ -57,9 +60,6 @@ Identifies what role the node has in the cluster:
 * Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
 * Fibre Channel: A Fibre Channel node in the cluster.
-|Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
-|Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
-|Average Latency (µs) Last 30 mins |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary. To report this metric based on active volumes, only non-zero latency values are used.
 |===
 
 == View NetApp HCI storage and compute node details

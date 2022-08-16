@@ -23,7 +23,7 @@ Learn about or perform alerts-related tasks:
 * <<Delete an alert policy>>
 * <<View suppressed clusters>>
 * <<Suppress cluster notifications>>
-* <<Remove cluster suppression from a cluster>>
+* <<End cluster suppression from a cluster>>
 * <<Alert notification email>>
 
 == View alerts history
@@ -43,17 +43,16 @@ The following list describes the details that are available to you:
 |===
 |Heading |Description
 |Alert ID |Unique ID for each alert.
-|Alert Triggered |The time the alert was triggered in Active IQ, not on the cluster itself.
-|Last Notification |The time the most recent alert email was sent.
+|Triggered |The time the alert was triggered in Active IQ, not on the cluster itself.
+|Last Notified |The time the most recent alert email was sent.
 |Resolved	|Shows if the cause of the alert has been resolved.
 |Resolution Time |The time an issue was resolved.
-|Policy Name |This is the user-defined alert policy name.
+|Policy |This is the user-defined alert policy name.
 |Severity	|Severity assigned at the time the alert policy was created.
-|Value |This value depends the type of alert policy selected. For example, this can be a threshold value, API method, time frame, percentage, or other value.
 |Destination |The email address or addresses selected to receive the alert email.
-|Customer	|Name of customer associated with the alert.
+|Company |Name of customer associated with the alert.
 |Cluster |Displays the cluster name for which the alert policy was added.
-|Condition |The user-defined setting that triggered the alert.
+|Trigger |The user-defined setting that triggered the alert.
 |===
 
 == View alert policies
@@ -67,8 +66,18 @@ The following list describes the details that are available to you:
 |Policy Name |User-defined alert policy name.
 |Destination |Email address defined in the alert policy.
 |Severity	|Severity assigned in the alert policy.
-|Cluster |Number and name of each cluster defined in the alert policy. Select the information icon to reveal associated clusters.
+|Clusters |Number and name of each cluster defined in the alert policy. Select the information icon to reveal associated clusters.
 |Condition |User-defined setting for when an alert should be triggered.
+|Suppression Types a|Determines which alerts and events are suppressed. The following types are possible:
+
+* *Full*: All alerts for the cluster are suppressed for the duration specified. No support cases or email alerts are generated.
+* *Upgrades*: Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generated support cases and emails.
+* *Compute*: Alerts that are triggered by VMware on the compute nodes are suppressed.
+* *NodeHardware*: Alerts associated with node maintenance are suppressed. For example, swapping out drives or nodes being taken offline.
+* *Drive*: Alerts associated with drive health are suppressed.
+* *Network*: Alerts associated with network configuration and health are suppressed.
+* *Power*: Power redundancy alerts are suppressed. It does not suppress a _nodeOffline_ alert which would occur in the event of a total power loss.
+
 |Actions |Select the vertical drop-down menu for edit and delete options for the selected policy.
 |===
 
@@ -93,11 +102,15 @@ NOTE: Alert policy names should describe the condition the alert is being create
 +
 TIP: Alert policy severity levels are color coded and can be filtered easily from the *Alerts* > *History page*.
 
+. Determine the type of suppression for the alert policy when it is active by selecting a type from *Suppressible Types*. You can select more than one type.
++
+Confirm that the associations makes sense. For example, you have selected *Network Suppression* for a network alert policy.
+
 . Select one or more clusters to include in the policy.
 +
 CAUTION: When you add a new cluster to your installation after you have created the policy, the cluster will not automatically be added to existing alert policies. You must edit an existing alert policy and select the new cluster you want to associate with the policy.
 
-. Enter one or more email addresses to which alert notifications will be sent. If you are entering multiple addresses, be sure to use a comma to separate each address.
+. Enter one or more email addresses to which alert notifications will be sent. If you are entering multiple addresses, you must use a comma to separate each address.
 . Select *Save Alert Policy*.
 
 [[alert_policy_types]]
@@ -119,9 +132,10 @@ Available policy alerts include the following types:
 |Collector Not Reporting |Sends a notification when the collector for Active IQ that runs on the management node fails to send data to Active IQ for the duration specified.
 |Drive Wear |Sends a notification when a drive in a cluster has less than a specified percentage of wear or reserve space remaining.
 |iSCSI Sessions |Sends a notification when the number of active iSCSI sessions is greater than the value specified.
-|Capacity Licensing |Sends a notification when provisioned licensed capacity (PLC) exceeds entitled licensed capacity (ELC) by the percentage specified.
 |Chassis Resiliency |Sends a notification when the used space of a cluster is greater than a user-specified percentage. You should select a percentage that is sufficient to give early notice before reaching the cluster resiliency threshold. After reaching this threshold, a cluster can no longer automatically heal from a chassis-level failure.
 |VMware Alarm |Sends a notification when a VMware alarm is triggered and reported to Active IQ.
+|Custom Protection Domain Resiliency |
+|Node Core/Crash Dump Files |
 |===
 
 == Edit an alert policy
@@ -143,11 +157,15 @@ NOTE: Alert policy names should describe the condition the alert is being create
 +
 TIP: Alert policy severity levels are color coded and can be filtered easily from the Alerts > History page.
 
+. Determine the type of suppression for the alert policy when it is active by selecting a type from *Suppressible Types*. You can select more than one type.
++
+Confirm that the associations makes sense. For example, you have selected *Network Suppression* for a network alert policy.
+
 . (Optional) Select or remove cluster associations with the policy.
 +
 CAUTION: When you add a new cluster to your installation after you have created the policy, the cluster is not automatically be added to existing alert policies. You must select the new cluster you want to associate with the policy.
 
-. (Optional) Modify one or more email addresses to which alert notifications will be sent. If you are entering multiple addresses, be sure to use a comma to separate each address.
+. (Optional) Modify one or more email addresses to which alert notifications will be sent. If you are entering multiple addresses, you must use a comma to separate each address.
 . Select *Save Alert Policy*.
 
 == Delete an alert policy
@@ -167,47 +185,59 @@ On the *Suppressed Clusters* page in the *Alerts* drop-down menu within the *All
 NetApp Support or customers can suppress alert notifications for a cluster when performing maintenance. When notifications are suppressed for a cluster using upgrade suppression, common alerts that occur during upgrades are not sent. There is also a full alert suppression option that stops alert notification for a cluster for a specified duration. You can view any email alerts that are not sent when notifications are suppressed on the *History* page of the *Alerts* menu. Suppressed notifications resume automatically after the defined duration elapses.
 
 The following information is available on *Suppressed Clusters* page.
-
+[[suppressed_types]]
 [cols=2*,options="header",cols="25,75"]
 |===
+|Heading |Description
 |Company |Company name assigned to the cluster.
 |Cluster ID |Assigned cluster number when the cluster is created.
 |Cluster Name |Name assigned to the cluster.
 |Start Time |Exact time that the suppression of notifications started.
 |End Time |Exact time that the suppression of notifications is scheduled to end.
-|Type
+|
+Type
 a|
-The following types are possible:
+Determines which alerts and events are suppressed. The following types are possible:
 
 * *Full*: All alerts for the cluster are suppressed for the duration specified. No support cases or email alerts are generated.
 * *Upgrades*: Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generated support cases and emails.
+* *Compute*: Alerts that are triggered by VMware on the compute nodes are suppressed.
+* *NodeHardware*: Alerts associated with node maintenance are suppressed. For example, swapping out drives or nodes being taken offline.
+* *Drive*: Alerts associated with drive health are suppressed.
+* *Network*: Alerts associated with network configuration and health are suppressed.
+* *Power*: Power redundancy alerts are suppressed. It does not suppress a _nodeOffline_ alert which would occur in the event of a total power loss.
+
 |Actions |Select the option to suppress or resume notifications for a cluster.
 |===
 
 == Suppress cluster notifications
-You can suppress alert notifications at the cluster level.
+You can suppress alert notifications at the cluster level for a single cluster or multiple clusters.
 
 .Steps
 . Do one of the following:
 .. From the *Dashboard* overview, select the Actions menu for the cluster that you want to suppress.
-.. From *Alerts* > *Suppressed Clusters*, select *Suppress Cluster*.
+.. From *Alerts* > *Cluster Suppression*, select *Suppress Clusters*.
 . In the *Suppress Alerts for Cluster* dialog box, do the following:
-.. If you selected the *Suppress Cluster* button from the *Suppressed Clusters* page, select a cluster.
-.. Select an alert suppression type as either *Full* or *Upgrades*:
-* Full: All alerts for the cluster are suppressed for the duration specified. No support cases or email alerts are generated.
-* Upgrades: This is the default. Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generate support cases and emails. Although Element software upgrades automatically suppress non-critical alerts and cases to Active IQ as part of the upgrade process, you can select this manual upgrade suppression outside of the Element upgrade process for correlating maintenance activities.
+.. If you selected the *Suppress Clusters* button from the *Suppressed Clusters* page, select a cluster.
+.. Select an alert suppression type as either *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Network* or *Power*. <<suppressed_types,Learn about suppression types>>.
++
+NOTE: Only one suppression type is allowed at a given time. To change the type for a cluster with an existing suppression, select *Override Existing* followed by the new suppression type.
+
 .. Select a common duration or enter a custom end date and time during which notifications should be suppressed.
 . Select *Suppress*.
 +
 NOTE: This action also suppress certain or all notifications to NetApp Support. After cluster suppression is in effect, NetApp Support or any user that is entitled to view the cluster may update the suppression state.
 
-== Remove cluster suppression from a cluster
-You can remove cluster alert suppression on a cluster that was applied using the Suppress Cluster feature. This enables a cluster to resume its normal state of alert reporting.
+== End cluster suppression from a cluster
+You can end cluster alert suppression on clusters that was applied using the Suppress Clusters feature. This enables clusters to resume their normal state of alert reporting.
 
 .Steps
 
-. From the *Dashboard* overview or *Alerts* > *Suppressed Clusters*, select the Actions menu for the cluster you want to resume normal alert reporting.
-. Select *Resume*.
+. From the *Dashboard* overview or *Alerts* > *Cluster Suppression*, you can end suppression for a single cluster or multiple clusters for which you want to resume normal alert reporting :
+
+.. For a single cluster, select the Actions menu for the cluster and select *End Suppression*.
+.. For multiple clusters, select the clusters and then select *End Selected Suppressions*.
+
 
 == Alert notification email
 Subscribers to Active IQ alerts receive different status emails for each alert that triggers on the system. There are three types of status emails associated with alerts:

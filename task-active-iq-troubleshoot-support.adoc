@@ -16,3 +16,4 @@ If you are having trouble, or running into a technical problem while using eithe
 * Search https://www.netapp.com/support-and-training/documentation/[NetApp Documentation^] for answers related to NetApp SolidFire and NetApp HCI.
 * Feel free to talk to us online: https://mysupport.netapp.com/site/[mysupport.netapp.com^]. You can submit a question at any time. If support is offline, the support team will respond within a business day.
 * Give our support team a call at 888.4.NETAPP (888.463.8277).
+* link:task-active-iq-use-the-user-interface.html#provide-feedback[Provide feedback].

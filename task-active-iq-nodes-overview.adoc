@@ -1,0 +1,19 @@
+---
+permalink: task-active-iq-nodes-overview.html
+sidebar: sidebar
+keywords: solidfire, active, iq, nodes
+summary: 'Learn about the Nodes page in SolidFire Active IQ.'
+---
+
+= Nodes
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Learn about using viewing information for the nodes a cluster and the degree of throttling.
+
+* link:task-active-iq-active-nodes.html[Active Nodes]
+* link:task-active-iq-active-nodes-throttling.html[Node Throttling]
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

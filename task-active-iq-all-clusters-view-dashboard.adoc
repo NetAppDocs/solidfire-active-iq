@@ -12,5 +12,22 @@ summary: 'Learn about the All Clusters View dashboard in SolidFire Active IQ.'
 [.lead]
 On the *Dashboard* page of the *All Clusters View*, you can view performance, capacity, and cluster statistic details about the clusters associated with your account.
 
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|Company |Company name assigned to the cluster.
+|Cluster |Name assigned to the cluster.
+|Cluster ID |Assigned cluster number when the cluster is created.
+|Version |Version of Element software running on each node.
+|Nodes |Number of nodes in the cluster.
+|Volumes |Number of volumes in the cluster.
+|Efficiency |
+|Used Block Capacity |Current used capacity of the cluster block.
+|Faults |
+|SVIP |Storage virtual IP address assigned to the cluster.
+|MVIP |Management Virtual IP address assigned to the cluster
+|Last Update |Time and date that the most recent cluster update.
+|===
+
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

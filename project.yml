@@ -42,7 +42,13 @@ sidebar:
                 - title: Reporting options for a selected cluster
                   url: /task-active-iq-reporting-options.html
             - title: Nodes
-              url: /task-active-iq-nodes.html
+              entries:
+                - title: Overview
+                  url: /task-active-iq-nodes-overview.html
+                - title: Active Nodes
+                  url: /task-active-iq-active-nodes.html
+                - title: Node Throttling
+                  url: /task-active-iq-node-throttling.html
             - title: Drives
               url: /task_active_iq_drives.html
             - title: Volumes
