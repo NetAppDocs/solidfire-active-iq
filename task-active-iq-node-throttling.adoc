@@ -20,7 +20,7 @@ The graph displays the percentage throttling for the node:
 * Yellow = 40 to 59%
 * Red = above 59%
 
-Position the mouse pointer over a graph line to see point-in-time details.
+Position the mouse pointer at any point in the graph to see point-in-time details.
 
 .Expand the graph example
 [%collapsible]
