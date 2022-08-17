@@ -1,7 +1,7 @@
 ---
 permalink: task-active-iq-nodes-overview.html
 sidebar: sidebar
-keywords: solidfire, active, iq, nodes
+keywords: solidfire, active, iq, nodes, throttling,
 summary: 'Learn about the Nodes page in SolidFire Active IQ.'
 ---
 

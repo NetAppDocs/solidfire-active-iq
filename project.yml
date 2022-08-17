@@ -67,6 +67,8 @@ sidebar:
               url: /task-active-iq-qos-recommendations.html
             - title: Virtual Machines
               url: /task-active-iq-virtual-machines.html
+            - title: VMware Alarms
+              url: /task-active-iq-vmware-alarms.html
         - title: Troubleshoot and support
           url: /task-active-iq-troubleshoot-support.html
 homepage:

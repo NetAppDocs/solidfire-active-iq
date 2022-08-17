@@ -2,7 +2,7 @@
 permalink: task-active-iq-active-nodes.html
 sidebar: sidebar
 keywords: solidfire, active, iq, nodes
-summary: 'Learn about the Nodes page in SolidFire Active IQ.'
+summary: 'Learn about the Active Nodes page in SolidFire Active IQ.'
 ---
 
 = Active Nodes

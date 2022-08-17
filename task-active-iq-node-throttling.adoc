@@ -1,8 +1,8 @@
 ---
-permalink: task-active-iq-active-nodes-throttling.html
+permalink: task-active-iq-node-throttling.html
 sidebar: sidebar
-keywords: solidfire, active, iq, nodes
-summary: 'Learn about the Nodes page in SolidFire Active IQ.'
+keywords: solidfire, active, iq, nodes, throttling
+summary: 'Learn about the Node Throttling page in SolidFire Active IQ.'
 ---
 
 = Node Throttling
@@ -14,19 +14,20 @@ On the *Nodes* > *Active Nodes* page, available from the side panel for a select
 
 You can select a date range from the calendar drop-down box or from a set of pre-defined ranges. Date ranges are calculated using the current browser time (at the time of selection) and the configured amount of time. Additionally, you can select a desired interval by brushing directly over the bar graph at the bottom. You can switch between nodes by selecting the thumbnail layouts on the left. The graphs and date ranges in Active IQ are seamlessly integrated with each other. When selecting a date range, all graphs on that page adjust to the range selected. The default date range displayed for each graph is seven days.
 
-Position the mouse pointer over a graph line to see point-in-time details.
-
-.Expand the node throttling graph example
-[%collapsible]
-====
-image:node_throttling_range.PNG[Node throttling range]
-====
-
-Depending on the degree of throttling, the node gets added to one of the buckets:
+The graph displays the percentage throttling for the node:
 
 * Green = up to 39%
 * Yellow = 40 to 59%
 * Red = above 59%
+
+Position the mouse pointer over a graph line to see point-in-time details.
+
+.Expand the graph example
+[%collapsible]
+====
+image:node_throttling_range.PNG[Node throttling graph]
+====
+
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
