@@ -1,11 +1,11 @@
 ---
-permalink: task-active-iq-view-volume-details.html
+permalink: task-active-iq-active-volumes.html
 sidebar: sidebar
 keywords: solidfire, active, iq, active, volumes
 summary: 'Learn about viewing volume details in SolidFire Active IQ.'
 ---
 
-= View volume details
+= Active Volumes
 :icons: font
 :imagesdir: ./media/
 
@@ -45,10 +45,10 @@ On the *Volumes* > *Active Volumes* page for a selected cluster, you can view th
 |Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
 |Paired	|Indicates whether or not the volume is part of a volume pairing.
 |Configured Access Protocols |The type of protocol the volume is configured for.
-|Snapshots |The number of snapshots created for the volume.
 |Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
 |Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
 |Average Latency (µs) Last 30 min |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary.
+|Snapshots |The number of snapshots created for the volume.
 |Actions |Select the vertical drop-down menu for more details on an individual volume.
 |===
 
@@ -76,13 +76,13 @@ h|Heading	h|Description
 |Non-Zero Blocks |Total number of 4KiB blocks with data after the last round of garbage collection operation has completed.
 |Zero Blocks	|Total number of 4KiB blocks without data after the last round of garbage collection operation has completed.
 |Snapshot Count	|The number of associated snapshots.
-|512e Enabled	|Identifies if 512e is enabled on a volume.
-|Primary Node	|Primary node for this volume.
-|Secondary Nodes |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
-|Throttle	|Identifies if the volume is being throttled due to high load on the primary storage node.
 |Min IOPS	|The minimum number of IOPS guaranteed for the volume.
 |Max IOPS	|The maximum number of IOPS allowed for the volume.
 |Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
+|512e Enabled	|Identifies if 512e is enabled on a volume.
+|Throttle	|Identifies if the volume is being throttled due to high load on the primary storage node.
+|Primary Node	|Primary node for this volume.
+|Secondary Nodes |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
 |Volumes Paired	|Indicates if a volume has been paired or not.
 |Create Time |The time the volume creation task was completed.
 |Block Size	|Size of the blocks on the volume.
@@ -100,7 +100,7 @@ You can view performance activity for each volume in a graphical format. This in
 . Select *Volumes* > *Active Volumes*.
 . In the *Actions* column, select the image:more_information.PNG[More information] icon for the volume you want and select *View Details*.
 +
-A separate page opens to display an adjustable time line, which is synced with the performance graphs.
+A separate page opens to display an adjustable timeline, which is synced with the performance graphs.
 . On the left, select a thumbnail graph to view performance graphs in detail. You can view the following graphs:
 ** Throughput
 ** IOPS

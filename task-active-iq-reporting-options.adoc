@@ -46,8 +46,8 @@ h|Heading 2+h|Description
 |Current State 2+a|The current state of the metadata capacity for this cluster.
 3+h|Provisioned space
 h|Heading 2+h|Description
-|Max Provisioned Space 2+a|The maximum space that can be provisioned on the cluster.
 |Provisioned Space 2+a|The amount of space that is currently provisioned on the cluster.
+|Max Provisioned Space 2+a|The maximum space that can be provisioned on the cluster.
 |===
 
 == Efficiency
@@ -61,17 +61,17 @@ The following descriptions give details about calculated efficiencies on the sel
 |===
 |Heading |Description
 |Overall efficiency |The global efficiency of thin provisioning, deduplication, and compression multiplied together. These calculations do not take into account the double helix feature built into the system.
-|Thin Provisioning |The amount of space saved by using this feature. This number reflects the delta between the capacity allocated for the cluster and the amount of data actually stored.
 |Deduplication + Compression Efficiency |The combined effect of space saved by using deduplication and compression.
-|Compression |The effect of data compression on stored data in the cluster. Different data types compress at different rates. For example, text data and most documents easily compress to a smaller space, but video and graphical images typically do not.
+|Thin Provisioning |The amount of space saved by using this feature. This number reflects the delta between the capacity allocated for the cluster and the amount of data actually stored.
 |Deduplication |The ratio multiplier of the amount of space that was saved by not storing duplicate data in the cluster.
+|Compression |The effect of data compression on stored data in the cluster. Different data types compress at different rates. For example, text data and most documents easily compress to a smaller space, but video and graphical images typically do not.
 |===
 
 == Performance
 On the *Performance* page of the *Reporting* drop-down menu for a selected cluster, you can view details about IOPS usage, throughput, and cluster utilization by selecting the category and filtering based on time period.
 
 == Error log
-On the *Error Log* page of the *Reporting* drop-down menu for a selected cluster, you can view information about unresolved or resolved errors that have been reported by the cluster. This information can be filtered and exported to a CSV file. For details about severity levels, see the https://docs.netapp.com/us-en/element-software/index.html[Element Software documentation^].
+On the *Error Log* page of the *Reporting* drop-down menu for a selected cluster, you can view information about unresolved or resolved errors that have been reported by the cluster. This information can be filtered and exported to a comma-separated values (CSV) file. For details about severity levels, see the https://docs.netapp.com/us-en/element-software/index.html[Element Software documentation^].
 
 The following information is reported for the selected cluster.
 
@@ -120,8 +120,8 @@ The following information is reported for the selected cluster.
 |Alert Triggered |The time the alert was triggered in Active IQ, not on the cluster itself.
 |Last Notified |The time the most recent alert email was sent.
 |Resolved |Shows if the cause of the alert has been resolved.
-|Severity |Severity assigned at the time the alert policy was created.
 |Policy Name |This is the user-defined alert policy name.
+|Severity |Severity assigned at the time the alert policy was created.
 |Alert Value |This value depends the type of alert policy selected. For example, this can be a threshold value, API method, time frame, percentage, or other value.
 |Destination |The email address or addresses selected to receive the alert email
 |Alert Condition |The user-defined setting that triggered the alert.

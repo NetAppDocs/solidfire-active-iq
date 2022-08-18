@@ -14,8 +14,8 @@ On the *Volumes* page, available from the side panel for a selected cluster, you
 
 Learn about what is displayed from the *Volumes* page:
 
-* link:task-active-iq-view-volume-details.html[View volume details]
-* link:task-active-iq-view-snapshots-and-schedules.html[Snapshot copy details and schedules]
+* link:task-active-iq-active-volumes.html[Active volumes]
+* link:task-active-iq-snapshots-and-schedules.html[Snapshots and Snapshot schedules]
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

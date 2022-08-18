@@ -2,24 +2,24 @@
 permalink: task-active-iq-view-snapshots-and-schedules.html
 sidebar: sidebar
 keywords: solidfire, active, iq, snapshot, details, schedule
-summary: 'Learn about viewing Snapshot copy details and Snapshot copy schedule details in SolidFire Active IQ.'
+summary: 'Learn about viewing snapshot details and snapshot schedule details in SolidFire Active IQ.'
 ---
 
-= Snapshot copy and schedule details
+= Snapshots and Snapshot Schedules
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Learn about viewing information about snapshot copies and snaphsot copy schedules:
+Learn about viewing information about snapshots and snapshot schedules:
 
-* <<Snapshot copies>>
-* <<Snapshot copy schedules>>
+* <<Snapshots>>
+* <<Snapshot schedules>>
 
-== Snapshot copies
+== Snapshots
 From the *Volumes* page, you can view information about <<view_snapshots,volume snapshots>> and <<view_snapshot_details,snapshot details>>:
 
 [[view_snapshots]]
-=== View Snapshot copies
+=== View Snapshots
 You can view information about volume snapshots from *Volumes* > *Snapshots*.
 
 .Steps
@@ -27,7 +27,7 @@ You can view information about volume snapshots from *Volumes* > *Snapshots*.
 . (Optional) If you want to export the list as a CSV file, select the image:export_button.PNG[Export button] icon.
 
 [[view_snapshot_details]]
-=== View Snapshot copy details
+=== View Snapshot details
 You can view snapshot details from the *Volumes* > *Snapshots* page that is available from the side panel for a selected cluster.
 
 The following list describes the available details:
@@ -53,11 +53,11 @@ a|Displays the status of the snapshot on the remote cluster:
 * Deleted: The target replicated the snapshot and then deleted it.
 |===
 
-== Snapshot copy schedules
-From the *Volumes* page, you can view <<snapshot_schedules,snapshot copy schedules>> and <<snapshot_schedule,schedule details>>.
+== Snapshot schedules
+From the *Volumes* page, you can view <<snapshot_schedules,snapshot schedules>> and <<snapshot_schedule,schedule details>>.
 
 [[snapshot_schedules]]
-=== View Snapshot copy schedules
+=== View Snapshot schedules
 You can view a list of snapshot schedules and their active settings from the *Snapshot Schedules* page for a selected cluster.
 
 .Steps
@@ -65,7 +65,7 @@ You can view a list of snapshot schedules and their active settings from the *Sn
 . (Optional) If you want to export the list as a CSV file, select the image:export_button.PNG[Export button] icon.
 
 [[snapshot_schedule]]
-=== Snapshot copy schedule details
+=== Snapshot schedule details
 On the *Volumes* > *Snapshot Schedules* page, you can view the following information:
 
 [cols=2*,options="header",cols="25,75"]

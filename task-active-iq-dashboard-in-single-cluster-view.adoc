@@ -12,7 +12,7 @@ summary: 'Learn about the Dashboard page for a selected cluster in SolidFire Act
 [.lead]
 On the *Dashboard* page for a selected cluster, you can view high-level cluster details, including performance, capacity, and compute utilization.
 
-Select the *Show Details* drop-down menu to view more information about the cluster or select the link:filter.PNG[More details] icon next to a heading for more granular reporting information. You can also move the mouse pointer over graph lines and reporting data to display additional details.
+Select the *Show Details* drop-down menu to view more information about the cluster or select the image:more_details.PNG[More details] icon next to a heading for more granular reporting information. You can also move the mouse pointer over graph lines and reporting data to display additional details.
 
 Available details will vary based on your system:
 

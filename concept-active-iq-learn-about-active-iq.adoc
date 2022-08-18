@@ -20,7 +20,7 @@ link:https://activeiq.solidfire.com/[Access SolidFire Active IQ (login required)
 == Information collected by SolidFire Active IQ
 SolidFire Active IQ collects information about volumes, clusters, nodes, performance, and configurations:
 
-* Resource IDs such as volume, Snapshot copy, and account node IDs
+* Resource IDs such as volume, snapshots, and account node IDs
 * Performance and capacity data for clusters and volumes
 * Error and event history
 * NetApp HCI and Element software versions
