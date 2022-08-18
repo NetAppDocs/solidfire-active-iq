@@ -65,7 +65,7 @@ image:graphs_and_date_ranges.PNG[Graphs and date ranges]
 ====
 
 == Export list views and report data
-You can export all the information displayed in a list view or graph data to a comma-separated values (CSV) format. For some lists, for example, cluster or nodes, you can select which columns are exported. By default, the displayed columns are selected. If there is a certain sort order or if a filter is used to limit the displayed entries, that sort order and filter are preserved in the exported file.
+You can export all the information displayed in a list view or graph data to a comma-separated values (CSV) format. For some lists, for example, cluster or nodes, you can select which columns are exported; by default, the displayed columns are selected. If there is a certain sort order or if a filter is used to limit the displayed entries, that sort order and filter are preserved in the exported file.
 
 .Steps
 . In a list view or graph, select the image:export_button.PNG[Export button] icon.
@@ -123,7 +123,6 @@ image:more_details.PNG[More details icon]
 You can help improve the Active IQ UI and address any UI issues by using the email feedback option that is accessible throughout the UI.
 
 .Steps
-
 . From any page in the UI, select the image:menu.PNG[Menu icon] icon, and select *Feedback*.
 . Enter the relevant information in the message body of the email.
 . Attach any helpful screenshots.

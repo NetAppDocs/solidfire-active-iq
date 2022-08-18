@@ -102,7 +102,7 @@ NOTE: Alert policy names should describe the condition the alert is being create
 +
 TIP: Alert policy severity levels are color coded and can be filtered easily from the *Alerts* > *History page*.
 
-. Determine the type of suppression for the alert policy when it is active by selecting a type from *Suppressible Types*. You can select more than one type.
+. Determine the type of suppression for the alert policy by selecting a type from *Suppressible Types*. You can select more than one type.
 +
 Confirm that the associations makes sense. For example, you have selected *Network Suppression* for a network alert policy.
 
@@ -221,7 +221,7 @@ You can suppress alert notifications at the cluster level for a single cluster o
 .. If you selected the *Suppress Clusters* button from the *Suppressed Clusters* page, select a cluster.
 .. Select an alert suppression type as either *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Network* or *Power*. <<suppressed_types,Learn about suppression types>>.
 +
-NOTE: Only one suppression type is allowed at a given time. To change the type for a cluster with an existing suppression, select *Override Existing* followed by the new suppression type.
+NOTE: Only one suppression type is allowed at a given time. To change the type for a cluster with an existing suppression, first select *Override Existing* and then select the new suppression type.
 
 .. Select a common duration or enter a custom end date and time during which notifications should be suppressed.
 . Select *Suppress*.
@@ -233,7 +233,7 @@ You can end cluster alert suppression on clusters that was applied using the Sup
 
 .Steps
 
-. From the *Dashboard* overview or *Alerts* > *Cluster Suppression*, you can end suppression for a single cluster or multiple clusters for which you want to resume normal alert reporting :
+. From the *Dashboard* overview or *Alerts* > *Cluster Suppression*, you can end suppression for the single or multiple clusters you want to resume normal alert reporting:
 
 .. For a single cluster, select the Actions menu for the cluster and select *End Suppression*.
 .. For multiple clusters, select the clusters and then select *End Selected Suppressions*.
