@@ -20,7 +20,8 @@ Learn about using link:https://activeiq.solidfire.com/[SolidFire Active IQ (logi
 * link:task_active_iq_replication.html[Replication]
 * link:task-active-iq-virtual-volumes.html[Virtual Volumes]
 * link:task-active-iq-qos-recommendations.html[QoS Recommendations]
-* link:task-active-iq-virtual-machines.html[Virtual Machines]
+* link:task-active-iq-virtual-machines.html[Virtual Machines (NetApp HCI clusters only)]
+* link:task-active-iq-vmware-alarms.html[VMware alarms (NetApp HCI clusters only)]
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

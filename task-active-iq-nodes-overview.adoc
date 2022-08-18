@@ -10,7 +10,7 @@ summary: 'Learn about the Nodes page in SolidFire Active IQ.'
 :imagesdir: ./media/
 
 [.lead]
-Learn about using viewing information for the nodes a cluster and the degree of throttling.
+Learn about viewing information for active nodes in a cluster and the percentage of node throttling for a selected node in a cluster.
 
 * link:task-active-iq-active-nodes.html[Active Nodes]
 * link:task-active-iq-active-nodes-throttling.html[Node Throttling]
