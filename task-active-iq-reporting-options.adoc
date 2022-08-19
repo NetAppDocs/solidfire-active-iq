@@ -83,6 +83,7 @@ The following information is reported for the selected cluster.
 |Severity |This can be warning, error, critical, or best practice.
 |Type |This can be node, drive, cluster, service, or volume.
 |Node ID |Node ID for the node that this fault refers to. Included for node and drive faults; otherwise set to - (dash).
+|Node Name |The system-generated node name.
 |Drive ID |Drive ID for the drive that this fault refers to. Included for drive faults; otherwise set to - (dash).
 |Resolved |Displays if the cause of the error has been resolved.
 |Resolution Time |Displays the time an issue was resolved.

@@ -10,7 +10,7 @@ summary: 'Learn about the Node Throttling page in SolidFire Active IQ.'
 :imagesdir: ./media/
 
 [.lead]
-On the *Nodes* > *Active Nodes* page, available from the side panel for a selected cluster, you can view the percentage of throttling for the nodes in the cluster. The nodes are listed as thumbnail layouts on the left side of the display and are ordered depending on the degree of throttling for a selected time range.
+On the *Nodes* > *Active Nodes* page, available from the side panel for a selected cluster, you can view the percent throttling for the nodes in the cluster. The nodes are listed as thumbnail layouts on the left side of the display and are ordered depending on the degree of throttling for a selected time range.
 
 Learn about viewing node throttling information:
 
@@ -23,7 +23,7 @@ The graphs and date ranges in Active IQ are seamlessly integrated with each othe
 
 You can select a date range from the calendar drop-down box or from a set of pre-defined ranges. Date ranges are calculated using the current browser time (at the time of selection) and the configured amount of time. Additionally, you can select a desired interval by brushing directly over the bar graph at the bottom. You can switch between graphs by selecting the thumbnail layouts on the left.
 
-The graph displays the percentage throttling for the node:
+The graph displays the percent throttling for the node:
 
 * Green = up to 39%
 * Yellow = 40 to 59%

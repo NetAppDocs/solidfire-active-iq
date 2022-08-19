@@ -68,9 +68,11 @@ On the *Nodes* page, the information bar provides a quick overview of the follow
 * MVIP: Management virtual IP address
 * SVIP: Storage virtual IP address
 
-Learn about viewing information about <<storage_nodes,storage nodes>> and <<compute_nodes,compute nodes>>.
+Learn about viewing information about storage nodes and compute nodes in a NetApp HCI cluster:
 
-[[storage_nodes]]
+* <<View information about storage nodes>>
+* <<View information about compute nodes>>
+
 === View information about storage nodes
 Select *Storage* to view the following information about the storage nodes in the cluster.
 
@@ -103,7 +105,6 @@ Identifies what role the node has in the cluster:
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
 |===
 
-[[compute_nodes]]
 === View information about compute nodes
 Select *Compute* to view the following information about the compute nodes in the cluster.
 

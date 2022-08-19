@@ -58,7 +58,7 @@ You can select a date range from the calendar drop-down box or from a set of pre
 
 Position the mouse pointer over a graph line to see point-in-time details.
 
-.Graphs and date ranges example
+.Expand graph example
 [%collapsible]
 ====
 image:graphs_and_date_ranges.PNG[Graphs and date ranges]

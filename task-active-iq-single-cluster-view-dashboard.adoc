@@ -61,7 +61,7 @@ For a NetApp HCI-based solution, you can view details and performance informatio
 |Information bar |This top bar provides a quick overview of the current status of the selected cluster. The bar shows the number of compute and storage nodes, compute status, storage status, number of virtual machines, and number of volumes associated with your NetApp HCI system. Links from this bar open to the corresponding data in the UI.
 |Installation Details
 a|
-Expand the information bar by selecting *Installation Details* to show these values:
+Expand the information bar by selecting *Show Details* to show these values:
 
 * Element Version
 * Hypervisor
