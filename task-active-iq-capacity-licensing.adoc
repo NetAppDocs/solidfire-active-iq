@@ -25,12 +25,11 @@ On the *Capacity Licensing* page, you can view the following information:
 [cols=2*,options="header",cols="25,75"]
 |===
 |Heading |Description
-|Customer ID |Customer ID associated with the license.
-|Customer Name |Name of the customer associated with the license.
-|Number of Capacity Licensed Nodes |Number of capacity licensed nodes in a customer environment.
-|Entitled Licensed Capacity |Sum of software capacity licenses purchased.
-|Provisioned Licensed Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes in a customer environment.
-|Actions |Select the vertical drop-down menu for more details on capacity licensing for an individual customer.
+|Pool Name |Name of the customer associated with the license.
+|Entitled Capacity |Sum of software capacity licenses purchased.
+|Provisioned Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes in a customer environment.
+|Used Capacity |
+|CLusters |
 |===
 
 == Capacity Licensing details
