@@ -1,11 +1,11 @@
 ---
-permalink: task-active-iq-dashboard-in-single-cluster-view.html
+permalink: task-active-iq-single-cluster-view-dashboard.html
 sidebar: sidebar
 keywords: solidfire, active, iq, dashboard, single, cluster
 summary: 'Learn about the Dashboard page for a selected cluster in SolidFire Active IQ.'
 ---
 
-= Dashboard in Single Cluster View
+=  Single Cluster View Dashboard
 :icons: font
 :imagesdir: ./media/
 
@@ -34,23 +34,26 @@ Expand the information bar by selecting *Show Details* to show these values:
 * Element Version
 * iSCSI Sessions
 * Fibre Channel Sessions
-* Nodes Types
+* Total Max Configured IOPS
+* Total Max IOPS
+* Node Types
 * Encryption at Rest
+* Vvols
+* Total Min Configured IOPS
 |Performance |This graph shows the IOPS and throughput usage.
-|Utilization |This graph shows the percentage of cluster IOPS being consumed.
 |Capacity
 a|
 This shows the health and fullness of the installation's cluster:
 
 * Provisioned: The total capacity of all volumes created on the system.
 * Physical: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all efficiencies are applied).
-* Block Data Capacity: The amount of block data capacity currently in use.
+* Block Capacity: The amount of block data capacity currently in use.
 * Metadata Capacity: The amount of metadata capacity currently in use.
 * Efficiencies: The amount of efficiencies the system is seeing due to compression, deduplication, and thin provisioning.
 |===
 
 == NetApp HCI system overview
-For an NetApp HCI-based solution, you can view details and performance information specific to your cluster when you select *Show Details* from the *Dashboard* page.
+For a NetApp HCI-based solution, you can view details and performance information specific to your cluster when you select *Show Details* from the *Dashboard* page.
 
 [cols=2*,options="header",cols="25,75"]
 |===
@@ -64,10 +67,14 @@ Expand the information bar by selecting *Installation Details* to show these val
 * Hypervisor
 * Associated vCenter Instance
 * Associated Datacenter
+* Total Max Configured IOPS
+* Total Max IOPS
 * Compute Node Types
 * Storage Node Types
 * Encryption at Rest
+* Vvols
 * iSCSI Sessions
+* Total Min Configured IOPS
 |Compute Utilization |CPU and memory usage are represented in this graph.
 |Storage Capacity a|
 This shows the health and fullness of the installation's cluster:

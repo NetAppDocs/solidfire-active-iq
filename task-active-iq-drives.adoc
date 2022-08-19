@@ -28,7 +28,6 @@ The following information is available for each drive in the cluster depending o
 |Firmware version	|Version of the firmware on the drive.
 |Serial	|Serial number of the SSD.
 |Wear |Remaining	Wear level indicator.
-|Reserve |Drive available reserves.
 |Type |Drive type can be block or metadata.
 |===
 

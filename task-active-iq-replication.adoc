@@ -12,7 +12,10 @@ summary: 'Learn about the Replication page in SolidFire Active IQ.'
 [.lead]
 The *Replication* page, available from the side panel for a selected cluster, provides information about cluster pairs and volumes pairs.
 
-Learn more about the <<cluster_pairs,Cluster Pairs>> and <<volume_pairs,Volume Pairs>> pages.
+Learn more about the cluster pairs and volumes pairs pages:
+
+* <<cluster_pairs,Cluster Pairs>>
+* <<volume_pairs,Volume Pairs>>
 
 [[cluster_pairs]]
 == Cluster Pairs
@@ -31,7 +34,7 @@ On the *Replication* > *Cluster Pairs* page for a selected cluster, you can view
 
 [[volume_pairs]]
 == Volume Pairs
-On the Replication > Volume Pairs page for a selected cluster, you can view the following information about volume pairs.
+On the *Replication* > *Volume Pairs* page for a selected cluster, you can view the following information about volume pairs.
 
 [cols=2*,options="header",cols="30,70"]
 |===

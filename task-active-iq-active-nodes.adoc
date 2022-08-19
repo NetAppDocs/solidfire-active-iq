@@ -44,7 +44,6 @@ The status of the node:
 |Name |The system-generated node name.
 |Type |Displays the model type of the node.
 |Version |Version of Element software running on each node.
-|Service Tag |Unique service tag number assigned to the node.
 |Serial Number |Unique serial number assigned to the node.
 |Management IP |Management IP MIP address assigned to node for 1GbE or 10GbE network admin tasks.
 |Cluster IP	|Cluster IP address assigned to the node used for the communication between nodes in the same cluster.
@@ -52,14 +51,13 @@ The status of the node:
 |Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
 |Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
 |Average Latency (µs) Last 30 mins |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary. To report this metric based on active volumes, only non-zero latency values are used.
-Replication Port	|The port used on nodes for remote replication.
 |Role
 a|
 Identifies what role the node has in the cluster:
 
 * Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
-* Fibre Channel: A Fibre Channel node in the cluster.
+* Fibre Channel: An FC node in the cluster.
 |===
 
 == View NetApp HCI storage and compute node details
@@ -67,7 +65,6 @@ For NetApp H-series nodes, which comprise a NetApp HCI system, there are two typ
 
 On the *Nodes* page, the information bar provides a quick overview of the following data:
 
-* vCenter IP: IP address of the vCenter Server
 * MVIP: Management virtual IP address
 * SVIP: Storage virtual IP address
 
@@ -88,21 +85,22 @@ The status of the node:
 * Healthy: The node has no critical errors associated with it.
 * Offline: The node cannot be accessed. Select the link to view the Error Log.
 * Fault: There are errors associated with this node. Select the link to view the Error Log.
+|Name |The system-generated node name.
 |Type |Shows the model type of the node.
 |Chassis / Slot |Unique serial number assigned to the chassis and the slot location of the node.
 |Serial Number |Unique serial number assigned to the node.
 |Version |Version of Element software running on each node.
 |Management IP |Management IP address assigned to node for 1GbE or 10GbE network admin tasks.
 |Storage IP |Storage IP address assigned to the node used for iSCSI network discovery and all data network traffic.
+|Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
+|Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
+|Average Latency (µs) Last 30 mins |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary. To report this metric based on active volumes, only non-zero latency values are used.
 |Role
 a|
 Identifies what role the node has in the cluster:
 
 * Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
-* Ensemble Node: A node that participates in the cluster. There are either 3 or 5 ensemble nodes depending on cluster size.
-|Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
-|Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
-|Average Latency (µs) Last 30 mins |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary. To report this metric based on active volumes, only non-zero latency values are used.
+* Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
 |===
 
 [[compute_nodes]]
@@ -112,11 +110,12 @@ Select *Compute* to view the following information about the compute nodes in th
 [cols=2*,options="header",cols="25,75"]
 |===
 |Heading |Description
-|IP |IP address of the compute node.
-|vCenter Status |The value that comes back from VMware. Hover over this for the VMware description.
+|Host |IP address of the compute node.
+|Status |The value that comes back from VMware. Hover over this for the VMware description.
 |Type |Shows the model type of the node.
 |Chassis/Slot |Unique serial number assigned to the chassis and the slot location of the node.
 |Serial Number |Unique serial number assigned to the node.
+|vCenter IP	|IP address of the vCenter Server
 |vMotion IP |The VMware vMotion network IP address of the compute node.
 |===
 

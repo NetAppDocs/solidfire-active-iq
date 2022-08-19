@@ -16,19 +16,9 @@ Learn about viewing information about snapshots and snapshot schedules:
 * <<Snapshot schedules>>
 
 == Snapshots
-From the *Volumes* page, you can view information about <<view_snapshots,volume snapshots>> and <<view_snapshot_details,snapshot details>>:
+From the *Volumes* > *Snapshots* page that is available from the side panel for a selected cluster, you can view information about volume snapshots.
 
-[[view_snapshots]]
-=== View Snapshots
-You can view information about volume snapshots from *Volumes* > *Snapshots*.
-
-.Steps
-. Select *Volumes* > *Snapshots*. Alternatively, select *Volumes* > *Active Volumes* and select the link in the *Snapshots* column.
-. (Optional) If you want to export the list as a CSV file, select the image:export_button.PNG[Export button] icon.
-
-[[view_snapshot_details]]
-=== View Snapshot details
-You can view snapshot details from the *Volumes* > *Snapshots* page that is available from the side panel for a selected cluster.
+You can export the snapshot list as a CSV file by selecting the image:export_button.PNG[Export button] icon.
 
 The following list describes the available details:
 
@@ -54,19 +44,11 @@ a|Displays the status of the snapshot on the remote cluster:
 |===
 
 == Snapshot schedules
-From the *Volumes* page, you can view <<snapshot_schedules,snapshot schedules>> and <<snapshot_schedule,schedule details>>.
+From the *Volumes* > *Snapshot Schedules* page that is available from the side panel for a selected cluster, you can view snapshot schedule details.
 
-[[snapshot_schedules]]
-=== View Snapshot schedules
-You can view a list of snapshot schedules and their active settings from the *Snapshot Schedules* page for a selected cluster.
+You can export the snapshot schedule list as a CSV file by selecting the image:export_button.PNG[Export button] icon.
 
-.Steps
-. Select *Volumes* > *Snapshot Schedules*.
-. (Optional) If you want to export the list as a CSV file, select the image:export_button.PNG[Export button] icon.
-
-[[snapshot_schedule]]
-=== Snapshot schedule details
-On the *Volumes* > *Snapshot Schedules* page, you can view the following information:
+The following list describes the available details:
 
 [cols=2*,options="header",cols="25,75"]
 |===

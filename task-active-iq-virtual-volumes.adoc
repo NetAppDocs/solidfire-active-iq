@@ -46,6 +46,7 @@ The *VVols* > *Virtual Volumes* page for a selected cluster provides information
 |Burst IOPS	|The maximum burst QoS setting of the virtual volume.
 |VMW_VmID	|Information in fields prefaced with "VMW_" are defined by VMware. See VMware documentation for descriptions.
 |Create Time |The time the virtual volume creation task was completed.
+|Actions	|Select the vertical drop-down menu for more details on an individual virtual volume.
 |===
 
 == Storage Containers
@@ -54,8 +55,8 @@ On the *VVols* > *Storage Containers* page for a selected cluster, you can view 
 [cols=2*,options="header",cols="30,70"]
 |===
 |Heading	|Description
-|Account ID	The ID of the account associated with the storage container.
-|Name	The name of the storage container.
+|Account ID	|The ID of the account associated with the storage container.
+|Name	|The name of the storage container.
 |Status
 a|
 The status of the storage container:

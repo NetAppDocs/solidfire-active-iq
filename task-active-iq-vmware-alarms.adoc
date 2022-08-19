@@ -10,7 +10,7 @@ summary: 'Learn about the VMware Alarms page in SolidFire Active IQ.'
 :imagesdir: ./media/
 
 [.lead]
-From the *VMware Alarms* page, available from the side panel for a selected NetApp HCI cluster, you can view the VMware alarms information about a cluster.
+From the *VMware Alarms* page, available from the side panel for a selected NetApp HCI cluster, you can view the VMware alarms related information about a cluster.
 
 NOTE: The *VMware Alarms* page is available only on a NetApp HCI cluster.
 

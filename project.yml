@@ -37,9 +37,9 @@ sidebar:
               entries:
                 - title: Overview
                   url: /task-active-iq-select-cluster-overview.html
-                - title: Dashboard in Single Cluster view
-                  url: /task-active-iq-dashboard-in-single-cluster-view.html
-                - title: Reporting options for a selected cluster
+                - title: Single Cluster view Dashboard
+                  url: /task-active-iq-single-cluster-view-dashboard.html
+                - title: Reporting
                   url: /task-active-iq-reporting-options.html
             - title: Nodes
               entries:
