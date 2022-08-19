@@ -1,5 +1,5 @@
 ---
-permalink: task-active-iq-view-snapshots-and-schedules.html
+permalink: task-active-iq-snapshots-and-schedules.html
 sidebar: sidebar
 keywords: solidfire, active, iq, snapshot, details, schedule
 summary: 'Learn about viewing snapshot details and snapshot schedule details in SolidFire Active IQ.'
@@ -16,9 +16,14 @@ Learn about viewing information about snapshots and snapshot schedules:
 * <<Snapshot schedules>>
 
 == Snapshots
-From the *Volumes* > *Snapshots* page that is available from the side panel for a selected cluster, you can view information about volume snapshots.
+From the *Volumes* page that is available from the side panel for a selected cluster, you can view information about volume snapshots.
 
-You can export the snapshot list as a CSV file by selecting the image:export_button.PNG[Export button] icon.
+.Steps
+
+. Select *Volumes* > *Snapshots*.
+. Alternatively, select *Volumes* > *Active Volumes* and in the Actions column, select the image:more_information.PNG[more information] icon for the volume you want and select *View Snapshots*.
+
+. (Optional) You can export the snapshot list as a CSV file by selecting the image:export_button.PNG[export button] icon.
 
 The following list describes the available details:
 

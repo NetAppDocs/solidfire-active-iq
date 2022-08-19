@@ -49,7 +49,11 @@ On the *Volumes* > *Active Volumes* page for a selected cluster, you can view th
 |===
 
 == View individual volume details
-From the *Volumes* > *Active Volumes* page, you can select the icon in the *Actions* column to view more information for an individual volume.
+From the *Volumes* page, you can view more information for an individual volume.
+
+.Steps
+. Select *Volumes* > *Active Volumes*.
+. In the Actions column, select the image:more_information.PNG[More information] icon for the volume you want and select *View Details*.
 
 After the page opens for the active volume, you can view recent volume data from the information bar.
 
@@ -102,7 +106,7 @@ A separate page opens to display an adjustable timeline, which is synced with th
 ** Queue Depth
 ** Average IO Size
 ** Capacity
-. (Optional) If you want to export each graph as a CSV file, select the image:export_button.PNG[Export button] icon.
+. (Optional) You can export each graph as a CSV file by selecting the image:export_button.PNG[export button] icon.
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
