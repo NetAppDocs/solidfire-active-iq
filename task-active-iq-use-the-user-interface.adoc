@@ -48,7 +48,12 @@ You can sort list information by one or more columns on certain pages within the
 .Steps
 
 . To sort on a single column, select the column heading until the information is sorted in the desired order.
-. To sort using multiple columns, select the column heading for each column you wish to sort by until the information in each column is sorted in the desired order. This functionality is not available on all pages.
+. To sort on multiple columns, perform the following steps:
+.. Select the column heading of the first column you want to sort until the information is sorted in the desired order.
+.. To add a column, hold the command key and select the column heading until the information is sorted in the desired order. You can add more than one column.
+
++
+This functionality is not available on all pages.
 
 == View graphs and select date ranges
 

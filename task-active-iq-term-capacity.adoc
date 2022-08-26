@@ -1,0 +1,28 @@
+---
+permalink: task-active-iq-term-capacity.html
+sidebar: sidebar
+keywords: solidfire, active, iq, capacity, licensing
+summary: 'Learn about the Capacity Licensing page in SolidFire Active IQ.'
+---
+
+= Term Capacity
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+On the *Term Capacity* page within the *All Clusters View*, you can view information about the NetApp term-capacity model.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|Company ID |Company ID associated with the license.
+|Company Name |Name of the company associated with the license.
+|Licenses |Number of licenses in a customer environment.
+|Clusters |Number of clusters and their IDs, which comprise a cluster pool for a license.
+|Licensed Capacity |Amount of allocated capacity on the capacity licensed nodes in a customer environment.
+|Consumed Capacity |Current consumed capacity by all clusters in a cluster pool.
+|===
+
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

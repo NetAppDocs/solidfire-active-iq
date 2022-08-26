@@ -134,8 +134,8 @@ Available policy alerts include the following types:
 |iSCSI Sessions |Sends a notification when the number of active iSCSI sessions is greater than the value specified.
 |Chassis Resiliency |Sends a notification when the used space of a cluster is greater than a user-specified percentage. You should select a percentage that is sufficient to give early notice before reaching the cluster resiliency threshold. After reaching this threshold, a cluster can no longer automatically heal from a chassis-level failure.
 |VMware Alarm |Sends a notification when a VMware alarm is triggered and reported to Active IQ.
-|Custom Protection Domain Resiliency |
-|Node Core/Crash Dump Files |
+|Custom Protection Domain Resiliency |When used space increases beyond the specified percentage of custom protection domain resiliency threshold, the system sends a notification. If this percentage reaches 100, the storage cluster does not have enough free capacity to self-heal after a custom protection domain failure occurs.
+|Node Core/Crash Dump Files |When used space increases beyond the specified percentage of custom protection domain resiliency threshold, the system sends a notification. If this percentage reaches 100, the storage cluster does not have enough free capacity to self-heal after a custom protection domain failure occurs.
 |===
 
 == Edit an alert policy
@@ -221,7 +221,7 @@ You can suppress alert notifications at the cluster level for a single cluster o
 .. If you selected the *Suppress Clusters* button from the *Suppressed Clusters* page, select a cluster.
 .. Select an alert suppression type as either *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Network* or *Power*. <<suppressed_types,Learn about suppression types>>.
 +
-NOTE: Only one suppression type is allowed at a given time. To change the type for a cluster with an existing suppression, first select *Override Existing* and then select the new suppression type.
+NOTE: A cluster can have multiple suppression types but cannot share a suppression type. For example, a cluster can have a *Full*, *Compute*, and *Drive* suppression, but not two *Full* suppressions. When a suppression already exists on a cluster, it is greyed out. To replace an existing suppression, select *Override Existing* and select the new suppression type.
 
 .. Select a common duration or enter a custom end date and time during which notifications should be suppressed.
 . Select *Suppress*.

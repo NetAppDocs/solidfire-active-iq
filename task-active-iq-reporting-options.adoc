@@ -129,7 +129,7 @@ The following information is reported for the selected cluster.
 == iSCSI Sessions
 On the *iSCSI Sessions* page of the *Reporting* drop-down menu for a selected cluster, you can view details about the number of active sessions on the cluster and the number of iSCSI sessions that have occurred on the cluster.
 
-.iSCSI Sessions example
+.Expand the iSCSI Sessions example
 [%collapsible]
 ====
 image:iscsi_sessions.PNG[iSCSI Sessions]

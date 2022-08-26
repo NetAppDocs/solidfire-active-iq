@@ -12,15 +12,7 @@ summary: 'Learn about the Capacity Licensing page in SolidFire Active IQ.'
 [.lead]
 On the *Capacity Licensing* page within the *All Clusters View*, you can view information about the NetApp Capacity Licensing model. Customers using standard SolidFire appliances should disregard this page.
 
-Capacity Licensing is an alternative licensing option available from NetApp. For more information, see https://www.netapp.com/knowledge-center/what-is-capacity-licensing/[Capacity Licensing^].
-
-Learn about or perform capacity licensing related tasks:
-
-* <<View Capacity Licensing>>
-* <<Capacity Licensing details>>
-
-== View Capacity Licensing
-On the *Capacity Licensing* page, you can view the following information:
+Capacity Licensing is an alternative licensing option available from NetApp. Learn about or perform capacity licensing related tasks:
 
 [cols=2*,options="header",cols="25,75"]
 |===
@@ -28,31 +20,8 @@ On the *Capacity Licensing* page, you can view the following information:
 |Pool Name |Name of the customer associated with the license.
 |Entitled Capacity |Sum of software capacity licenses purchased.
 |Provisioned Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes in a customer environment.
-|Used Capacity |
-|CLusters |
-|===
-
-== Capacity Licensing details
-From the *Capacity Licensing* page within *All Clusters View*, select the image:more_information.PNG[more information] icon in the *Actions* column and select *Details*.
-
-You can view the following on the capacity licensing details page:
-
-[cols=2*,options="header",cols="25,75"]
-|===
-|Heading |Description
-|Customer Name |Name of the customer associated with the license.
-|Entitled Licensed Capacity	|Sum of software capacity licenses purchased.
-|Provisioned Licensed Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes.
-2+h|Provisioned Licensed Capacity by cluster
-|Cluster ID	|Cluster ID associated with the license.
-|Cluster Name	|Name of the cluster associated with the license.
-|Provisioned Licensed Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes in the cluster.
-|% of Total Provisioned Licensed Capacity |Percentage of the specific cluster relative to the Provisioned Licensed Capacity.
-2+h|Capacity Licensed nodes
-|Cluster Name |Name of the cluster associated with the node.
-|Service Tag |Unique service tag number assigned to the node.
-|Model |Model name of the node.
-|Raw Capacity |Raw capacity of the node.
+|Used Capacity |Current used capacity by all clusters in a cluster pool.
+|CLusters |Number of clusters and their IDs, which comprise a cluster pool for a license.
 |===
 
 == Find more information

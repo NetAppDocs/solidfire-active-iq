@@ -40,7 +40,7 @@ The information bar provides a quick overview of the following data:
 |Power State |Indicates whether the VM is powered on, powered off, or suspended.
 |vCenter IP	|IP address of the vCenter Server
 |Number of CPUs	|The number of CPUs for each VM.
-|Host Memory Usage
+|Host Memory Usage |The amount of ESXi host memory that is being used by a virtual machine.
 |CPU Usage |The percentage of actively used virtual CPU as a percentage of total available CPU in the VM.
 |Used Capacity |The percentage of VM storage resources in use.
 |Peak Disk Latency |The maximum detected disk latency in milliseconds.

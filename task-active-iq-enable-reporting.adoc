@@ -15,9 +15,10 @@ You must enable SolidFire Active IQ reporting capability on the management node,
 NOTE: Google Chrome and Firefox browsers are supported to run with Active IQ.
 
 .Before you begin
-* Your storage cluster is running NetApp Element software 11.3 or later.
-* You have deployed a management node running version 11.3 or later.
-* You have internet access. The Active IQ collector service cannot be used from dark sites that do not have external connectivity.
+* Some functions in Active IQ, for example, quality of service (QoS), require Element 11.3 or later to work correctly. To have the capability to use all Active IQ functions, NetApp recommends the following:
+** Your storage cluster is running NetApp Element software 11.3 or later.
+** You have deployed a management node running version 11.3 or later.
+* You have internet access. You cannot use the Active IQ collector service from dark sites that do not have external connectivity.
 
 .Steps
 . Get the base asset ID for the installation:

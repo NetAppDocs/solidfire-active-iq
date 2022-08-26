@@ -33,6 +33,8 @@ sidebar:
                   url: /task-active-iq-alerts.html
                 - title: Capacity Licensing
                   url: /task-active-iq-capacity-licensing.html
+                - title: Term Capacity
+                  url: /task-active-iq-term-capacity.html
             - title: Select a Cluster
               entries:
                 - title: Overview
