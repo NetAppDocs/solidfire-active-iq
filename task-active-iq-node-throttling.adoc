@@ -23,13 +23,15 @@ The graphs and date ranges in Active IQ are seamlessly integrated with each othe
 
 You can select a date range from the calendar drop-down box or from a set of pre-defined ranges. Date ranges are calculated using the current browser time (at the time of selection) and the configured amount of time. Additionally, you can select a desired interval by brushing directly over the bar graph at the bottom. You can switch between graphs by selecting the thumbnail layouts on the left.
 
-The graph displays the percent throttling for the node based on the quality of service (QoS) setting for volume load per node:
+The graph displays the percent throttling for the node based the minimum and maximum IOPS settings for the volumes hosted on the selected node:
 
 * Green = up to 39%
 * Yellow = 40 to 59%
 * Red = above 59%
 
 link:task-active-iq-qos-recommendations.html[Learn more] about QoS recommendations for a cluster.
+
+NOTE: To determine if there is QoS pushback in a SolidFire storage cluster, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software[KB article^] for information.
 
 Position the mouse pointer at any point in the graph to see point-in-time details.
 
@@ -47,5 +49,4 @@ You can export graph data to a comma-separated values (CSV) format. Only the inf
 . In a list view or graph, select the	image:export_button.PNG[Export button] icon.
 
 == Find more information
-* https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software[Check for QoS pushback in Element Software^]
 * https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

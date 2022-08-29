@@ -43,7 +43,7 @@ The status of the node:
 * Fault: There are errors associated with this node. Select the link to view the Error Log.
 |Name |The system-generated node name.
 |Type |Displays the model type of the node.
-|Version |Version of Element software running on each node.
+|Version |Version of Element software running on the node.
 |Serial Number |Unique serial number assigned to the node.
 |Management IP |Management IP MIP address assigned to node for 1GbE or 10GbE network admin tasks.
 |Cluster IP	|Cluster IP address assigned to the node used for the communication between nodes in the same cluster.
@@ -58,6 +58,7 @@ Identifies what role the node has in the cluster:
 * Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
 * Fibre Channel: An FC node in the cluster.
+* Some nodes might not have a role.
 |===
 
 == View NetApp HCI storage and compute node details
@@ -91,7 +92,7 @@ The status of the node:
 |Type |Shows the model type of the node.
 |Chassis / Slot |Unique serial number assigned to the chassis and the slot location of the node.
 |Serial Number |Unique serial number assigned to the node.
-|Version |Version of Element software running on each node.
+|Version |Version of Element software running on the node.
 |Management IP |Management IP address assigned to node for 1GbE or 10GbE network admin tasks.
 |Storage IP |Storage IP address assigned to the node used for iSCSI network discovery and all data network traffic.
 |Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
@@ -103,6 +104,7 @@ Identifies what role the node has in the cluster:
 
 * Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
+* Some nodes might not have a role.
 |===
 
 === View information about compute nodes

@@ -18,7 +18,7 @@ On the *Dashboard* page of the *All Clusters View*, you can view performance, ca
 |Company |Company name assigned to the cluster
 |Cluster |Name assigned to the cluster
 |Cluster ID |Assigned cluster number when the cluster is created
-|Version |Version of Element software running on each node
+|Version |Version of the cluster master running on each node
 |Nodes |Number of nodes in the cluster
 |Volumes |Number of volumes in the cluster
 |Efficiency |The amount of efficiency the system is seeing due to compression, deduplication, and thin provisioning.

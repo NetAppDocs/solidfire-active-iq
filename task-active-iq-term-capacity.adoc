@@ -18,9 +18,9 @@ On the *Term Capacity* page within the *All Clusters View*, you can view informa
 |Company ID |Company ID associated with the license.
 |Company Name |Name of the company associated with the license.
 |Licenses |Number of licenses in a customer environment.
-|Clusters |Number of clusters and their IDs, which comprise a cluster pool for a license.
+|Clusters |Number of clusters and their IDs belonging to a customer
 |Licensed Capacity |Amount of allocated capacity on the capacity licensed nodes in a customer environment.
-|Consumed Capacity |Current consumed capacity by all clusters in a cluster pool.
+|Consumed Capacity |Current consumed capacity by all clusters belonging to a customer.
 |===
 
 

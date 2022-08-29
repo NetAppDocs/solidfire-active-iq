@@ -104,7 +104,7 @@ TIP: Alert policy severity levels are color coded and can be filtered easily fro
 
 . Determine the type of suppression for the alert policy by selecting a type from *Suppressible Types*. You can select more than one type.
 +
-Confirm that the associations makes sense. For example, you have selected *Network Suppression* for a network alert policy.
+Confirm that the associations make sense. For example, you have selected *Network Suppression* for a network alert policy.
 
 . Select one or more clusters to include in the policy.
 +
