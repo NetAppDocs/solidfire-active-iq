@@ -122,7 +122,7 @@ The following information is reported for the selected cluster.
 |Resolved |Shows if the cause of the alert has been resolved.
 |Policy |This is the user-defined alert policy name.
 |Severity |Severity assigned at the time the alert policy was created.
-|Destination |The email address or addresses selected to receive the alert email
+|Destination |The email address or addresses selected to receive the alert email.
 |Trigger |The user-defined setting that triggered the alert.
 |===
 

@@ -29,9 +29,9 @@ The graph displays the percent throttling for the node based the minimum and max
 * Yellow = 40 to 59%
 * Red = above 59%
 
-link:task-active-iq-qos-recommendations.html[Learn more] about QoS recommendations for a cluster.
+link:task-active-iq-qos-recommendations.html[Learn] about QoS recommendations for a cluster.
 
-NOTE: To determine if there is QoS pushback in a SolidFire storage cluster, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software[KB article^] for information.
+NOTE: From the Node Throttling page, you can determine if there is QoS pushback in a storage cluster, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_to_check_for_QoS_pushback_in_Element_Software[KB article^] for information.
 
 Position the mouse pointer at any point in the graph to see point-in-time details.
 
@@ -49,4 +49,4 @@ You can export graph data to a comma-separated values (CSV) format. Only the inf
 . In a list view or graph, select the	image:export_button.PNG[Export button] icon.
 
 == Find more information
-* https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

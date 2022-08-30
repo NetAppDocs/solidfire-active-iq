@@ -15,18 +15,18 @@ On the *Dashboard* page of the *All Clusters View*, you can view performance, ca
 [cols=2*,options="header",cols="25,75"]
 |===
 |Heading |Description
-|Company |Company name assigned to the cluster
-|Cluster |Name assigned to the cluster
-|Cluster ID |Assigned cluster number when the cluster is created
-|Version |Version of the cluster master running on each node
-|Nodes |Number of nodes in the cluster
-|Volumes |Number of volumes in the cluster
+|Company |Company name assigned to the cluster.
+|Cluster |Name assigned to the cluster.
+|Cluster ID |Assigned cluster number when the cluster is created.
+|Version |Version of the cluster master running on each node.
+|Nodes |Number of nodes in the cluster.
+|Volumes |Number of volumes in the cluster.
 |Efficiency |The amount of efficiency the system is seeing due to compression, deduplication, and thin provisioning.
-|Used Block Capacity |Current used capacity of the cluster block
-|Faults |Number of currently unresolved faults detected on the cluster
-|SVIP |Storage virtual IP address assigned to the cluster
-|MVIP |Management Virtual IP address assigned to the cluster
-|Last Update |Time and date that the most recent cluster update
+|Used Block Capacity |Current used capacity of the cluster block.
+|Faults |Number of currently unresolved faults detected on the cluster.
+|SVIP |Storage virtual IP address assigned to the cluster.
+|MVIP |Management Virtual IP address assigned to the cluster.
+|Last Update |Time and date that the most recent cluster update.
 |===
 
 == Find more information

@@ -58,7 +58,7 @@ Identifies what role the node has in the cluster:
 * Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
 * Fibre Channel: An FC node in the cluster.
-* Some nodes might not have a role.
+* If a node does not have a role, the value is set to - (dash).
 |===
 
 == View NetApp HCI storage and compute node details
@@ -104,7 +104,7 @@ Identifies what role the node has in the cluster:
 
 * Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
-* Some nodes might not have a role.
+* If a node does not have a role, the value is set to - (dash).
 |===
 
 === View information about compute nodes
@@ -118,8 +118,8 @@ Select *Compute* to view the following information about the compute nodes in th
 |Type |Shows the model type of the node.
 |Chassis/Slot |Unique serial number assigned to the chassis and the slot location of the node.
 |Serial Number |Unique serial number assigned to the node.
-|vCenter IP	|IP address of the vCenter Server
-|vMotion IP |The VMware vMotion network IP address of the compute node.
+|vCenter IP	|IP address of the vCenter Server.
+|vMotion IP |VMware vMotion network IP address of the compute node.
 |===
 
 == Find more information

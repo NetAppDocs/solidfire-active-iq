@@ -63,14 +63,14 @@ You can select a date range from the calendar drop-down box or from a set of pre
 
 Position the mouse pointer over a graph line to see point-in-time details.
 
-.Expand graph example
+.Expand the graph example
 [%collapsible]
 ====
 image:graphs_and_date_ranges.PNG[Graphs and date ranges]
 ====
 
 == Export list views and report data
-You can export all the information displayed in a list view or graph data to a comma-separated values (CSV) format. For some lists, for example, cluster or nodes, you can select which columns are exported; by default, the displayed columns are selected. If there is a certain sort order or if a filter is used to limit the displayed entries, that sort order and filter are preserved in the exported file.
+You can export an entire list view or graph data to a comma-separated values (CSV) format. For some lists, for example, cluster or nodes, you can select which columns are exported; by default, the displayed columns are selected. If there is a certain sort order or if a filter is used to limit the displayed entries, that sort order and filter are preserved in the exported file.
 
 .Steps
 . In a list view or graph, select the image:export_button.PNG[Export button] icon.

@@ -79,6 +79,7 @@ h|Heading	h|Description
 |Min IOPS	|The minimum number of IOPS guaranteed for the volume.
 |Max IOPS	|The maximum number of IOPS allowed for the volume.
 |Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
+|512e Enabled |Identifies if 512e is enabled on a volume.
 |QoS Throttle	|Identifies if the volume is being throttled due to high load on the primary storage node.
 |Primary Node ID	|Primary node for this volume.
 |Secondary Node ID |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
@@ -92,7 +93,7 @@ h|Heading	h|Description
 |===
 
 == View individual volume performance graphs
-You can view performance activity for each volume in a graphical format. This information provides real-time statistics for throughput, IOPS, latency, queue depth, average IO size, and capacity for each volume.
+From the *Volumes* page, you can view performance activity for each volume in a graphical format. This information provides real-time statistics for throughput, IOPS, latency, queue depth, average IO size, and capacity for each volume.
 
 .Steps
 . Select *Volumes* > *Active Volumes*.

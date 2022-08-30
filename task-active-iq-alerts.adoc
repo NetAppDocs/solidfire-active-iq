@@ -71,9 +71,9 @@ The following list describes the details that are available to you:
 |Suppression Types a|Determines which alerts and events are suppressed. The following types are possible:
 
 * *Full*: All alerts for the cluster are suppressed for the duration specified. No support cases or email alerts are generated.
-* *Upgrades*: Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generated support cases and emails.
+* *Upgrades*: Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generate support cases and emails.
 * *Compute*: Alerts that are triggered by VMware on the compute nodes are suppressed.
-* *NodeHardware*: Alerts associated with node maintenance are suppressed. For example, swapping out drives or nodes being taken offline.
+* *NodeHardware*: Alerts associated with node maintenance are suppressed. For example, swapping out drives or taking nodes offline.
 * *Drive*: Alerts associated with drive health are suppressed.
 * *Network*: Alerts associated with network configuration and health are suppressed.
 * *Power*: Power redundancy alerts are suppressed. It does not suppress a _nodeOffline_ alert which would occur in the event of a total power loss.
@@ -126,7 +126,7 @@ Available policy alerts include the following types:
 |Event |Sends a notification when a specific event type occurs.
 |Failed Drive |Sends a notification when a drive failure occurs.
 |Available Drive |Sends a notification when a drive comes online in _Available_ state.
-|Cluster Utilization |Sends a notification when the cluster capacity and performance being utilized is more than the specified percentage.
+|Cluster Utilization |Sends a notification when the cluster capacity and performance being used is more than the specified percentage.
 |Usable Space |Sends a notification when usable cluster space is less than a specified percentage.
 |Provisionable Space |Sends a notification when provisionable cluster space is less than a specified percentage.
 |Collector Not Reporting |Sends a notification when the collector for Active IQ that runs on the management node fails to send data to Active IQ for the duration specified.
@@ -159,7 +159,7 @@ TIP: Alert policy severity levels are color coded and can be filtered easily fro
 
 . Determine the type of suppression for the alert policy when it is active by selecting a type from *Suppressible Types*. You can select more than one type.
 +
-Confirm that the associations makes sense. For example, you have selected *Network Suppression* for a network alert policy.
+Confirm that the associations make sense. For example, you have selected *Network Suppression* for a network alert policy.
 
 . (Optional) Select or remove cluster associations with the policy.
 +
@@ -192,17 +192,17 @@ The following information is available on *Suppressed Clusters* page.
 |Company |Company name assigned to the cluster.
 |Cluster ID |Assigned cluster number when the cluster is created.
 |Cluster Name |Name assigned to the cluster.
-|Start Time |Exact time that the suppression of notifications started.
-|End Time |Exact time that the suppression of notifications is scheduled to end.
+|Start Time |The exact time that the suppression of notifications started.
+|End Time |The exact time that the suppression of notifications is scheduled to end.
 |
 Type
 a|
 Determines which alerts and events are suppressed. The following types are possible:
 
 * *Full*: All alerts for the cluster are suppressed for the duration specified. No support cases or email alerts are generated.
-* *Upgrades*: Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generated support cases and emails.
+* *Upgrades*: Non-critical cluster alerts are suppressed for the duration specified. Critical alerts still generate support cases and emails.
 * *Compute*: Alerts that are triggered by VMware on the compute nodes are suppressed.
-* *NodeHardware*: Alerts associated with node maintenance are suppressed. For example, swapping out drives or nodes being taken offline.
+* *NodeHardware*: Alerts associated with node maintenance are suppressed. For example, swapping out drives or taking nodes offline.
 * *Drive*: Alerts associated with drive health are suppressed.
 * *Network*: Alerts associated with network configuration and health are suppressed.
 * *Power*: Power redundancy alerts are suppressed. It does not suppress a _nodeOffline_ alert which would occur in the event of a total power loss.
@@ -226,14 +226,14 @@ NOTE: A cluster can have multiple suppression types but cannot share a suppressi
 .. Select a common duration or enter a custom end date and time during which notifications should be suppressed.
 . Select *Suppress*.
 +
-NOTE: This action also suppress certain or all notifications to NetApp Support. After cluster suppression is in effect, NetApp Support or any user that is entitled to view the cluster may update the suppression state.
+NOTE: This action also suppresses certain or all notifications to NetApp Support. After cluster suppression is in effect, NetApp Support or any user that is entitled to view the cluster can update the suppression state.
 
 == End cluster suppression from a cluster
 You can end cluster alert suppression on clusters that was applied using the Suppress Clusters feature. This enables clusters to resume their normal state of alert reporting.
 
 .Steps
 
-. From the *Dashboard* overview or *Alerts* > *Cluster Suppression*, you can end suppression for the single or multiple clusters you want to resume normal alert reporting:
+. From the *Dashboard* overview or *Alerts* > *Cluster Suppression*, end suppression for the single or multiple clusters that you want to resume normal alert reporting:
 
 .. For a single cluster, select the Actions menu for the cluster and select *End Suppression*.
 .. For multiple clusters, select the clusters and then select *End Selected Suppressions*.

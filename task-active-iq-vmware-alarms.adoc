@@ -19,11 +19,11 @@ Learn about the VMware alarms data displayed in the UI.
 [cols=2*,options="header",cols="30,70"]
 |===
 |Heading |Description
-|vCenter IP	|IP address of the vCenter Server
+|vCenter IP	|IP address of the vCenter Server.
 |Entity ID |The ID of the object in vSphere where the alarm originated.
 |Status |Severity of the VMware alarm.
 |Alarm Name	|Name of the VMware alarm.
-|Description |Description of the VMware alarm
+|Description |Description of the VMware alarm.
 |Trigger Time |The time the alert was triggered in Active IQ, not on the cluster itself.
 |===
 

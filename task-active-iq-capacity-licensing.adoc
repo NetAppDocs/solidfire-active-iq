@@ -21,7 +21,7 @@ Capacity Licensing is an alternative licensing option available from NetApp. Lea
 |Entitled Capacity |Sum of software capacity licenses purchased.
 |Provisioned Capacity |Amount of allocated provisioned capacity on all capacity licensed nodes in a customer environment.
 |Used Capacity |Current used capacity by all clusters in a cluster pool.
-|CLusters |Number of clusters and their IDs, which comprise a cluster pool for a license.
+|Clusters |Number of clusters and their IDs, which comprise a cluster pool for a license.
 |===
 
 == Find more information
