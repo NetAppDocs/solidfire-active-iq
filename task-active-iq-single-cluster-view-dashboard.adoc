@@ -80,7 +80,7 @@ Expand the information bar by selecting *Show Details* to show these values:
 This shows the health and fullness of the installation's cluster:
 
 * Provisioned: The total capacity of all volumes created on the system.
-* Physical: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all * efficiencies are applied).
+* Physical: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all efficiencies are applied).
 * Block Capacity: The amount of block data capacity currently in use.
 * Metadata Capacity: The amount of metadata capacity currently in use.
 * Efficiencies: The amount of efficiencies the system is seeing due to compression, deduplication, and thin provisioning.
