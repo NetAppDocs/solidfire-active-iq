@@ -1,0 +1,122 @@
+---
+permalink: task-active-iq-virtual-volumes.html
+sidebar: sidebar
+keywords: solidfire, active, iq, virtual, volumes
+summary: 'Learn about the Virtual Volumes page in SolidFire Active IQ.'
+---
+
+= Virtual Volumes
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+From the *VVols page*, available from the side panel for a selected cluster, you can view information about virtual volumes and their associated storage containers, protocol endpoints, bindings, and hosts.
+
+Learn about VVols-related tasks:
+
+* <<Virtual Volumes Details>>
+* <<Storage Containers>>
+* <<Protocol Endpoints>>
+* <<Hosts>>
+* <<Bindings>>
+
+== Virtual Volumes Details
+The *VVols* > *Virtual Volumes* page for a selected cluster provides information about each active virtual volume on the cluster.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading |Description
+|Volume ID |The ID of the underlying volume.
+|Snapshot ID |The ID of the underlying volume snapshot. The value is zero if the virtual volume does not represent a snapshot.
+|Parent Virtual Volume ID	|The virtual volume ID of the parent virtual volume. If the ID is all zeros, the virtual volume is independent with no link to a parent.
+|Virtual Volume ID |The universal unique identifier of the virtual volume.
+|Name	|The name assigned to the virtual volume.
+|Guest OS Type |Operating system associated with the virtual volume.
+|Type	|The virtual volume type: Config, Data, Memory, Swap, or Other.
+|Access	|The read/write permissions assigned to the virtual volume.
+|Size	|The size of the virtual volume in gigabytes (GB) or gibibytes (GiB).
+|Used Capacity a|Current used capacity of the volume:
+
+* Green = up to 80%
+* Yellow = above 80%
+* Red = above 95%
+|Snapshot	|The number of associated snapshots. Select the number to link to the snapshot copy details.
+|Min IOPS	|The minimum IOPS QoS setting of the virtual volume.
+|Max IOPS	|The maximum IOPS QoS setting of the virtual volume.
+|Burst IOPS	|The maximum burst QoS setting of the virtual volume.
+|VMW_VmID	|Information in fields prefaced with "VMW_" are defined by VMware. See VMware documentation for descriptions.
+|Create Time |The time the virtual volume creation task was completed.
+|Actions	|Select the vertical drop-down menu for more details on an individual virtual volume.
+|===
+
+== Storage Containers
+On the *VVols* > *Storage Containers* page for a selected cluster, you can view the following information for all active storage containers on the cluster.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading	|Description
+|Account ID	|The ID of the account associated with the storage container.
+|Name	|The name of the storage container.
+|Status
+a|
+The status of the storage container:
+
+* Active: The storage container is in use.
+* Locked: The storage container is locked.
+|PE Type |Indicates the protocol endpoint type (SCSI is the only available protocol for Element software).
+|Storage Container ID	|The universal unique identifier (UUID) of the virtual volume storage container.
+|Active Virtual Volumes	|The number of active virtual volumes associated with the storage container.
+|===
+
+== Protocol Endpoints
+The *VVols* > *Protocol Endpoints* page of the selected cluster provides protocol endpoint information such as primary provider ID, secondary provider ID, and protocol endpoint ID.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading |Description
+|Primary Provider ID |The ID of the primary protocol endpoint provider.
+|Secondary Provider ID |The ID of the secondary protocol endpoint provider.
+|Protocol Endpoint ID	|The UUID of the protocol endpoint.
+|Protocol Endpoint State
+a|
+The status of the protocol endpoint:
+
+* Active: The protocol endpoint is in use.
+* Start: The protocol endpoint is starting.
+* Failover: The protocol endpoint has failed over.
+* Reserved: The protocol endpoint is reserved.
+|Provider Type
+|The type of the protocol endpoint's provider: Primary or Secondary.
+|SCSI NAA Device ID	|The globally unique SCSI device identifier for the protocol endpoint in NAA IEEE Registered Extended Format.
+|===
+
+== Hosts
+The *VVols* > *Hosts* page for a selected cluster provides information about VMware ESXi hosts that host virtual volumes.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading |Description
+|Host ID |The UUID for the ESXi host that hosts virtual volumes and is known to the cluster.
+|Bindings	|Binding IDs for all virtual volumes bound by the ESXi host.
+|ESX Cluster ID	|The vSphere host cluster ID or vCenter GUID.
+|Initiator IQNs	|Initiator IQNs for the virtual volume host.
+|SolidFire Protocol Endpoint IDs |The protocol endpoints that are currently visible to the ESXi host.
+|===
+
+== Bindings
+The *VVols* > *Bindings* page for a selected cluster provides binding information about each virtual volume.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading |Description
+|Host ID |The UUID for the ESXi host that hosts virtual volumes and is known to the cluster.
+|Protocol Endpoint ID	|The UUID of the protocol endpoint.
+|Protocol Endpoint In Band ID	|The SCSI NAA device ID of the protocol endpoint.
+|Protocol Endpoint Type	|Indicates the protocol endpoint type (SCSI is the only available protocol for Element software).
+|VVol Binding ID |The binding UUID of the virtual volume.
+|VVol ID |The UUID of the virtual volume.
+|VVol Secondary ID |The secondary ID of the virtual volume that is a SCSI second level LUN ID.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
