@@ -1,0 +1,91 @@
+---
+permalink: task-active-iq-single-cluster-view-dashboard.html
+sidebar: sidebar
+keywords: solidfire, active, iq, dashboard, single, cluster
+summary: 'Learn about the Dashboard page for a selected cluster in SolidFire Active IQ.'
+---
+
+=  Single Cluster View Dashboard
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+On the *Dashboard* page for a selected cluster, you can view high-level cluster details, including performance, capacity, and compute utilization.
+
+Select the *Show Details* drop-down menu to view more information about the cluster or select the image:more_details.PNG[More details] icon next to a heading for more granular reporting information. You can also move the mouse pointer over graph lines and reporting data to display additional details.
+
+Available details will vary based on your system:
+
+* <<Storage-only system>>
+* <<NetApp HCI system overview>>
+
+== Storage-only system
+
+For a SolidFire storage-based solution, you can view details and performance information specific to your cluster when you select *Show Details* from the *Dashboard* page.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|Information bar |This top bar provides a quick overview of the current status of the selected cluster. The bar shows the number of nodes, number of volumes, fault details, real-time statistics about efficiency, and status about the block and metadata capacity. Links from this bar open to the corresponding data in the UI.
+|Cluster Details
+a|
+Expand the information bar by selecting *Show Details* to show these values:
+
+* Element Version
+* iSCSI Sessions
+* Fibre Channel Sessions
+* Total Max Configured IOPS
+* Total Max IOPS
+* Node Types
+* Encryption at Rest
+* Vvols
+* Total Min Configured IOPS
+|Performance |This graph shows the IOPS and throughput usage.
+|Capacity
+a|
+This shows the health and fullness of the installation's cluster:
+
+* Provisioned: The total capacity of all volumes created on the system.
+* Physical: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all efficiencies are applied).
+* Block Capacity: The amount of block data capacity currently in use.
+* Metadata Capacity: The amount of metadata capacity currently in use.
+* Efficiencies: The amount of efficiencies the system is seeing due to compression, deduplication, and thin provisioning.
+|===
+
+== NetApp HCI system overview
+For a NetApp HCI-based solution, you can view details and performance information specific to your cluster when you select *Show Details* from the *Dashboard* page.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|Information bar |This top bar provides a quick overview of the current status of the selected cluster. The bar shows the number of compute and storage nodes, compute status, storage status, number of virtual machines, and number of volumes associated with your NetApp HCI system. Links from this bar open to the corresponding data in the UI.
+|Installation Details
+a|
+Expand the information bar by selecting *Show Details* to show these values:
+
+* Element Version
+* Hypervisor
+* Associated vCenter Instance
+* Associated Datacenter
+* Total Max Configured IOPS
+* Total Max IOPS
+* Compute Node Types
+* Storage Node Types
+* Encryption at Rest
+* Vvols
+* iSCSI Sessions
+* Total Min Configured IOPS
+|Compute Utilization |CPU and memory usage are represented in this graph.
+|Storage Capacity a|
+This shows the health and fullness of the installation's cluster:
+
+* Provisioned: The total capacity of all volumes created on the system.
+* Physical: The total amount of physical capacity (total block data capacity) on the system for data to be stored (after all efficiencies are applied).
+* Block Capacity: The amount of block data capacity currently in use.
+* Metadata Capacity: The amount of metadata capacity currently in use.
+* Efficiencies: The amount of efficiencies the system is seeing due to compression, deduplication, and thin provisioning.
+|Storage Performance |IOPS and throughput are represented in this graph.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

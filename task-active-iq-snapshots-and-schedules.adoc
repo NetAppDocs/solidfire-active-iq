@@ -1,0 +1,73 @@
+---
+permalink: task-active-iq-snapshots-and-schedules.html
+sidebar: sidebar
+keywords: solidfire, active, iq, snapshot, details, schedule
+summary: 'Learn about viewing snapshot details and snapshot schedule details in SolidFire Active IQ.'
+---
+
+= Snapshots and Snapshot Schedules
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Learn about viewing information about snapshots and snapshot schedules:
+
+* <<Snapshots>>
+* <<Snapshot Schedules>>
+
+== Snapshots
+From the *Volumes* page that is available from the side panel for a selected cluster, you can view information about volume snapshots.
+
+.Steps
+
+. Select *Volumes* > *Snapshots*.
+. Alternatively, select *Volumes* > *Active Volumes* and in the Actions column, select the image:more_information.PNG[more information] icon for the volume you want and select *View Snapshots*.
+
+. (Optional) You can export the snapshot list as a CSV file by selecting the image:export_button.PNG[export button] icon.
+
+The following list describes the available details:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|ID	|Displays the snapshot ID assigned to the snapshot.
+|Volume ID |ID given when the volume was created.
+|Account ID	|ID of the account assigned to the volume.
+|UUID	|Universally unique identifier.
+|Size	|User-defined size of the snapshot.
+|Volume Size |Size of the volume from which the snapshot was created.
+|Create Time |The time at which the snapshot was created.
+|Retain Until |The day and time the snapshot will be deleted.
+|Group Snapshot ID |The group ID the snapshot belongs to if grouped together with other volume snapshots.
+|Replicated
+a|Displays the status of the snapshot on the remote cluster:
+
+* Present: The snapshot exists on a remote cluster.
+* Not Present: The snapshot does not exist on a remote cluster.
+* Syncing: The target cluster is currently replicating the snapshot.
+* Deleted: The target replicated the snapshot and then deleted it.
+|===
+
+== Snapshot Schedules
+From the *Volumes* > *Snapshot Schedules* page that is available from the side panel for a selected cluster, you can view snapshot schedule details.
+
+You can export the snapshot schedule list as a CSV file by selecting the image:export_button.PNG[Export button] icon.
+
+The following list describes the available details:
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Heading |Description
+|ID	|The schedule ID assigned to the schedule.
+|Name	|User-assigned name of the schedule.
+|Frequency |The frequency at which the schedule is run. The frequency can be set in hours and minutes, weeks, or months.
+|Recurring |Indicates whether or not the schedule is recurring.
+|Volume IDs	|The volume IDs included in the scheduled snapshot.
+|Last Run	|The last time the schedule executed.
+|Last Run Status |The outcome of the last schedule execution.
+Possible values: `Success` or `Error`
+|Manually Paused |Identifies whether or not the schedule has been manually paused.
+|===
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

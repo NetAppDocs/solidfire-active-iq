@@ -1,7 +1,97 @@
 settings:
-  name: "Product Name"
+  name: "SolidFire Active IQ"
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
 sidebar:
+  entries:
+    - title: NetApp SolidFire Active IQ
+      url: /index.html
+      entries:
+        - title: Get started with SolidFire Active IQ
+          entries:
+            - title: Overview
+              url: /task-active-iq-get-started-overview.html
+            - title: Learn about SolidFire Active IQ
+              url: /concept-active-iq-learn-about-active-iq.html
+            - title: Enable SolidFire Active IQ reporting
+              url: /task-active-iq-enable-reporting.html
+            - title: Use the Active IQ UI
+              url: /task-active-iq-use-the-user-interface.html
+        - title: Manage SolidFire Active IQ
+          entries:
+            - title: Overview
+              url: /task-active-iq-manage-overview.html
+            - title: All Clusters View
+              entries:
+                - title: Overview
+                  url: /task-active-iq-all-clusters-view-overview.html
+                - title: All Clusters View Dashboard
+                  url: /task-active-iq-all-clusters-view-dashboard.html
+                - title: Alerts
+                  url: /task-active-iq-alerts.html
+                - title: Capacity Licensing
+                  url: /task-active-iq-capacity-licensing.html
+                - title: Term Capacity
+                  url: /task-active-iq-term-capacity.html
+            - title: Select a Cluster
+              entries:
+                - title: Overview
+                  url: /task-active-iq-select-cluster-overview.html
+                - title: Single Cluster view Dashboard
+                  url: /task-active-iq-single-cluster-view-dashboard.html
+                - title: Reporting
+                  url: /task-active-iq-reporting-options.html
+            - title: Nodes
+              entries:
+                - title: Overview
+                  url: /task-active-iq-nodes-overview.html
+                - title: Active Nodes
+                  url: /task-active-iq-active-nodes.html
+                - title: Node Throttling
+                  url: /task-active-iq-node-throttling.html
+            - title: Drives
+              url: /task_active_iq_drives.html
+            - title: Volumes
+              entries:
+                - title: Overview
+                  url: /task_active_iq_volumes_overview.html
+                - title: Active Volumes
+                  url: /task-active-iq-active-volumes.html
+                - title: Snapshots and Snapshot Schedules
+                  url: /task-active-iq-snapshots-and-schedules.html
+            - title: Replication
+              url: /task_active_iq_replication.html
+            - title: Virtual Volumes
+              url: /task-active-iq-virtual-volumes.html
+            - title: QoS Recommendations
+              url: /task-active-iq-qos-recommendations.html
+            - title: Virtual Machines
+              url: /task-active-iq-virtual-machines.html
+            - title: VMware Alarms
+              url: /task-active-iq-vmware-alarms.html
+        - title: Troubleshoot and support
+          url: /task-active-iq-troubleshoot-support.html
+homepage:
+  tiles:
+    - title: Use the SolidFire Active IQ tool
+      links:
+        - title: Get started
+          url: /task-active-iq-get-started-overview.html
+        - title: Manage SolidFire Active IQ
+          url: /task-active-iq-manage-overview.html
+    - title: Product documentation
+      links:
+        - title: SolidFire and Element Software
+          url: https://docs.netapp.com/us-en/element-software/index.html
+        - title: NetApp HCI
+          url: https://docs.netapp.com/us-en/hci/index.html
+        - title: NetApp Product Documentation
+          url: https://www.netapp.com/support-and-training/documentation
+    - title: Troubleshoot
+      links:
+        - title: Troubleshoot
+          url: /task-active-iq-troubleshoot-support.html
+        - title: Contact technical support
+          url: https://mysupport.netapp.com/site/global/dashboard

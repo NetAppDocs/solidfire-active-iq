@@ -1,0 +1,137 @@
+---
+permalink: task-active-iq-use-the-user-interface.html
+sidebar: sidebar
+keywords: solidfire, active, iq, enable, reporting
+summary: 'Learn about the UI features and functionality in SolidFire Active IQ.'
+---
+
+= Use the Active IQ UI
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Learn about the UI features and functionality in link:https://activeiq.solidfire.com/[SolidFire Active IQ (login required)^]:
+
+* <<Use filters>>
+* <<Sort lists>>
+* <<View graphs and select date ranges>>
+* <<Export list views and report data>>
+* <<Select a cluster>>
+* <<Icon reference>>
+* <<Provide feedback>>
+
+== Use filters
+
+You can sort and filter list information on pages in Active IQ. When viewing lists (such as nodes, drives, volumes, and so on), you can use the filter functionality to focus the information and make it more easily fit on the screen.
+
+.Steps
+
+. When viewing list information, select *Filter*.
+. Choose a column name to filter by from the drop-down menu.
+. Select a constraint for the column.
+. Enter text to filter by.
+. Select *Add Filter*.
++
+The system runs the new filter on the information in the list and temporarily stores the new filter. The selected filter is shown at the bottom of the filter dialog box.
+
+. (Optional) You can add another filter by performing the following steps:
+.. Select another column heading and constraint.
+.. Select *Add Filter*.
+. (Optional) Select (*x*) to remove the filters and display the unfiltered list information.
+
+NOTE: Some tables include the option to exclude columns from view. For best results, select *Columns* to confirm all required columns are showing when setting filters.
+
+== Sort lists
+
+You can sort list information by one or more columns on certain pages within the Active IQ UI. This helps you arrange the information you need on the screen.
+
+.Steps
+
+. To sort on a single column, select the column heading until the information is sorted in the desired order.
+. To sort on multiple columns, perform the following steps:
+.. Select the column heading of the first column you want to sort until the information is sorted in the desired order.
+.. To add a column, hold the command key and select the column heading until the information is sorted in the desired order. You can add more than one column.
+
++
+This functionality is not available on all pages.
+
+== View graphs and select date ranges
+
+The graphs and date ranges in Active IQ are seamlessly integrated with each other. When selecting a date range, all graphs on that page adjust to the range selected. The default date range displayed for each graph is seven days.
+
+You can select a date range from the calendar drop-down box or from a set of pre-defined ranges. Date ranges are calculated using the current browser time (at the time of selection) and the configured amount of time. Additionally, you can select a desired interval by brushing directly over the bar graph at the bottom. If available, switch between graphs by selecting the thumbnail layouts on the left. These layouts can also be hidden.
+
+Position the mouse pointer over a graph line to see point-in-time details.
+
+.Expand the graph example
+[%collapsible]
+====
+image:graphs_and_date_ranges.PNG[Graphs and date ranges]
+====
+
+== Export list views and report data
+You can export an entire list view or graph data to a comma-separated values (CSV) format. For some lists, for example, cluster or nodes, you can select which columns are exported; by default, the displayed columns are selected. If there is a certain sort order or if a filter is used to limit the displayed entries, that sort order and filter are preserved in the exported file.
+
+.Steps
+. In a list view or graph, select the image:export_button.PNG[Export button] icon.
+
+== Select a cluster
+
+In Active IQ, you can view information about an individual cluster in your environment.
+
+.Steps
+. From the Active IQ dashboard, select *Select a Cluster*.
+. The drop-down menu lists any clusters available to you.
+. Use the search field to locate the desired cluster or recently viewed clusters.
+. Select the name to select the cluster.
+
+== Icon reference
+
+You might see the following icons when viewing the UI for Active IQ.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+|Icon	|Description
+
+a|
+image:refresh.PNG[Refresh icon]
+|Refresh
+a|
+image:filter.PNG[Filter icon]
+|Filter
+a|
+image:export_button.PNG[Export button]
+|Export
+a|
+image:menu.PNG[Menu icon]
+|Menu for account settings, documentation, feedback, support, and logout.
+
+a|
+image:copy.PNG[Copy to clipboard icon]
+|Select one time to copy to clipboard.
+a|
+image:wrap_toggle.PNG[Wrap text toggle]
+image:unwrap_toggle.PNG[Wrap text toggle]
+
+|Toggle the button to wrap and unwrap text.
+a|
+image:more_information.PNG[More information icon]
+|More information. Select for other options.
+a|
+image:more_details.PNG[More details icon]
+|Select for more details.
+|===
+
+[[provide-feedback]]
+== Provide feedback
+
+You can help improve the Active IQ UI and address any UI issues by using the email feedback option that is accessible throughout the UI.
+
+.Steps
+. From any page in the UI, select the image:menu.PNG[Menu icon] icon, and select *Feedback*.
+. Enter the relevant information in the message body of the email.
+. Attach any helpful screenshots.
+. Select *Send*.
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
