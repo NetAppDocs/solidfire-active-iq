@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, virtual, machines, vm
 summary: 'Learn about the Virtual Machines page in SolidFire Active IQ.'
 ---
 
-= Virtual Machines
+= Virtual machines
 :icons: font
 :imagesdir: ./media/
 

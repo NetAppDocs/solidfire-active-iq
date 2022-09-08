@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, dashboard, all, clusters, view
 summary: 'Learn about the All Clusters View dashboard in SolidFire Active IQ.'
 ---
 
-= All Clusters View dashboard
+= All clusters view dashboard
 :icons: font
 :imagesdir: ./media/
 

@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, snapshot, details, schedule
 summary: 'Learn about viewing snapshot details and snapshot schedule details in SolidFire Active IQ.'
 ---
 
-= Snapshots and Snapshot Schedules
+= Snapshots and snapshot schedules
 :icons: font
 :imagesdir: ./media/
 
@@ -13,7 +13,7 @@ summary: 'Learn about viewing snapshot details and snapshot schedule details in 
 Learn about viewing information about snapshots and snapshot schedules:
 
 * <<Snapshots>>
-* <<Snapshot Schedules>>
+* <<Snapshot schedules>>
 
 == Snapshots
 From the *Volumes* page that is available from the side panel for a selected cluster, you can view information about volume snapshots.
@@ -48,7 +48,7 @@ a|Displays the status of the snapshot on the remote cluster:
 * Deleted: The target replicated the snapshot and then deleted it.
 |===
 
-== Snapshot Schedules
+== Snapshot schedules
 From the *Volumes* > *Snapshot Schedules* page that is available from the side panel for a selected cluster, you can view snapshot schedule details.
 
 You can export the snapshot schedule list as a CSV file by selecting the image:export_button.PNG[Export button] icon.

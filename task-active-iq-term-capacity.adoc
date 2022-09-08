@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, capacity, licensing
 summary: 'Learn about the Capacity Licensing page in SolidFire Active IQ.'
 ---
 
-= Term Capacity
+= Term capacity
 :icons: font
 :imagesdir: ./media/
 

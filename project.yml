@@ -35,7 +35,7 @@ sidebar:
                   url: /task-active-iq-capacity-licensing.html
                 - title: Term capacity
                   url: /task-active-iq-term-capacity.html
-            - title: Select a Cluster
+            - title: Select a cluster
               entries:
                 - title: Overview
                   url: /task-active-iq-select-cluster-overview.html
@@ -67,9 +67,9 @@ sidebar:
                   url: /task-active-iq-recommendations.html
                 - title: Node throttling
                   url: /task-active-iq-throttling.html
-            - title: Virtual Machines
+            - title: Virtual machines
               url: /task-active-iq-virtual-machines.html
-            - title: VMware Alarms
+            - title: VMware alarms
               url: /task-active-iq-vmware-alarms.html
         - title: Troubleshoot and support
           url: /task-active-iq-troubleshoot-support.html
