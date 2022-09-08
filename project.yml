@@ -27,46 +27,46 @@ sidebar:
               entries:
                 - title: Overview
                   url: /task-active-iq-all-clusters-view-overview.html
-                - title: All Clusters View Dashboard
+                - title: All clusters view dashboard
                   url: /task-active-iq-all-clusters-view-dashboard.html
                 - title: Alerts
                   url: /task-active-iq-alerts.html
-                - title: Capacity Licensing
+                - title: Capacity licensing
                   url: /task-active-iq-capacity-licensing.html
-                - title: Term Capacity
+                - title: Term capacity
                   url: /task-active-iq-term-capacity.html
             - title: Select a Cluster
               entries:
                 - title: Overview
                   url: /task-active-iq-select-cluster-overview.html
-                - title: Single Cluster view Dashboard
+                - title: Single cluster view dashboard
                   url: /task-active-iq-single-cluster-view-dashboard.html
                 - title: Reporting
                   url: /task-active-iq-reporting-options.html
             - title: Nodes
-              entries:
-                - title: Overview
-                  url: /task-active-iq-nodes-overview.html
-                - title: Active Nodes
-                  url: /task-active-iq-active-nodes.html
-                - title: Node Throttling
-                  url: /task-active-iq-node-throttling.html
+              url: /task-active-iq-nodes.html
             - title: Drives
               url: /task_active_iq_drives.html
             - title: Volumes
               entries:
                 - title: Overview
                   url: /task_active_iq_volumes_overview.html
-                - title: Active Volumes
+                - title: Active volumes
                   url: /task-active-iq-active-volumes.html
-                - title: Snapshots and Snapshot Schedules
+                - title: Snapshots and snapshot schedules
                   url: /task-active-iq-snapshots-and-schedules.html
             - title: Replication
               url: /task_active_iq_replication.html
-            - title: Virtual Volumes
+            - title: Virtual volumes
               url: /task-active-iq-virtual-volumes.html
-            - title: QoS Recommendations
-              url: /task-active-iq-qos-recommendations.html
+            - title: Qos management
+              entries:
+                - title: Overview
+                  url: /task-active-iq-qos-management-overview.html
+                - title: Rrecommendations
+                  url: /task-active-iq-recommendations.html
+                - title: Throttling
+                  url: /task-active-iq-throttling.html
             - title: Virtual Machines
               url: /task-active-iq-virtual-machines.html
             - title: VMware Alarms

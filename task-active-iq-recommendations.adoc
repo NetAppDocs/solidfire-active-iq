@@ -1,16 +1,16 @@
 ---
-permalink: task-active-iq-qos-recommendations.html
+permalink: task-active-iq-recommendations.html
 sidebar: sidebar
 keywords: solidfire, active, iq, qos, recommendations, quality, of, service
 summary: 'Learn about the QoS Recommendations page in SolidFire Active IQ.'
 ---
 
-= QoS Recommendations
+= Recommendations
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-The *QoS Recommendations* page, available from the side panel for a selected cluster, provides daily quality of service (QoS) recommendations for a cluster based on recent performance data. QoS recommendations are only supported for clusters on Element software 11.x or later.
+The *Recommendations* page, available from the side panel for a selected cluster, provides daily quality of service (QoS) recommendations for a cluster based on recent performance data. QoS recommendations are only supported for clusters on Element software 11.x or later.
 
 Active IQ makes performance recommendations based on volume statistics data for recent activity. Recommendations focus on QoS maximum and minimum guaranteed IOPS for a volume and are only visible in the UI when cluster improvements might be needed.
 
