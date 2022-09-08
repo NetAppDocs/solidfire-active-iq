@@ -10,12 +10,12 @@ summary: 'Learn about the QoS management page in SolidFire Active IQ.'
 :imagesdir: ./media/
 
 [.lead]
-On the *QoS Management* page, available from the side panel for a selected cluster, you can view information on QoS recommendations and throttling for the nodes in a cluster.
+From the *QoS Management* page, available from the side panel for a selected cluster, you can view information on QoS recommendations and throttling for the nodes in a cluster.
 
 Learn about viewing information on QoS recommendations and throttling for a selected node:
 
 * link:task-active-iq-recommendations.html[Recommendations]
-* link:task-active-iq-throttling.html[Throttling]
+* link:task-active-iq-throttling.html[Node throttling]
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
