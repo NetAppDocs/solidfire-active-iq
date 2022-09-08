@@ -1,5 +1,5 @@
 ---
-permalink: task-active-iq-node-throttling.html
+permalink: task-active-iq-throttling.html
 sidebar: sidebar
 keywords: solidfire, active, iq, nodes, throttling
 summary: 'Learn about the Node Throttling page in SolidFire Active IQ.'
