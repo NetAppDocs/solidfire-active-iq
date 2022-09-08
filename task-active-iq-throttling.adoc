@@ -5,12 +5,12 @@ keywords: solidfire, active, iq, nodes, throttling
 summary: 'Learn about the Node Throttling page in SolidFire Active IQ.'
 ---
 
-= Throttling
+= Node throttling
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-On the *QoS Management* > *Throttling* page, available from the side panel for a selected cluster, you can view the percent throttling for the nodes in the cluster. The nodes are listed as thumbnail layouts on the left side of the display and are ordered depending on the degree of throttling for a selected time range.
+From the *QoS Management* > *Node throttling* page, available from the side panel for a selected cluster, you can view the percent throttling for the nodes in the cluster. The nodes are listed as thumbnail layouts on the left side of the display and are ordered depending on the degree of throttling for a selected time range.
 
 Learn about viewing node throttling information:
 

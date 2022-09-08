@@ -59,13 +59,13 @@ sidebar:
               url: /task_active_iq_replication.html
             - title: Virtual volumes
               url: /task-active-iq-virtual-volumes.html
-            - title: Qos management
+            - title: QoS management
               entries:
                 - title: Overview
                   url: /task-active-iq-qos-management-overview.html
-                - title: Rrecommendations
+                - title: Recommendations
                   url: /task-active-iq-recommendations.html
-                - title: Throttling
+                - title: Node throttling
                   url: /task-active-iq-throttling.html
             - title: Virtual Machines
               url: /task-active-iq-virtual-machines.html

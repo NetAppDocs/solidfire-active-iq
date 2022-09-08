@@ -10,7 +10,7 @@ summary: 'Learn about the Active Nodes page in SolidFire Active IQ.'
 :imagesdir: ./media/
 
 [.lead]
-On the *Nodes* page, available from the side panel for a selected cluster, you can view information for the nodes in your cluster.
+From the *Nodes* page, available from the side panel for a selected cluster, you can view information for the nodes in your cluster.
 
 The available details vary based on your system:
 
