@@ -14,12 +14,12 @@ Learn about using link:https://activeiq.solidfire.com/[SolidFire Active IQ (logi
 
 * link:task-active-iq-all-clusters-view-overview.html[All Clusters View]
 * link:task-active-iq-select-cluster-overview.html[Select a Cluster]
-* link:task-active-iq-nodes-overview.html[Nodes]
+* link:task-active-iq-nodes.html[Nodes]
 * link:task_active_iq_drives.html[Drives]
 * link:task_active_iq_volumes_overview.html[Volumes]
 * link:task_active_iq_replication.html[Replication]
 * link:task-active-iq-virtual-volumes.html[Virtual Volumes]
-* link:task-active-iq-qos-recommendations.html[QoS Recommendations]
+* link:task-active-iq-qos-management-overview.html[QoS Management]
 * link:task-active-iq-virtual-machines.html[Virtual Machines (NetApp HCI clusters only)]
 * link:task-active-iq-vmware-alarms.html[VMware alarms (NetApp HCI clusters only)]
 
