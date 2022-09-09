@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, nodes
 summary: 'Learn about the QoS management page in SolidFire Active IQ.'
 ---
 
-= QoS management
+= QoS Management
 :icons: font
 :imagesdir: ./media/
 
@@ -15,7 +15,7 @@ From the *QoS Management* page, available from the side panel for a selected clu
 Learn about viewing information on QoS recommendations and throttling for a selected node:
 
 * link:task-active-iq-recommendations.html[Recommendations]
-* link:task-active-iq-throttling.html[Node throttling]
+* link:task-active-iq-throttling.html[Node Throttling]
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]

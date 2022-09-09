@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, nodes, throttling
 summary: 'Learn about the Node Throttling page in SolidFire Active IQ.'
 ---
 
-= Node throttling
+= Node Throttling
 :icons: font
 :imagesdir: ./media/
 

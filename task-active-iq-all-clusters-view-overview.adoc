@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, all, clusters, view
 summary: 'Learn about the All Clusters View page in SolidFire Active IQ.'
 ---
 
-= All clusters view
+= All Clusters View
 :icons: font
 :imagesdir: ./media/
 

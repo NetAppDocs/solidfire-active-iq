@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, active, volumes
 summary: 'Learn about viewing volume details in SolidFire Active IQ.'
 ---
 
-= Active volumes
+= Active Volumes
 :icons: font
 :imagesdir: ./media/
 

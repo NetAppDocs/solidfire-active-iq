@@ -14,7 +14,7 @@ You can view cluster information for a specific cluster when you select a cluste
 
 Learn about the various lists and filters available from the *Dashboard* cluster overview or the *Reporting* drop-down menu in the side panel:
 
-* link:task-active-iq-single-cluster-view-dashboard.html[Single Cluster view Dashboard]
+* link:task-active-iq-single-cluster-view-dashboard.html[Single cluster view dashboard]
 * link:task-active-iq-reporting-options.html[Reporting options for a cluster]
 
 == Find more information
