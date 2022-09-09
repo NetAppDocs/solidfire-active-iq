@@ -27,13 +27,13 @@ sidebar:
               entries:
                 - title: Overview
                   url: /task-active-iq-all-clusters-view-overview.html
-                - title: All clusters view dashboard
+                - title: All Clusters View dashboard
                   url: /task-active-iq-all-clusters-view-dashboard.html
                 - title: Alerts
                   url: /task-active-iq-alerts.html
-                - title: Capacity licensing
+                - title: Capacity Licensing
                   url: /task-active-iq-capacity-licensing.html
-                - title: Term capacity
+                - title: Term Capacity
                   url: /task-active-iq-term-capacity.html
             - title: Select a cluster
               entries:
