@@ -14,13 +14,13 @@ From the *VVols page*, available from the side panel for a selected cluster, you
 
 Learn about VVols-related tasks:
 
-* <<Virtual Volumes Details>>
+* <<Virtual Volumes>>
 * <<Storage Containers>>
 * <<Protocol Endpoints>>
 * <<Hosts>>
 * <<Bindings>>
 
-== Virtual Volumes Details
+== Virtual Volumes
 The *VVols* > *Virtual Volumes* page for a selected cluster provides information about each active virtual volume on the cluster.
 
 [cols=2*,options="header",cols="30,70"]
