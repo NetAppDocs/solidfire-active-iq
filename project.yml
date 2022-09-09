@@ -59,7 +59,7 @@ sidebar:
               url: /task_active_iq_replication.html
             - title: Virtual Volumes
               url: /task-active-iq-virtual-volumes.html
-            - title: QoS management
+            - title: QoS Management
               entries:
                 - title: Overview
                   url: /task-active-iq-qos-management-overview.html
