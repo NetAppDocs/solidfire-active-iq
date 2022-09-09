@@ -1,0 +1,6 @@
+---
+permalink: volumes/task-active-iq-nodes-overview.html
+redirect: solidfire-active-iq/task-active-iq-nodes.html
+---
+
+// 2022-9-8, move contents to above redirect

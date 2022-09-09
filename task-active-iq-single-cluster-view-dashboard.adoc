@@ -5,7 +5,7 @@ keywords: solidfire, active, iq, dashboard, single, cluster
 summary: 'Learn about the Dashboard page for a selected cluster in SolidFire Active IQ.'
 ---
 
-=  Single Cluster View Dashboard
+=  Single cluster view dashboard
 :icons: font
 :imagesdir: ./media/
 

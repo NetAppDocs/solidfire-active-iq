@@ -16,7 +16,7 @@ Learn about what you can access from the *All Clusters View*:
 
 * link:task-active-iq-all-clusters-view-dashboard.html[All Clusters View dashboard]
 * link:task-active-iq-alerts.html[Alerts]
-* link:task-active-iq-capacity-licensing.html[Capacity licensing]
+* link:task-active-iq-capacity-licensing.html[Capacity Licensing]
 * link:task-active-iq-term-capacity.html[Term Capacity]
 
 == Find more information
