@@ -41,9 +41,15 @@ On the *Volumes* > *Active Volumes* page for a selected cluster, you can view th
 |Min IOPS	|The minimum number of IOPS guaranteed for the volume.
 |Max IOPS	|The maximum number of IOPS allowed for the volume.
 |Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
-|Average IOPS Last 30 mins |Sum of the average number of IOPS executed in the last 30 minutes against all volumes that have this node as their primary.
-|Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
-|Average Latency (µs) Last 30 min |The average time in microseconds, as measured over the last 30 minutes, to complete read and write operations to all volumes that have this node as their primary.
+|Average IOPS Last 30 mins |The average number of IOPS executed for all volumes that have this node as their primary.
+
+IOPS are collected at 500 millisecond intervals on the cluster side. Active IQ collects these values at 60 second intervals. For each volume, the average IOPS is calculated from the Active IQ values collected in the last 30 minutes.
+|Average Throughput Last 30 mins |The average throughput executed for all volumes that have this node as their primary.
+
+Throughput is collected at 500 millisecond intervals on the cluster side. Active IQ collects these values at 60 second intervals. For each volume, the average is calculated from the Active IQ values collected in the last 30 minutes.
+|Average Latency (µs) Last 30 min |The average time in microseconds to complete read and write operations to all volumes that have this node as their primary.
+
+Latency is measured over 500 millisecond intervals on the cluster side. Active IQ collects these values at 60 intervals. For each volume, the average is calculated from the Active IQ values collected in the last 30 minutes. For more information, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F[KB article^].
 |Snapshots |The number of snapshots created for the volume.
 |Actions |Select the vertical drop-down menu for more details on an individual volume.
 |===
@@ -69,7 +75,7 @@ h|Heading	h|Description
 * Red = above 95%.
 |Average IOPS	|Average number of IOPS executed against the volume in the last 30 minutes.
 |Average Throughput |Average throughput executed against the volume in the last 30 minutes.
-|Average Latency |The average time, in microseconds, to complete read and write operations to the volume in the last 30 minutes.
+|Average Latency |The average time, in microseconds, to complete read and write operations to the volume in the last 30 minutes. For more information, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F[KB article^].
 2+h|You can view additional details from the *Show Volume Details* drop-down menu.
 |Access	|The read/write permissions assigned to the volume.
 |Access Groups	|Associated volume access groups.
