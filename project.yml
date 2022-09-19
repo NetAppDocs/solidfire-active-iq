@@ -17,7 +17,7 @@ sidebar:
               url: /concept-active-iq-learn-about-active-iq.html
             - title: Enable SolidFire Active IQ reporting
               url: /task-active-iq-enable-reporting.html
-            - title: Use the Active IQ UI
+            - title: Use the SolidFire Active IQ UI
               url: /task-active-iq-use-the-user-interface.html
         - title: Manage SolidFire Active IQ
           entries:

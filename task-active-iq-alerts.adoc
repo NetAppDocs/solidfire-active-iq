@@ -43,7 +43,7 @@ The following list describes the details that are available to you:
 |===
 |Heading |Description
 |Alert ID |Unique ID for each alert.
-|Triggered |The time the alert was triggered in Active IQ, not on the cluster itself.
+|Triggered |The time the alert was triggered in SolidFire Active IQ, not on the cluster itself.
 |Last Notified |The time the most recent alert email was sent.
 |Resolved	|Shows if the cause of the alert has been resolved.
 |Resolution Time |The time an issue was resolved.
@@ -84,7 +84,7 @@ The following list describes the details that are available to you:
 [[create_alert_policy]]
 == Create an alert policy
 
-You can create an alert policy to monitor information from the *All Clusters View* in Active IQ. Alert policies allow you to be notified of a status or performance event with one or more clusters across an installation so that action can be taken in advance of, or in response to, a more serious event.
+You can create an alert policy to monitor information from the *All Clusters View* in SolidFire Active IQ. Alert policies allow you to be notified of a status or performance event with one or more clusters across an installation so that action can be taken in advance of, or in response to, a more serious event.
 
 .Steps
 
@@ -129,11 +129,11 @@ Available policy alerts include the following types:
 |Cluster Utilization |Sends a notification when the cluster capacity and performance being used is more than the specified percentage.
 |Usable Space |Sends a notification when usable cluster space is less than a specified percentage.
 |Provisionable Space |Sends a notification when provisionable cluster space is less than a specified percentage.
-|Collector Not Reporting |Sends a notification when the collector for Active IQ that runs on the management node fails to send data to Active IQ for the duration specified.
+|Collector Not Reporting |Sends a notification when the collector for SolidFire Active IQ that runs on the management node fails to send data to SolidFire Active IQ for the duration specified.
 |Drive Wear |Sends a notification when a drive in a cluster has less than a specified percentage of wear or reserve space remaining.
 |iSCSI Sessions |Sends a notification when the number of active iSCSI sessions is greater than the value specified.
 |Chassis Resiliency |Sends a notification when the used space of a cluster is greater than a user-specified percentage. You should select a percentage that is sufficient to give early notice before reaching the cluster resiliency threshold. After reaching this threshold, a cluster can no longer automatically heal from a chassis-level failure.
-|VMware Alarm |Sends a notification when a VMware alarm is triggered and reported to Active IQ.
+|VMware Alarm |Sends a notification when a VMware alarm is triggered and reported to SolidFire Active IQ.
 |Custom Protection Domain Resiliency |When used space increases beyond the specified percentage of custom protection domain resiliency threshold, the system sends a notification. If this percentage reaches 100, the storage cluster does not have enough free capacity to self-heal after a custom protection domain failure occurs.
 |Node Core/Crash Dump Files |When a service becomes unresponsive and must be restarted, the system creates a core file or crash dump file and sends a notification. This is not the expected behavior during regular operations.
 |===
@@ -240,7 +240,7 @@ You can end cluster alert suppression on clusters that was applied using the Sup
 
 
 == Alert notification email
-Subscribers to Active IQ alerts receive different status emails for each alert that triggers on the system. There are three types of status emails associated with alerts:
+Subscribers to SolidFire Active IQ alerts receive different status emails for each alert that triggers on the system. There are three types of status emails associated with alerts:
 [cols=2*,cols="35,65"]
 |===
 |New Alert Email |This type of email is sent when an alert is triggered.

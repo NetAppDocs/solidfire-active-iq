@@ -19,7 +19,7 @@ Learn about filtering and understanding VM data displayed in the UI.
 == View Virtual Machine details
 The *Virtual Machines* page, available from the side panel for a selected cluster, provides information about each active VM associated with the cluster.
 
-In addition to conventional filtering options that are available on all Active IQ pages, the *Virtual Machines* page has quick filter buttons that you can select to determine common VM states of availability.
+In addition to conventional filtering options that are available on all SolidFire Active IQ pages, the *Virtual Machines* page has quick filter buttons that you can select to determine common VM states of availability.
 
 The information bar provides a quick overview of the following data:
 

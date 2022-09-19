@@ -43,13 +43,13 @@ On the *Volumes* > *Active Volumes* page for a selected cluster, you can view th
 |Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
 |Average IOPS Last 30 mins |The average number of IOPS executed for all volumes that have this node as their primary.
 
-IOPS are collected over 500 millisecond intervals on the cluster side. Active IQ collects these values at 60 second intervals. For each volume, the average IOPS is calculated from the Active IQ values collected in the last 30 minutes.
+IOPS are collected over 500 millisecond intervals on the cluster side. SolidFire Active IQ collects these values at 60 second intervals. For each volume, the average IOPS is calculated from the SolidFire Active IQ values collected in the last 30 minutes.
 |Average Throughput Last 30 mins |The average throughput executed for all volumes that have this node as their primary.
 
-Throughput is collected over 500 millisecond intervals on the cluster side. Active IQ collects these values at 60 second intervals. For each volume, the average throughput is calculated from the Active IQ values collected in the last 30 minutes.
+Throughput is collected over 500 millisecond intervals on the cluster side. SolidFire Active IQ collects these values at 60 second intervals. For each volume, the average throughput is calculated from the SolidFire Active IQ values collected in the last 30 minutes.
 |Average Latency (µs) Last 30 min |The average time in microseconds to complete read and write operations to all volumes that have this node as their primary.
 
-Latency is measured over 500 millisecond intervals on the cluster side. Active IQ collects these values at 60 second intervals. For each volume, the average latency is calculated from the Active IQ values collected in the last 30 minutes. For more information, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F[KB article^].
+Latency is measured over 500 millisecond intervals on the cluster side. SolidFire Active IQ collects these values at 60 second intervals. For each volume, the average latency is calculated from the SolidFire Active IQ values collected in the last 30 minutes. For more information, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F[KB article^].
 |Snapshots |The number of snapshots created for the volume.
 |Actions |Select the vertical drop-down menu for more details on an individual volume.
 |===
