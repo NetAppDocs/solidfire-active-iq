@@ -24,7 +24,7 @@ Learn about the VMware alarms data displayed in the UI.
 |Status |Severity of the VMware alarm.
 |Alarm Name	|Name of the VMware alarm.
 |Description |Description of the VMware alarm.
-|Trigger Time |The time the alert was triggered in Active IQ, not on the cluster itself.
+|Trigger Time |The time the alert was triggered in SolidFire Active IQ, not on the cluster itself.
 |===
 
 == Find more information

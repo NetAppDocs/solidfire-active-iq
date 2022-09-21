@@ -10,9 +10,9 @@ summary: 'Learn about enabling SolidFire Active IQ reporting capability on the m
 :imagesdir: ./media/
 
 [.lead]
-You must enable SolidFire Active IQ reporting capability on the management node, if you did not already do so during installation or upgrade, before the Active IQ server can receive data payloads for a cluster from the management node. When the connection has been successfully set up, the cluster sends information to the Active IQ server. You can then view the cluster in the Active IQ UI, which displays cluster information.
+You must enable SolidFire Active IQ reporting capability on the management node, if you did not already do so during installation or upgrade, before the SolidFire Active IQ server can receive data payloads for a cluster from the management node. When the connection has been successfully set up, the cluster sends information to the SolidFire Active IQ server. You can then view the cluster in the SolidFire Active IQ UI, which displays cluster information.
 
-NOTE: Google Chrome and Firefox browsers are supported to run with Active IQ.
+NOTE: Google Chrome and Firefox browsers are supported to run with SolidFire Active IQ.
 
 include::https://raw.githubusercontent.com/NetAppDocs/element-software/main/_include/enable_active_iq.adoc[]
 

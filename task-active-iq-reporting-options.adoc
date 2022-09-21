@@ -117,7 +117,7 @@ The following information is reported for the selected cluster.
 [cols=2*,options="header",cols="30,70"]
 |===
 |Heading |Description
-|Triggered |The time the alert was triggered in Active IQ, not on the cluster itself.
+|Triggered |The time the alert was triggered in SolidFire Active IQ, not on the cluster itself.
 |Last Notified |The time the most recent alert email was sent.
 |Resolved |Shows if the cause of the alert has been resolved.
 |Policy |This is the user-defined alert policy name.
@@ -161,7 +161,7 @@ On the *Virtual Networks* page of the *Reporting* drop-down menu for a selected 
 == API Collection
 On the *API Collection* page of the *Reporting* drop-down menu for a selected cluster, you can view the API methods used by the NetApp SolidFire Active IQ. For detailed descriptions of these methods, see the link:https://docs.netapp.com/us-en/element-software/api/index.html[Element Software API documentation^].
 
-NOTE: In addition to these methods, Active IQ makes some internal API calls used by NetApp Support and engineering to monitor cluster health. These calls are not documented as they can be disruptive to cluster functionality if used incorrectly. If you require a complete list of Active IQ API collections, you must contact NetApp Support.
+NOTE: In addition to these methods, SolidFire Active IQ makes some internal API calls used by NetApp Support and engineering to monitor cluster health. These calls are not documented as they can be disruptive to cluster functionality if used incorrectly. If you require a complete list of SolidFire Active IQ API collections, you must contact NetApp Support.
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
