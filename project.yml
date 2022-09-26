@@ -8,71 +8,70 @@ sidebar:
   entries:
     - title: NetApp SolidFire Active IQ
       url: /index.html
+    - title: Get started with SolidFire Active IQ
       entries:
-        - title: Get started with SolidFire Active IQ
+        - title: Overview
+          url: /task-active-iq-get-started-overview.html
+        - title: Learn about SolidFire Active IQ
+          url: /concept-active-iq-learn-about-active-iq.html
+        - title: Enable SolidFire Active IQ reporting
+          url: /task-active-iq-enable-reporting.html
+        - title: Use the SolidFire Active IQ UI
+          url: /task-active-iq-use-the-user-interface.html
+    - title: Manage SolidFire Active IQ
+      entries:
+        - title: Overview
+          url: /task-active-iq-manage-overview.html
+        - title: All Clusters View
           entries:
             - title: Overview
-              url: /task-active-iq-get-started-overview.html
-            - title: Learn about SolidFire Active IQ
-              url: /concept-active-iq-learn-about-active-iq.html
-            - title: Enable SolidFire Active IQ reporting
-              url: /task-active-iq-enable-reporting.html
-            - title: Use the SolidFire Active IQ UI
-              url: /task-active-iq-use-the-user-interface.html
-        - title: Manage SolidFire Active IQ
+              url: /task-active-iq-all-clusters-view-overview.html
+            - title: All Clusters View dashboard
+              url: /task-active-iq-all-clusters-view-dashboard.html
+            - title: Alerts
+              url: /task-active-iq-alerts.html
+            - title: Capacity Licensing
+              url: /task-active-iq-capacity-licensing.html
+            - title: Term Capacity
+              url: /task-active-iq-term-capacity.html
+        - title: Select a cluster
           entries:
             - title: Overview
-              url: /task-active-iq-manage-overview.html
-            - title: All Clusters View
-              entries:
-                - title: Overview
-                  url: /task-active-iq-all-clusters-view-overview.html
-                - title: All Clusters View dashboard
-                  url: /task-active-iq-all-clusters-view-dashboard.html
-                - title: Alerts
-                  url: /task-active-iq-alerts.html
-                - title: Capacity Licensing
-                  url: /task-active-iq-capacity-licensing.html
-                - title: Term Capacity
-                  url: /task-active-iq-term-capacity.html
-            - title: Select a cluster
-              entries:
-                - title: Overview
-                  url: /task-active-iq-select-cluster-overview.html
-                - title: Single cluster view dashboard
-                  url: /task-active-iq-single-cluster-view-dashboard.html
-                - title: Reporting
-                  url: /task-active-iq-reporting-options.html
-            - title: Nodes
-              url: /task-active-iq-nodes.html
-            - title: Drives
-              url: /task_active_iq_drives.html
-            - title: Volumes
-              entries:
-                - title: Overview
-                  url: /task_active_iq_volumes_overview.html
-                - title: Active Volumes
-                  url: /task-active-iq-active-volumes.html
-                - title: Snapshots and Snapshot Schedules
-                  url: /task-active-iq-snapshots-and-schedules.html
-            - title: Replication
-              url: /task_active_iq_replication.html
-            - title: Virtual Volumes
-              url: /task-active-iq-virtual-volumes.html
-            - title: QoS Management
-              entries:
-                - title: Overview
-                  url: /task-active-iq-qos-management-overview.html
-                - title: Recommendations
-                  url: /task-active-iq-recommendations.html
-                - title: Node Throttling
-                  url: /task-active-iq-throttling.html
-            - title: Virtual Machines
-              url: /task-active-iq-virtual-machines.html
-            - title: VMware Alarms
-              url: /task-active-iq-vmware-alarms.html
-        - title: Troubleshoot and support
-          url: /task-active-iq-troubleshoot-support.html
+              url: /task-active-iq-select-cluster-overview.html
+            - title: Single cluster view dashboard
+              url: /task-active-iq-single-cluster-view-dashboard.html
+            - title: Reporting
+              url: /task-active-iq-reporting-options.html
+        - title: Nodes
+          url: /task-active-iq-nodes.html
+        - title: Drives
+          url: /task_active_iq_drives.html
+        - title: Volumes
+          entries:
+            - title: Overview
+              url: /task_active_iq_volumes_overview.html
+            - title: Active Volumes
+              url: /task-active-iq-active-volumes.html
+            - title: Snapshots and Snapshot Schedules
+              url: /task-active-iq-snapshots-and-schedules.html
+        - title: Replication
+          url: /task_active_iq_replication.html
+        - title: Virtual Volumes
+          url: /task-active-iq-virtual-volumes.html
+        - title: QoS Management
+          entries:
+            - title: Overview
+              url: /task-active-iq-qos-management-overview.html
+            - title: Recommendations
+              url: /task-active-iq-recommendations.html
+            - title: Node Throttling
+              url: /task-active-iq-throttling.html
+        - title: Virtual Machines
+          url: /task-active-iq-virtual-machines.html
+        - title: VMware Alarms
+          url: /task-active-iq-vmware-alarms.html
+    - title: Troubleshoot and support
+      url: /task-active-iq-troubleshoot-support.html
 homepage:
   tiles:
     - title: Use the SolidFire Active IQ tool
