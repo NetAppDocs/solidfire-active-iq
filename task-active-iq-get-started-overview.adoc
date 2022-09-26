@@ -13,7 +13,7 @@ summary: 'Learn about getting started with SolidFire Active IQ.'
 The SolidFire Active IQ tool makes monitoring capacity, and performance, as well as being informed about cluster health, easy and accessible from anywhere. No matter how you use SolidFire Active IQ, there are several things to know before you start using it:
 
 * link:concept-active-iq-learn-about-active-iq.html[Learn about SolidFire Active IQ]: You should be aware of how SolidFire Active IQ works and what information it collects.
-* link:task-active-iq-enable-reporting.html[Enable SolidFire Active IQ reporting]: You must enable the Active IQ reporting capability on the management node before the Active IQ server can connect to a cluster and receive cluster information.
+* link:task-active-iq-enable-reporting.html[Enable SolidFire Active IQ reporting]: You must enable the SolidFire Active IQ reporting capability on the management node before the Active IQ server can connect to a cluster and receive cluster information.
 * link:task-active-iq-use-the-user-interface.html[Use the SolidFire Active IQ UI]: Learn about the new or enhanced features such as filtering, sorting, exporting data, and cluster selection.
 
 == Find more information
