@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: solidfire, active, iq, alerts
 summary: 'Learn about the alerts-related tasks in SolidFire Active IQ.'
 ---
-
 = Alerts
 :icons: font
 :imagesdir: ./media/
@@ -206,12 +205,17 @@ Determines which alerts and events are suppressed. The following types are possi
 * *Drive*: Alerts associated with drive health are suppressed.
 * *Network*: Alerts associated with network configuration and health are suppressed.
 * *Power*: Power redundancy alerts are suppressed. It does not suppress a _nodeOffline_ alert which would occur in the event of a total power loss.
+|Status
+a|
+Indicates the status of an alert notification: 
 
+* *Active*: Suppression of alert notifications is active.
+* *Future*: Suppression of alert notifications is scheduled for a future date and time.
 |Actions |Select the option to suppress or resume notifications for a cluster.
 |===
 
 == Suppress cluster notifications
-You can suppress alert notifications at the cluster level for a single cluster or multiple clusters.
+You can suppress alert notifications at the cluster level for a single cluster or multiple clusters for the current date and time or schedule to start at a future date and time.
 
 .Steps
 . Do one of the following:
@@ -223,7 +227,8 @@ You can suppress alert notifications at the cluster level for a single cluster o
 +
 NOTE: A cluster can have multiple suppression types but cannot share a suppression type. For example, a cluster can have a *Full*, *Compute*, and *Drive* suppression, but not two *Full* suppressions. When a suppression already exists on a cluster, it is greyed out. To replace an existing suppression, select *Override Existing* and select the new suppression type.
 
-.. Select a common duration or enter a custom end date and time during which notifications should be suppressed.
+.. Select the start date and time that you want the suppression of notifications to start.
+.. Select the duration time during which notifications should be suppressed.
 . Select *Suppress*.
 +
 NOTE: This action also suppresses certain or all notifications to NetApp Support. After cluster suppression is in effect, NetApp Support or any user that is entitled to view the cluster can update the suppression state.
