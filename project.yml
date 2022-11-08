@@ -71,7 +71,7 @@ sidebar:
         - title: VMware Alarms
           url: /task-active-iq-vmware-alarms.html
         - title: All Nodes View
-          url: /task-active-iq-all-nodes.html
+          url: /task-active-iq-all-nodes-view.html
     - title: Troubleshoot and support
       url: /task-active-iq-troubleshoot-support.html
 homepage:
