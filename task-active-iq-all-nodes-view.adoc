@@ -68,17 +68,17 @@ Learn more about the information available for throttled nodes.
 |Name | The system-generated node name.
 |Type | Shows the model type of the node.
 |Version | Version of Element software running on the node.
-2+a| *High* throttling time view
-|High Throttle Last 24 hours | The percentage of combined node throttling in the last 24 hours.
-|High Throttle Last 7 days | The percentage of combined node throttling in the last 7 days.
-|High Throttle Last 14 days | The percentage of combined node throttling in the last 14 days.
-|High Throttle Last 30 days | The percentage of combined node throttling in the last 30 days.
-2+a| *Limited* throttling time view
-|Limited Throttle Last 24 hours | The percentage of combined node throttling in the last 24 hours.
-|Limited Throttle Last 7 days | The percentage of combined node throttling in the last 7 days.
-|Combined Throttle Last 14 days | The percentage of combined node throttling in the last 14 days.
-|Limited Throttle Last 30 days | The percentage of combined node throttling in the last 30 days.
-2+a| *Combined* throttling time view
+2+a| *High throttling time view*
+|High Throttle Last 24 hours | The percentage of high node throttling in the last 24 hours.
+|High Throttle Last 7 days | The percentage of high node throttling in the last 7 days.
+|High Throttle Last 14 days | The percentage of high node throttling in the last 14 days.
+|High Throttle Last 30 days | The percentage of high node throttling in the last 30 days.
+2+a| *Limited throttling time view*
+|Limited Throttle Last 24 hours | The percentage of limited node throttling in the last 24 hours.
+|Limited Throttle Last 7 days | The percentage of limited node throttling in the last 7 days.
+|Limited Throttle Last 14 days | The percentage of limited node throttling in the last 14 days.
+|Limited Throttle Last 30 days | The percentage of limited node throttling in the last 30 days.
+2+a| *Combined throttling time view*
 |Combined Throttle Last 24 hours | The percentage of combined node throttling in the last 24 hours.
 |Combined Throttle Last 7 days | The percentage of combined node throttling in the last 7 days.
 |Combined Throttle Last 14 days | The percentage of combined node throttling in the last 14 days.
