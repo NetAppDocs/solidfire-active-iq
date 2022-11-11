@@ -120,6 +120,9 @@ image:more_information.PNG[More information icon]
 a|
 image:more_details.PNG[More details icon]
 |Select for more details.
+image:description.PNG[Description]
+|Select for a description of a page title.
+
 |===
 
 [[provide-feedback]]

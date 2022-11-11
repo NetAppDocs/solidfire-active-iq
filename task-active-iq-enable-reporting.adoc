@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: solidfire, active, iq, enable, reporting
 summary: 'Learn about enabling SolidFire Active IQ reporting capability on the management node.'
 ---
-
 = Enable SolidFire Active IQ reporting
 :icons: font
 :imagesdir: ./media/
