@@ -16,6 +16,8 @@ Learn more about the cluster pairs and volumes pairs pages:
 
 * <<cluster_pairs,Cluster Pairs>>
 * <<volume_pairs,Volume Pairs>>
+* <<snapmirror_endpoints,SnapMirror Endpoints>>
+* <<snapmirror_relationships,SnapMirror Relationships>>
 
 [[cluster_pairs]]
 == Cluster Pairs
@@ -55,6 +57,43 @@ NOTE: A target volume in an active replication state always has an Async Delay o
 
 |Remote Cluster	|Name of the remote cluster on which the volume resides.
 |Remote Volume ID	|Volume ID of the volume on the remote cluster.
+|===
+
+[[snapmirror_endpoints]]
+== SnapMirror Endpoints
+On the *Replication* > *SnapMirror Endpoints* page for a selected cluster, you can view the following information about SnapMirror endpoints.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading	|Description
+|Endpoint ID |The endpoint UUID.
+|Remote Cluster Name |Name of the remote cluster of the pair.
+|Cluster Management IP |Cluster management IP address.
+|IPs | The range of virtual network IP addresses used for the virtual network.
+|Relationships	|
+|Status	|
+|===
+
+[[snapmirror_relationships]]
+== SnapMirror Relationships
+On the *Replication* > *SnapMirror Relationships* page for a selected cluster, you can view the following information about SnapMirror relationships.
+
+[cols=2*,options="header",cols="30,70"]
+|===
+|Heading	|Description
+|Endpoint ID |
+|Source Volume |The number of source volumes in the SnapMirror relationships.
+|Destination Cluster |The name of the destination cluster in the SnapMirror relationship.
+|Destination Volume |The name of the destination volume in the SnapMirror relationship.
+|State	|
+|Status	|
+|Relationship Type |
+|State a|The status of the cluster:
+
+* Healthy: The cluster has no critical errors associated with it.
+* Offline: The cluster cannot be accessed. Select the link to view the Error Log.
+* Fault: There are errors associated with this cluster. Select the link to view the Error Log.
+|Details | Information that helps identify the SnapMirror relationship.
 |===
 
 == Find more information

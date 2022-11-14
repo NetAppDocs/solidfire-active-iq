@@ -38,7 +38,7 @@ The status of the node:
 |Version |Version of Element software running on each node.
 |Service Tag |Unique service tag number assigned to the node.
 |Serial Number |Unique serial number assigned to the node.
-|Management IP |Management IP MIP address assigned to node for 1GbE or 10GbE network admin tasks.
+|Management IP |Management IP address assigned to node for 1GbE or 10GbE network admin tasks.
 |Cluster IP	|Cluster IP address assigned to the node used for the communication between nodes in the same cluster.
 |Storage IP	|Storage IP address assigned to the node used for iSCSI network discovery and all data network traffic.
 |Replication Port	|The port used on nodes for remote replication.
