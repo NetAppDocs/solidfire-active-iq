@@ -44,7 +44,7 @@ The status of the node:
 a|
 Identifies what role the node has in the cluster:
 
-* Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
+* Cluster Master: The node that performs cluster-wide administrative tasks and contains the management virtual IP address and storage virtual IP address.
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
 * Fibre Channel: An FC node in the cluster.
 * If a node does not have a role, the value is set to - (dash).
@@ -53,7 +53,7 @@ Identifies what role the node has in the cluster:
 == View information about throttled nodes
 On the *Throttled Nodes* page, available from the side panel, you can view information for all nodes with throttling greater than 1% in the last 30 days for your selected company.
 
-You have the option to view nodes with a *High*, *Limited*, or *Combined* (high and limited) throttling time. You can also view descriptions for the node throttling table and the high, limited, and combined throttling options by selecting the image:description.PNG[description] icon. 
+You have the option to view nodes with a *High*, *Limited*, or *Combined* (high and limited) throttling time. You can also view descriptions for the node throttling table and the high, limited, and combined throttling options by selecting the image:description.PNG[description] icon, as shown in the following example: 
 
 image:throttled_nodes.PNG[Throttled nodes page and throttling times descriptions]
 
