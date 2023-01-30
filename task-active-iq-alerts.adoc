@@ -181,7 +181,7 @@ The policy is permanently removed from the system.
 == View suppressed clusters
 On the *Suppressed Clusters* page in the *Alerts* drop-down menu within the *All Clusters View*, you can view a list of clusters which have alert notifications suppressed.
 
-NetApp Support or customers can suppress alert notifications for a cluster when performing maintenance. When notifications are suppressed for a cluster using upgrade suppression, common alerts that occur during upgrades are not sent. There is also a full alert suppression option that stops alert notification for a cluster for a specified duration. You can view any email alerts that are not sent when notifications are suppressed on the *History* page of the *Alerts* menu. Suppressed notifications resume automatically after the defined duration elapses.
+NetApp Support or customers can suppress alert notifications for a cluster when performing maintenance. When notifications are suppressed for a cluster using upgrade suppression, common alerts that occur during upgrades are not sent. There is also a full alert suppression option that stops alert notification for a cluster for a specified duration. You can view any email alerts that are not sent when notifications are suppressed on the *History* page of the *Alerts* menu. Suppressed notifications resume automatically after the defined duration elapses. Suppression of notifications can be ended early by selecting "resume notifications" in the dropdown menu.
 
 The following information is available on *Suppressed Clusters* page.
 [[suppressed_types]]
@@ -191,7 +191,7 @@ The following information is available on *Suppressed Clusters* page.
 |Company |Company name assigned to the cluster.
 |Cluster ID |Assigned cluster number when the cluster is created.
 |Cluster Name |Name assigned to the cluster.
-|Start Time |The exact time that the suppression of notifications started.
+|Start Time |The exact time that the suppression of notifications started or is scheduled to start.
 |End Time |The exact time that the suppression of notifications is scheduled to end.
 |
 Type
