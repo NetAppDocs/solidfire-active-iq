@@ -225,10 +225,10 @@ You can suppress alert notifications at the cluster level for a single cluster o
 .. If you selected the *Suppress Clusters* button from the *Suppressed Clusters* page, select a cluster.
 .. Select an alert suppression type as either *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Network* or *Power*. <<suppressed_types,Learn about suppression types>>.
 +
-NOTE: A cluster can have multiple suppression types but cannot share a suppression type. For example, a cluster can have a *Full*, *Compute*, and *Drive* suppression, but not two *Full* suppressions. When a suppression already exists on a cluster, it is greyed out. To replace an existing suppression, select *Override Existing* and select the new suppression type.
+NOTE: A cluster can have multiple suppression types which includes multiple selections of the same suppression type. When a suppression type already exists during a scheduled suppression window, it is greyed out. To select this suppression type again, select *Overlap Existing*. Multiple selections of the same suppression type can have overlapping times or, if scheduling future suppressions, be at different times. When two suppressions have overlapping time periods, the functionality is the same as having a single suppression with a start time starting at the earliest of the suppressions and an end time ending at the latest.
 
 .. Select the start date and time that you want the suppression of notifications to start.
-.. Select the duration time during which notifications should be suppressed.
+.. Select a common duration or enter a custom end date and time during which notifications should be suppressed.
 . Select *Suppress*.
 +
 NOTE: This action also suppresses certain or all notifications to NetApp Support. After cluster suppression is in effect, NetApp Support or any user that is entitled to view the cluster can update the suppression state.
@@ -268,4 +268,4 @@ image:example_email.PNG[Example email]
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
 
 // DOC-4577, 2022-Nov-03 
-// DOC-4577, 2023-Jan-30
+// DOC-4577, 2023-Jan-31
