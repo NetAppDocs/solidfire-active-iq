@@ -66,11 +66,11 @@ On the *Replication* > *SnapMirror Endpoints* page for a selected cluster, you c
 [cols=2*,options="header",cols="30,70"]
 |===
 |Heading	|Description
-|Endpoint ID |The endpoint UUID.
+|Endpoint ID |The endpoint identification number.
 |Remote Cluster Name |Name of the remote cluster of the pair.
 |Cluster Management IP |Cluster management IP address.
 |IPs | The range of virtual network IP addresses used for the virtual network.
-|Relationships	|
+|Relationships	| The number of relationships configured for an endpoint.
 |Status	|
 |===
 
@@ -81,8 +81,8 @@ On the *Replication* > *SnapMirror Relationships* page for a selected cluster, y
 [cols=2*,options="header",cols="30,70"]
 |===
 |Heading	|Description
-|Endpoint ID |
-|Source Volume |The number of source volumes in the SnapMirror relationships.
+|Endpoint ID |The endpoint identification number.
+|Source Volume | The volume ID of the source.
 |Destination Cluster |The name of the destination cluster in the SnapMirror relationship.
 |Destination Volume |The name of the destination volume in the SnapMirror relationship.
 |State	|
@@ -99,4 +99,7 @@ On the *Replication* > *SnapMirror Relationships* page for a selected cluster, y
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
 
+https://docs.netapp.com/us-en/ontap/element-replication/index.html[Replication between NetApp Element software and ONTAP^]
+
 // DOC-4612, 2022-Nov
+// DOC-4612, 2023-Feb
