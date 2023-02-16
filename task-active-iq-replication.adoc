@@ -69,9 +69,9 @@ On the *Replication* > *SnapMirror Endpoints* page for a selected cluster, you c
 |Endpoint ID |The endpoint identification number.
 |Remote Cluster Name |Name of the remote cluster of the pair.
 |Cluster Management IP |Cluster management IP address.
-|IPs | The range of virtual network IP addresses used for the virtual network.
-|Relationships	| The number of relationships configured for an endpoint.
-|Status	|
+|IPs |The range of virtual network IP addresses used for the virtual network.
+|Relationships	|The number of relationships configured for an endpoint.
+|Status	|This refers to whether or not the endpoint is currently connected. It has a value of "Connected" or "Disconnected".
 |===
 
 [[snapmirror_relationships]]
@@ -82,17 +82,33 @@ On the *Replication* > *SnapMirror Relationships* page for a selected cluster, y
 |===
 |Heading	|Description
 |Endpoint ID |The endpoint identification number.
-|Source Volume | The volume ID of the source.
+|Source Volume |The volume ID of the source.
 |Destination Cluster |The name of the destination cluster in the SnapMirror relationship.
 |Destination Volume |The name of the destination volume in the SnapMirror relationship.
-|State	|
-|Status	|
-|Relationship Type |
+|State	a|The state of the mirror relationship. It can have three possible values:
+
+* Uninitialized: The destination volume isn't initialized.
+* Snapmirrored: The destination volume is initialized and is ready to receive SnapMirror updates.
+* Broken-off: The destination volume is in a read-write state and snapshots are present. 
+
+|Status
+a|
+If the relationship is currently healthy. It can have values of "Healthy" or "Unhealthy"
+
+NOTE: A value of "Unhealthy" might be caused by a manual or scheduled update failing or being aborted, or by the last scheduled update being delayed. The "Details" field following the status gives a description of the reason for the "Unhealthy" status.
+
+|Relationship Type 
+a|
+The type of SnapMirror relationship. 
+
+NOTE: On SolidFire systems this is always set to extended_data_protection. NetApp systems have other types of valid relationships that do not apply in the case of SolidFire systems.
+
 |State a|The status of the cluster:
 
 * Healthy: The cluster has no critical errors associated with it.
 * Offline: The cluster cannot be accessed. Select the link to view the Error Log.
 * Fault: There are errors associated with this cluster. Select the link to view the Error Log.
+
 |Details | Information that helps identify the SnapMirror relationship.
 |===
 
@@ -103,3 +119,4 @@ https://docs.netapp.com/us-en/ontap/element-replication/index.html[Replication b
 
 // DOC-4612, 2022-Nov
 // DOC-4612, 2023-Feb-03
+// DOC-4612, 2023-Feb-16
