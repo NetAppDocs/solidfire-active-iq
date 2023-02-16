@@ -181,7 +181,7 @@ The policy is permanently removed from the system.
 == View suppressed clusters
 On the *Suppressed Clusters* page in the *Alerts* drop-down menu within the *All Clusters View*, you can view a list of clusters which have alert notifications suppressed.
 
-NetApp Support or customers can suppress alert notifications for a cluster when performing maintenance. When notifications are suppressed for a cluster using upgrade suppression, common alerts that occur during upgrades are not sent. There is also a full alert suppression option that stops alert notification for a cluster for a specified duration. You can view any email alerts that are not sent when notifications are suppressed on the *History* page of the *Alerts* menu. Suppressed notifications resume automatically after the defined duration elapses. Suppression of notifications can be ended early by selecting "resume notifications" in the dropdown menu.
+NetApp Support or customers can suppress alert notifications for a cluster when performing maintenance. When notifications are suppressed for a cluster using upgrade suppression, common alerts that occur during upgrades are not sent. There is also a full alert suppression option that stops alert notification for a cluster for a specified duration. You can view any email alerts that are not sent when notifications are suppressed on the *History* page of the *Alerts* menu. Suppressed notifications resume automatically after the defined duration elapses. You can end suppression of notifications early by selecting "resume notifications" in the dropdown menu.
 
 The following information is available on *Suppressed Clusters* page.
 [[suppressed_types]]
@@ -225,7 +225,7 @@ You can suppress alert notifications at the cluster level for a single cluster o
 .. If you selected the *Suppress Clusters* button from the *Suppressed Clusters* page, select a cluster.
 .. Select an alert suppression type as either *Full*, *Upgrades*, *Compute*, *NodeHardware*, *Drive*, *Network* or *Power*. <<suppressed_types,Learn about suppression types>>.
 +
-NOTE: A cluster can have multiple suppression types which includes multiple selections of the same suppression type. When a suppression type already exists during a scheduled suppression window, it is greyed out. To select this suppression type again, select *Overlap Existing*. Multiple selections of the same suppression type can have overlapping times or, if scheduling future suppressions, be at different times. When two suppressions have overlapping time periods, the functionality is the same as having a single suppression with a start time starting at the earliest of the suppressions and an end time ending at the latest.
+NOTE: A cluster can have multiple suppression types, which can include multiple selections of the same suppression type. When a suppression type already exists during a scheduled suppression window, it is greyed out. To select this suppression type again, select *Overlap Existing*. Multiple selections of the same suppression type can have overlapping times or, if scheduling future suppressions, be at different times. When two suppressions have overlapping time periods, the functionality is the same as having a single suppression with a start time starting at the earliest of the suppressions and an end time ending at the latest.
 
 .. Select the start date and time that you want the suppression of notifications to start.
 .. Select a common duration or enter a custom end date and time during which notifications should be suppressed.
