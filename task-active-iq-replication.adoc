@@ -114,7 +114,6 @@ NOTE: On SolidFire systems, this is always set to `extended_data_protection`. Ne
 
 == Find more information
 * https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
-
 * https://docs.netapp.com/us-en/ontap/element-replication/index.html[Replication between NetApp Element software and ONTAP^]
 
 // DOC-4612, 2022-Nov
