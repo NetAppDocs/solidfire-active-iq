@@ -45,7 +45,7 @@ The status of the node:
 |Type |Displays the model type of the node.
 |Version |Version of Element software running on the node.
 |Serial Number |Unique serial number assigned to the node.
-|Management IP |Management IP MIP address assigned to node for 1GbE or 10GbE network admin tasks.
+|Management IP |Management IP address assigned to node for 1GbE or 10GbE network admin tasks.
 |Cluster IP	|Cluster IP address assigned to the node used for the communication between nodes in the same cluster.
 |Storage IP	|Storage IP address assigned to the node used for iSCSI network discovery and all data network traffic.
 |Average Throughput Last 30 mins |Sum of average throughputs executed in the last 30 minutes against all volumes that have this node as their primary.
