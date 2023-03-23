@@ -12,6 +12,8 @@ summary: 'Learn about the Capacity Licensing page in SolidFire Active IQ.'
 [.lead]
 On the *Capacity Licensing* page within the *All Clusters View*, you can view information about the NetApp Capacity Licensing model. Customers using standard SolidFire appliances should disregard this page.
 
+To view a given capacity licensing pool, you must have permissions to view all clusters included in that pool. If there are parent and child company relationships involved, work with your account manager to confirm that this is correctly recorded. Failure to do so might cause the capacity licensing pool to become unavailable.
+
 Capacity Licensing is an alternative licensing option available from NetApp. Learn about or perform capacity licensing related tasks:
 
 [cols=2*,options="header",cols="25,75"]
@@ -26,3 +28,5 @@ Capacity Licensing is an alternative licensing option available from NetApp. Lea
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
+
+// 2023-03-15, DOC-4170
