@@ -27,7 +27,7 @@ The *Node Throttling* graph displays node throttling over the selected time peri
 
 * Green: The node is not being throttled. Volumes are permitted to perform up to their maximum configured IOPs.
 * Yellow: The node is experiencing limited throttling. Volumes are throttled down from their maximum IOPs setting, but still retain performance at or above their minimum IOPS setting.
-* Red: The node is experiencing high throttling. Volumes are throttled more severely and performance can fall below the minimum IOPs setting.
+* Red: The node is experiencing high throttling. When volumes are throttled more severely, performance can fall below the minimum IOPs setting.
 
 The *Total Volume Throughput* graph displays the sum of the throughput for the primary volumes for a selected node.
 
