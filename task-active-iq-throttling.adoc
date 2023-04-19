@@ -29,7 +29,7 @@ The *Node Throttling* graph displays node throttling over the selected time peri
 * Yellow: The node is experiencing limited throttling. Volumes are throttled down from their maximum IOPs setting, but still retain performance at or above their minimum IOPS setting.
 * Red: The node is experiencing high throttling. When volumes are throttled more severely, performance can fall below the minimum IOPs setting.
 
-The *Total Volume Throughput* graph displays the sum of the throughput for the primary volumes for a selected node.
+The *Total Volume Throughput* graph displays the sum of the throughput for the primary volumes for a selected node. The graph shows the sum of volume read and write throughput. It does not include metadata or other node traffic. It also takes into account when volumes are present on a node, which results in a drop in throughput when volumes are transferred off a node.
 
 .Expand the graph example
 [%collapsible]
@@ -52,3 +52,5 @@ You can export graph data to a comma-separated values (CSV) format. Only the inf
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
+
+// 2023 APR 18, DOC-4682
