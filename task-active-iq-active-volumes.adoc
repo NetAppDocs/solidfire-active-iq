@@ -86,7 +86,7 @@ h|Heading	h|Description
 |Max IOPS	|The maximum number of IOPS allowed for the volume.
 |Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
 |512e Enabled |Identifies if 512e is enabled on a volume.
-|QoS Throttle	|Identifies if the volume is being throttled due to high load on the primary storage node.
+|QoS Throttle	|Represents the current throttling for the volume, which does not include historical throttling on the volume. 
 |Primary Node ID	|Primary node for this volume.
 |Secondary Node ID |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
 |Volumes Paired	|Indicates if a volume has been paired or not.
@@ -117,3 +117,6 @@ A separate page opens to display an adjustable timeline, which is synced with th
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
+
+
+// 2023 JULY 12, DOC-4697
