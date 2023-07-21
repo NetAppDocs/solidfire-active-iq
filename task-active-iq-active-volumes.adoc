@@ -33,11 +33,13 @@ On the *Volumes* > *Active Volumes* page for a selected cluster, you can view th
 * Red = above 95%
 |Primary Node ID |Primary node for this volume.
 |Secondary Node ID |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
-|QoS Throttle	a|Identifies if the volume is being throttled due to high load on the primary storage node:
+|QoS Throttle	a|Represents the current throttling for the volume. 
 
 * Green = up to 20%
 * Yellow = above 20%
 * Red = above 80%
+
+The value does not include historical throttling on the volume. 
 |Min IOPS	|The minimum number of IOPS guaranteed for the volume.
 |Max IOPS	|The maximum number of IOPS allowed for the volume.
 |Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
@@ -68,11 +70,7 @@ After the page opens for the active volume, you can view recent volume data from
 h|Heading	h|Description
 |Account ID	|System-generated ID for the volume.
 |Volume Size |Total size of the volume.
-|Used Capacity a|Shows how full the volume is:
-
-* Green = up to 80%
-* Yellow = above 80%
-* Red = above 95%.
+|Used Capacity a|Shows how full the volume is.
 |Average IOPS	|Average number of IOPS executed against the volume in the last 30 minutes.
 |Average Throughput |Average throughput executed against the volume in the last 30 minutes.
 |Average Latency |The average time, in microseconds, to complete read and write operations to the volume in the last 30 minutes. For more information, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F[KB article^].
