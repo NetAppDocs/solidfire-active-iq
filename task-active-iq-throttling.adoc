@@ -21,7 +21,7 @@ Learn about viewing node throttling information:
 
 The graphs and date ranges in SolidFire Active IQ are seamlessly integrated with each other. When selecting a date range, the *Node Throttling* and *Total Volume Throughput* graphs on that page adjust to the range selected. The default date range displayed for each graph is seven days. When you select a node from the graph selection tabs, these graphs change to the newly selected node.
 
-You can select a date range from the calendar drop-down box or from a set of pre-defined ranges. Date ranges are calculated using the current browser time (at the time of selection) and the configured amount of time. Additionally, you can select a desired interval by brushing directly over the bar graph at the bottom. You can switch between graphs by selecting the thumbnail layouts on the left.
+You can select a date range from the calendar drop-down box or from a set of pre-defined ranges. Date ranges are calculated using the current browser time (at the time of selection) and the configured amount of time. You can also select a desired interval by brushing directly over the bar graph at the bottom. To switch between graphs, select the thumbnail layouts on the left.
 
 The *Node Throttling* graph displays node throttling over the selected time period based on the minimum and maximum IOPS settings for the volumes hosted on the selected node. The color represents the amount of throttling: 
 
@@ -34,7 +34,7 @@ The *Total Volume Throughput* graph displays the sum of the throughput for the p
 .Expand the graph example
 [%collapsible]
 ====
-image:node_throttling_range.PNG[Node throttling graph]
+image:node_throttling_range.PNG[Graphical display for node throttling]
 ====
 
 Position the mouse pointer at any point in the graph to see point-in-time details.
