@@ -223,7 +223,6 @@ a|Indicates if the suppression was scheduled when it was created:
 
 * *True*: The Created Time and Start Time values are the same.
 * *False*: The Created Time and Start Time values are different.
-|Actions |Select the option to suppress or resume notifications for a cluster.
 |===
 
 == Suppress cluster notifications
