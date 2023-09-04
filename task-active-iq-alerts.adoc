@@ -55,7 +55,7 @@ The following list describes the details that are available to you:
 |===
 
 == View alert policies
-The *Policies* page in the *Alerts* drop-down menu within *All Clusters View* shows the following policy information for all clusters.
+The *Policies* page in the Alerts drop-down menu within All Clusters View shows the following policy information for all clusters.
 
 The following list describes the details that are available to you:
 
@@ -179,7 +179,7 @@ Deleting an alert policy removes it permanently from the system. Email notificat
 The policy is permanently removed from the system.
 
 == View suppressed clusters
-On the *Suppressed Clusters* page in the *Alerts* drop-down menu within the *All Clusters View*, you can view a list of clusters which have alert notifications suppressed.
+On the *Suppressed Clusters* page in the Alerts drop-down menu within the All Clusters View, you can view a list of clusters which have alert notifications suppressed.
 
 NetApp Support or customers can suppress alert notifications for a cluster when performing maintenance. When notifications are suppressed for a cluster using upgrade suppression, common alerts that occur during upgrades are not sent. There is also a full alert suppression option that stops alert notification for a cluster for a specified duration. You can view any email alerts that are not sent when notifications are suppressed on the *History* page of the *Alerts* menu. Suppressed notifications resume automatically after the defined duration elapses. You can end suppression of notifications early by selecting "resume notifications" in the dropdown menu.
 
@@ -221,8 +221,8 @@ Indicates the status of an alert notification:
 |Scheduled
 a|Indicates if the suppression was scheduled when it was created:
 
-*True*: The Created Time and Start Time values are the same.
-*False*: The Created Time and Start Time values are different.
+* *True*: The Created Time and Start Time values are the same.
+* *False*: The Created Time and Start Time values are different.
 |Actions |Select the option to suppress or resume notifications for a cluster.
 |===
 
@@ -279,6 +279,6 @@ image:example_email.PNG[Example email]
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
 
-// DOC-4707, 2023-Sep-1
+// DOC-4708, 2023-Sep-1
 // DOC-4577, 2022-Nov-03 
 // DOC-4577, 2023-Jan-31
