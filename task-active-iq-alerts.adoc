@@ -55,7 +55,7 @@ The following list describes the details that are available to you:
 |===
 
 == View alert policies
-The *Policies* page in the *Alerts* drop-down menu within *All Clusters View* shows the following policy information for all clusters.
+The *Policies* page in the Alerts drop-down menu within All Clusters View shows the following policy information for all clusters.
 
 The following list describes the details that are available to you:
 
@@ -179,11 +179,12 @@ Deleting an alert policy removes it permanently from the system. Email notificat
 The policy is permanently removed from the system.
 
 == View suppressed clusters
-On the *Suppressed Clusters* page in the *Alerts* drop-down menu within the *All Clusters View*, you can view a list of clusters which have alert notifications suppressed.
+On the *Suppressed Clusters* page in the Alerts drop-down menu within the All Clusters View, you can view a list of clusters which have alert notifications suppressed.
 
 NetApp Support or customers can suppress alert notifications for a cluster when performing maintenance. When notifications are suppressed for a cluster using upgrade suppression, common alerts that occur during upgrades are not sent. There is also a full alert suppression option that stops alert notification for a cluster for a specified duration. You can view any email alerts that are not sent when notifications are suppressed on the *History* page of the *Alerts* menu. Suppressed notifications resume automatically after the defined duration elapses. You can end suppression of notifications early by selecting "resume notifications" in the dropdown menu.
 
-The following information is available on *Suppressed Clusters* page.
+On the *Suppressed Clusters* page, you have the option to view the following information for *Past*, *Active*, and *Future* suppressions. The *Past* option shows the suppressions that ended in the last 90 days.
+
 [[suppressed_types]]
 [cols=2*,options="header",cols="25,75"]
 |===
@@ -191,6 +192,12 @@ The following information is available on *Suppressed Clusters* page.
 |Company |Company name assigned to the cluster.
 |Cluster ID |Assigned cluster number when the cluster is created.
 |Cluster Name |Name assigned to the cluster.
+|Created By
+|The account username that created the suppression.
+|Created Time
+|The exact time that the suppression was created.
+|Updated Time
+|If the suppression was modified after it was created, this is the exact time that the suppression was last changed.
 |Start Time |The exact time that the suppression of notifications started or is scheduled to start.
 |End Time |The exact time that the suppression of notifications is scheduled to end.
 |
@@ -211,7 +218,11 @@ Indicates the status of an alert notification:
 
 * *Active*: Suppression of alert notifications is active.
 * *Future*: Suppression of alert notifications is scheduled for a future date and time.
-|Actions |Select the option to suppress or resume notifications for a cluster.
+|Scheduled
+a|Indicates if the suppression was scheduled when it was created:
+
+* *True*: The Created Time and Start Time values are the same.
+* *False*: The Created Time and Start Time values are different.
 |===
 
 == Suppress cluster notifications
@@ -267,5 +278,6 @@ image:example_email.PNG[Example email]
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
 
+// DOC-4708, 2023-Sep-1
 // DOC-4577, 2022-Nov-03 
 // DOC-4577, 2023-Jan-31
