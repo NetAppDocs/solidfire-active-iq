@@ -15,7 +15,7 @@ Learn about the *Reporting* drop-down menu in the side panel:
 * <<Efficiency>>
 * <<Performance>>
 * <<Node Utilization>>
-* <<Error log>>
+* <<Error Log>>
 * <<Events>>
 * <<Alerts>>
 * <<iSCSI Sessions>>

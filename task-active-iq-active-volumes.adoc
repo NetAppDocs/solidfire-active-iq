@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: solidfire, active, iq, active, volumes
 summary: 'Learn about viewing volume details in SolidFire Active IQ.'
 ---
-
 = Active Volumes
 :icons: font
 :imagesdir: ./media/
@@ -95,23 +94,6 @@ h|Heading	h|Description
 |scsiNAADeviceID |Globally unique SCSI device identifier for the volume in NAA IEEE Registered Extended format.
 |Attributes	|List of Name/Value pairs in JSON object format.
 |===
-
-== View individual volume performance graphs
-From the *Volumes* page, you can view performance activity for each volume in a graphical format. This information provides real-time statistics for throughput, IOPS, latency, queue depth, average IO size, and capacity for each volume.
-
-.Steps
-. Select *Volumes* > *Active Volumes*.
-. In the *Actions* column, select the image:more_information.PNG[More information] icon for the volume you want and select *View Details*.
-+
-A separate page opens to display an adjustable timeline, which is synced with the performance graphs.
-. On the left, select a thumbnail graph to view performance graphs in detail. You can view the following graphs:
-** Throughput
-** IOPS
-** Latency
-** Queue Depth
-** Average IO Size
-** Capacity
-. (Optional) You can export each graph as a CSV file by selecting the image:export_button.PNG[export button] icon.
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
