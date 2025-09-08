@@ -275,7 +275,7 @@ The alert email subject line uses one of the following formats depending on erro
 //The content of the notification email will be similar to the following example:
 //image:example_email.PNG[Example email]
 
-NOTE:Multiple notifications are grouped into a single email with the most severe faults at the top of the email similar to the following example:
+NOTE: Multiple notifications are grouped into a single email with the most severe faults at the top of the email similar to the following example:
 image:multiple_emails_example.png[Example email]
 
 == Find more information

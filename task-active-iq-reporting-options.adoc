@@ -14,6 +14,7 @@ Learn about the *Reporting* drop-down menu in the side panel:
 * <<Capacity>>
 * <<Efficiency>>
 * <<Performance>>
+* <<Node Utilization>>
 * <<Error log>>
 * <<Events>>
 * <<Alerts>>
