@@ -91,7 +91,7 @@ The following information is reported for the selected cluster.
 |===
 
 == Events
-On the *Events* page of the *Reporting* drop-down menu for a selected cluster, you can select tabs to view information about key events and gcEvents that have occurred on the cluster. This information can be filtered and exported to a CSV file.
+On the *Events* page of the *Reporting* drop-down menu for a selected cluster, you can select between tabs to view information about key events and gc events that have occurred on the cluster. This information can be filtered and exported to a CSV file.
 
 The following information is reported for the selected cluster.
 
