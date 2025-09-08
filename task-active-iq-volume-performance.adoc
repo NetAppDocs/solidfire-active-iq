@@ -13,7 +13,7 @@ From the *Volumes* page, you can view details about individual volume performanc
 
 //* <<View active volume details>>
 //* <<View individual volume details>>
-* <<View individual volume performance graphs>>
+//* <<View individual volume performance graphs>>
 
 == View individual volume performance graphs
 From the *Volumes* page, you can view performance activity for each volume in a graphical format. This information provides real-time statistics for throughput, IOPS, latency, queue depth, average IO size, and capacity for each volume.
@@ -32,6 +32,7 @@ A separate page opens to display an adjustable timeline, which is synced with th
 ** Queue Depth
 ** Average IO Size
 ** Capacity
++
 You can also view the *Average*, *Min*, or *Max* for each graph too. Note that Average is the default view. 
 . (Optional) You can export each graph as a CSV file by selecting the image:export_button.PNG[export button] icon.
 
@@ -40,3 +41,4 @@ https://www.netapp.com/support-and-training/documentation/[NetApp Product Docume
 
 
 // 2023 JULY 12, DOC-4697
+// Updates for DOC-4794, 2025-AUG-26

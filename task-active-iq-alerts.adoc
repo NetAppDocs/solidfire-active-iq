@@ -256,7 +256,7 @@ You can end cluster alert suppression on clusters that was applied using the Sup
 
 
 == Alert notification email
-Subscribers to SolidFire Active IQ alerts receive different status emails for each alert that triggers on the system. There are three types of status emails associated with alerts:
+Subscribers to SolidFire Active IQ alerts receive status emails for any alert that triggers on the system. There are three types of status emails associated with alerts:
 [cols=2*,cols="35,65"]
 |===
 |New Alert Email |This type of email is sent when an alert is triggered.
@@ -272,10 +272,10 @@ The alert email subject line uses one of the following formats depending on erro
 * Unresolved alert: `[policy name] alert on [cluster name] ([severity])`
 * Resolved alert fault: `Resolved: [policy name] alert on [cluster name] ([severity])`
 
-The content of the notification email will be similar to the following example:
-image:example_email.PNG[Example email]
+//The content of the notification email will be similar to the following example:
+//image:example_email.PNG[Example email]
 
-Multiple notifications are grouped into a single email with the most severe faults at the top of the email similar to the following example:
+NOTE:Multiple notifications are grouped into a single email with the most severe faults at the top of the email similar to the following example:
 image:multiple_emails_example.png[Example email]
 
 == Find more information

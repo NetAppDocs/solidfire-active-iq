@@ -28,6 +28,9 @@ sidebar:
               url: /task-active-iq-all-clusters-view-overview.html
             - title: All Clusters View dashboard
               url: /task-active-iq-all-clusters-view-dashboard.html
+              entries:
+              - title: Cluster Support Options
+                url: task-active-iq-cluster-options.html
             - title: Alerts
               url: /task-active-iq-alerts.html
             - title: Capacity Licensing

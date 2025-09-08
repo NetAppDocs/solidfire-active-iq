@@ -1,0 +1,28 @@
+---
+permalink: task-active-iq-cluster-options.html
+sidebar: sidebar
+keywords: solidfire, active, iq, dashboard, all, cluster, options, archive, suppress, upgrade
+summary: 'Learn about the cluster support options in SolidFire Active IQ.'
+---
+= Cluster Support Options
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+On the *Dashboard* page of the *All Clusters View*, you can view the cluster support options about the clusters associated with your account.
+
+.Steps
+. Select *All Clusters View* > *Overview*.
+. In the Actions column, select the image:more_information.PNG[More information] icon for the cluster you want. 
+. Select *Request Upgrade Support*, *Archive Cluster*, or *Suppress Cluster*.
+.. Request Upgrade Support sends a request for an upgrade of the cluster software. You can select element software, storage firmware, compute firmware, or mNode management services. You enter your contact information, any comments, and a callback time. 
+.. Archive Cluster archives the cluster. A window opens providing warnings about the issues around archiving a cluster that might need to be unarchived at a later date. 
+.. Suppress Cluster stops repeated alerts. You choose alert type, start time, and duration. You can also see currently running alert suppression rules on this window. 
+
+NOTE: A cluster that has not reported for 180 days is automatically archived.
+
+== Find more information
+https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
+
+
+// Updates for DOC-4794, 2025-AUG-26

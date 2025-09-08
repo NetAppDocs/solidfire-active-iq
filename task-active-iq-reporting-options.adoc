@@ -69,7 +69,10 @@ The following descriptions give details about calculated efficiencies on the sel
 == Performance
 On the *Performance* page of the *Reporting* drop-down menu for a selected cluster, you can view details about IOPS usage, throughput, and cluster utilization by selecting the category and filtering based on time period.
 
-== Error log
+== Node Utilization
+On the *Node Utilization* page of the *Reporting* drop-down menu for a selected cluster, each node can be selected for view. When a node is selected, it shows its utilization as a percentage at a certain time on the graph. This uses the default time range selectors that other graphs use. The parameter used to show this is `recentPrimaryTotalHeat`.
+
+== Error Log
 On the *Error Log* page of the *Reporting* drop-down menu for a selected cluster, you can view information about unresolved or resolved errors that have been reported by the cluster. This information can be filtered and exported to a comma-separated values (CSV) file. For details about severity levels, see the https://docs.netapp.com/us-en/element-software/index.html[Element Software documentation^].
 
 The following information is reported for the selected cluster.
@@ -91,7 +94,7 @@ The following information is reported for the selected cluster.
 |===
 
 == Events
-On the *Events* page of the *Reporting* drop-down menu for a selected cluster, you can select between tabs to view information about key events and gc events that have occurred on the cluster. This information can be filtered and exported to a CSV file.
+On the *Events* page of the *Reporting* drop-down menu for a selected cluster, you can select between the *Events* and *gcEvents* tabs to view information about key events and gc events that have occurred on the cluster. To view gc events, you must use the gcEvents tab. This information can be filtered and exported to a CSV file.
 
 The following information is reported for the selected cluster.
 
