@@ -9,11 +9,7 @@ summary: 'Learn about viewing volume details in SolidFire Active IQ.'
 :imagesdir: ./media/
 
 [.lead]
-From the *Volumes* page, you can view details about active volumes, individual volumes and performance graphs:
-
-* <<View active volume details>>
-* <<View individual volume details>>
-* <<View individual volume performance graphs>>
+From the *Volumes* page, you can view details about active volumes.
 
 == View active volume details
 On the *Volumes* > *Active Volumes* page for a selected cluster, you can view the following information in the list of active volumes.
@@ -53,46 +49,7 @@ Throughput is collected over 500 millisecond intervals on the cluster side. Soli
 Latency is measured over 500 millisecond intervals on the cluster side. SolidFire Active IQ collects these values at 60 second intervals. For each volume, the average latency is calculated from the SolidFire Active IQ values collected in the last 30 minutes. For more information, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F[KB article^].
 |Snapshots |The number of snapshots created for the volume.
 |Actions |Select the vertical drop-down menu for more details on an individual volume.
-|===
-
-== View individual volume details
-From the *Volumes* page, you can view more information for an individual volume.
-
-.Steps
-. Select *Volumes* > *Active Volumes*.
-. In the Actions column, select the image:more_information.PNG[More information] icon for the volume you want and select *View Details*.
-
-After the page opens for the active volume, you can view recent volume data from the information bar.
-
-[cols=2*,options="header",cols="25,75"]
-|===
-h|Heading	h|Description
-|Account ID	|System-generated ID for the volume.
-|Volume Size |Total size of the volume.
-|Used Capacity a|Shows how full the volume is.
-|Average IOPS	|Average number of IOPS executed against the volume in the last 30 minutes.
-|Average Throughput |Average throughput executed against the volume in the last 30 minutes.
-|Average Latency |The average time, in microseconds, to complete read and write operations to the volume in the last 30 minutes. For more information, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F[KB article^].
-2+h|You can view additional details from the *Show Volume Details* drop-down menu.
-|Access	|The read/write permissions assigned to the volume.
-|Access Groups	|Associated volume access groups.
-|Non-Zero Blocks |Total number of 4KiB blocks with data after the last round of garbage collection operation has completed.
-|Zero Blocks	|Total number of 4KiB blocks without data after the last round of garbage collection operation has completed.
-|Snapshot Count	|The number of associated snapshots.
-|Min IOPS	|The minimum number of IOPS guaranteed for the volume.
-|Max IOPS	|The maximum number of IOPS allowed for the volume.
-|Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
-|512e Enabled |Identifies if 512e is enabled on a volume.
-|QoS Throttle	|Represents the current throttling for the volume. The value does not include historical throttling on the volume. 
-|Primary Node ID	|Primary node for this volume.
-|Secondary Node ID |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
-|Volumes Paired	|Indicates if a volume has been paired or not.
-|Create Time |The time the volume creation task was completed.
-|Block Size	|Size of the blocks on the volume.
-|IQN |The iSCSI Qualified Name (IQN) of the volume.
-|scsiEUIDeviceID |Globally unique SCSI device identifier for the volume in EUI-64 based 16-byte format.
-|scsiNAADeviceID |Globally unique SCSI device identifier for the volume in NAA IEEE Registered Extended format.
-|Attributes	|List of Name/Value pairs in JSON object format.
+|IOPS Rebalancing |Beginning with Element 12.8 clusters, an additional field *IOPS Rebalancing* is provided. If the cluster-wide option is enabled, then each volume shows this parameter. This field's value is either true or false. This field is used to balance slices according to the true load rather than the minimum IOPS settings.
 |===
 
 == Find more information

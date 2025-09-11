@@ -9,11 +9,50 @@ summary: 'Learn about viewing volume performance details in SolidFire Active IQ.
 :imagesdir: ./media/
 
 [.lead]
-From the *Volumes* page, you can view details about individual volume performance graphs:
+From the *Volumes* page, you can view details about each volume and see its performance graphs:
 
-//* <<View active volume details>>
-//* <<View individual volume details>>
-//* <<View individual volume performance graphs>>
+* <<View individual volume details>>
+* <<View individual volume performance graphs>>
+
+== View individual volume details
+From the *Volumes* page, you can view more information for an individual volume.
+
+.Steps
+. Select *Volumes* > *Active Volumes*.
+. In the Actions column, select the image:more_information.PNG[More information] icon for the volume you want and select *View Details*.
+
+After the page opens for the active volume, you can view recent volume data from the information bar.
+
+[cols=2*,options="header",cols="25,75"]
+|===
+h|Heading	h|Description
+|Account ID	|System-generated ID for the volume.
+|Volume Size |Total size of the volume.
+|Used Capacity a|Shows how full the volume is.
+|Average IOPS	|Average number of IOPS executed against the volume in the last 30 minutes.
+|Average Throughput |Average throughput executed against the volume in the last 30 minutes.
+|Average Latency |The average time, in microseconds, to complete read and write operations to the volume in the last 30 minutes. For more information, see this https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/How_is_read_and_write_latency_measured_in_Element_Software_%3F[KB article^].
+2+h|You can view additional details from the *Show Volume Details* drop-down menu.
+|Access	|The read/write permissions assigned to the volume.
+|Access Groups	|Associated volume access groups.
+|Non-Zero Blocks |Total number of 4KiB blocks with data after the last round of garbage collection operation has completed.
+|Zero Blocks	|Total number of 4KiB blocks without data after the last round of garbage collection operation has completed.
+|Snapshot Count	|The number of associated snapshots.
+|Min IOPS	|The minimum number of IOPS guaranteed for the volume.
+|Max IOPS	|The maximum number of IOPS allowed for the volume.
+|Burst IOPS	|The maximum number of IOPS allowed over a short period of time.
+|512e Enabled |Identifies if 512e is enabled on a volume.
+|QoS Throttle	|Represents the current throttling for the volume. The value does not include historical throttling on the volume. 
+|Primary Node ID	|Primary node for this volume.
+|Secondary Node ID |List of secondary nodes for this volume. Can be multiple values during transitory states, like change of secondary nodes, but will usually have a single value.
+|Volumes Paired	|Indicates if a volume has been paired or not.
+|Create Time |The time the volume creation task was completed.
+|Block Size	|Size of the blocks on the volume.
+|IQN |The iSCSI Qualified Name (IQN) of the volume.
+|scsiEUIDeviceID |Globally unique SCSI device identifier for the volume in EUI-64 based 16-byte format.
+|scsiNAADeviceID |Globally unique SCSI device identifier for the volume in NAA IEEE Registered Extended format.
+|Attributes	|List of Name/Value pairs in JSON object format.
+|===
 
 == View individual volume performance graphs
 From the *Volumes* page, you can view performance activity for each volume in a graphical format. This information provides real-time statistics for throughput, IOPS, latency, queue depth, average IO size, and capacity for each volume.
@@ -21,10 +60,6 @@ From the *Volumes* page, you can view performance activity for each volume in a 
 .Steps
 . Select *Volumes* > *Volume Performance*.
 . From the *Volume* drop-down list, select a Volume ID to view details for that volume. Note that the Volume drop-down list is searchable by Volume ID. 
-. Alternatively, you can select *Volumes* > *Active Volumes*.
-. In the *Actions* column, select the image:more_information.PNG[More information] icon for the volume you want and select *View Details*.
-+
-A separate page opens to display an adjustable timeline, which is synced with the performance graphs.
 . On the left, select a thumbnail graph to view performance graphs in detail. You can view the following graphs:
 ** Throughput
 ** IOPS
@@ -35,10 +70,13 @@ A separate page opens to display an adjustable timeline, which is synced with th
 +
 You can also view the *Average*, *Min*, or *Max* for each graph too. Note that Average is the default view. 
 . (Optional) You can export each graph as a CSV file by selecting the image:export_button.PNG[export button] icon.
+. Alternatively, you can select *Volumes* > *Active Volumes*.
+. In the *Actions* column, select the image:more_information.PNG[More information] icon for the volume you want and select *View Details*.
++
+A separate page opens to display an adjustable timeline, which is synced with the performance graphs.
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
-
 
 // 2023 JULY 12, DOC-4697
 // Updates for DOC-4794, 2025-AUG-26
