@@ -29,7 +29,7 @@ sidebar:
             - title: All Clusters View dashboard
               url: /task-active-iq-all-clusters-view-dashboard.html
               entries:
-              - title: Cluster Support Options
+              - title: Cluster Actions
                 url: task-active-iq-cluster-options.html
             - title: Alerts
               url: /task-active-iq-alerts.html

@@ -278,7 +278,7 @@ The alert email subject line uses one of the following formats depending on erro
 NOTE: Multiple notifications are grouped into a single email with the most severe faults at the top of the email similar to the following example:
 
 
-image:multiple_emails_example.png[Example email]
+image:email_notification.PNG[Example email]
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
