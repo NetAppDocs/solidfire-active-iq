@@ -17,13 +17,13 @@ On the *Dashboard* page of the *All Clusters View*, you can view the cluster sup
 . Select one of the following options:
 .. *Request Upgrade Support* sends a request for an upgrade of the cluster software. You can select element software, storage firmware, compute firmware, or mNode management services. You enter your contact information, any comments, and a callback time. 
 +
-image:request_support2.png[Request Upgrade Support]
+image:request_support.png[Request Upgrade Support]
 .. *Archive Cluster* archives the cluster. A window opens providing warnings about the issues around archiving a cluster that might need to be unarchived at a later date. 
 +
 image:archive_cluster2.png[Archive Cluster]
 .. *Suppress Cluster* stops repeated alerts. You choose alert type, start time, and duration. You can also see currently running alert suppression rules on this window. 
 +
-image:suppress_cluster2.png[Suppress Cluster]
+image:suppress_cluster.png[Suppress Cluster]
 +
 See link:task-active-iq-alerts.html#suppress-cluster-notifications[Suppress Cluster Notifications] for more information.
 
