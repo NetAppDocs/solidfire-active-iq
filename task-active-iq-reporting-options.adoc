@@ -71,9 +71,9 @@ The following descriptions give details about calculated efficiencies on the sel
 On the *Performance* page of the *Reporting* drop-down menu for a selected cluster, you can view details about IOPS usage, throughput, and cluster utilization by selecting the category and filtering based on time period.
 
 == Node Utilization
-On the *Node Utilization* page of the *Reporting* drop-down menu for a selected cluster, each node can be selected for view. 
+On the *Node Utilization* page of the *Reporting* drop-down menu for a selected cluster, you can select and view each node. 
 
-Beginning with Element 12.8, node utilization information is available as `nodeHeat` via the `GetNodeStats` and `ListNodeStats` API methods. The `nodeHeat` object is a member of the `nodeStats` object and displays node utilization information based on the ratio of primary total IOPS or total IOPS to the configured IOPS averaged over time. The node utilization graph shows this as a percentage derived from the metric `recentPrimaryTotalHeat`.
+Beginning with Element 12.8, node utilization information is available as `nodeHeat` using the `GetNodeStats` and `ListNodeStats` API methods. The `nodeHeat` object is a member of the `nodeStats` object and displays node utilization information based on the ratio of primary total IOPS or total IOPS to the configured IOPS averaged over time. The node utilization graph shows this as a percentage derived from the metric `recentPrimaryTotalHeat`.
 
 == Error Log
 On the *Error Log* page of the *Reporting* drop-down menu for a selected cluster, you can view information about unresolved or resolved errors that have been reported by the cluster. This information can be filtered and exported to a comma-separated values (CSV) file. For details about severity levels, see the https://docs.netapp.com/us-en/element-software/index.html[Element Software documentation^].

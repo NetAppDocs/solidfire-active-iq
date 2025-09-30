@@ -15,7 +15,7 @@ On the *Dashboard* page of the *All Clusters View*, you can view the cluster sup
 . Select *All Clusters View* > *Overview*.
 . In the  *Actions* column, select the image:more_information.PNG[More information] icon for the cluster you want. 
 . Select one of the following options:
-.. *Request Upgrade Support* sends a request for an upgrade of the cluster software. You can select element software, storage firmware, compute firmware, or mNode management services. You enter your contact information, any comments, and a callback time. 
+.. *Request Upgrade Support* sends a request for an upgrade of the cluster software. You can select element software, storage firmware, compute firmware, or the management node management services. You enter your contact information, any comments, and a callback time. 
 +
 image:request_support.png[Request Upgrade Support]
 .. *Archive Cluster* archives the cluster. A window opens providing warnings about the issues around archiving a cluster that might need to be unarchived at a later date. 
