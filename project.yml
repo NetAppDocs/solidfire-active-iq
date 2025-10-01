@@ -26,10 +26,12 @@ sidebar:
           entries:
             - title: Overview
               url: /task-active-iq-all-clusters-view-overview.html
-            - title: Dashboard
-              url: /task-active-iq-all-clusters-view-dashboard.html
-            - title: Cluster Actions
-              url: /task-active-iq-cluster-options.html
+            - title: All Clusters View Dashboard
+              entries:
+                - title: Dashboard
+                  url: /task-active-iq-all-clusters-view-dashboard.html
+                - title: Cluster Actions
+                  url: /task-active-iq-cluster-options.html
             - title: Alerts
               url: /task-active-iq-alerts.html
             - title: Capacity Licensing
