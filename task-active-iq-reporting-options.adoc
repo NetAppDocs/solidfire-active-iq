@@ -4,7 +4,6 @@ sidebar: sidebar
 keywords: solidfire, active, iq, reporting, cluster
 summary: 'Learn about the reporting options for a selected cluster in SolidFire Active IQ.'
 ---
-
 = Reporting options for a selected cluster
 :icons: font
 :imagesdir: ./media/
@@ -15,7 +14,8 @@ Learn about the *Reporting* drop-down menu in the side panel:
 * <<Capacity>>
 * <<Efficiency>>
 * <<Performance>>
-* <<Error log>>
+* <<Node Utilization>>
+* <<Error Log>>
 * <<Events>>
 * <<Alerts>>
 * <<iSCSI Sessions>>
@@ -70,7 +70,12 @@ The following descriptions give details about calculated efficiencies on the sel
 == Performance
 On the *Performance* page of the *Reporting* drop-down menu for a selected cluster, you can view details about IOPS usage, throughput, and cluster utilization by selecting the category and filtering based on time period.
 
-== Error log
+== Node Utilization
+On the *Node Utilization* page of the *Reporting* drop-down menu for a selected cluster, you can select and view each node. 
+
+Beginning with Element 12.8, node utilization information is available as `nodeHeat` using the `GetNodeStats` and `ListNodeStats` API methods. The `nodeHeat` object is a member of the `nodeStats` object and displays node utilization information based on the ratio of primary total IOPS or total IOPS to the configured IOPS averaged over time. The node utilization graph shows this as a percentage derived from the metric `recentPrimaryTotalHeat`.
+
+== Error Log
 On the *Error Log* page of the *Reporting* drop-down menu for a selected cluster, you can view information about unresolved or resolved errors that have been reported by the cluster. This information can be filtered and exported to a comma-separated values (CSV) file. For details about severity levels, see the https://docs.netapp.com/us-en/element-software/index.html[Element Software documentation^].
 
 The following information is reported for the selected cluster.
@@ -92,7 +97,8 @@ The following information is reported for the selected cluster.
 |===
 
 == Events
-On the *Events* page of the *Reporting* drop-down menu for a selected cluster, you can view information about key events that have occurred on the cluster. This information can be filtered and exported to a CSV file.
+On the *Events* page of the *Reporting* drop-down menu for a selected cluster, you can select between the *Events* and *gcEvents* tabs to view information about key events that have occurred on the cluster. By default, selecting *Events* shows all of the events except for gcEvents to improve readability. In order to see all events, including gcEvents, select the tab labeled *gcEvents*. This information can be filtered and exported to a CSV file.
+
 
 The following information is reported for the selected cluster.
 
@@ -101,7 +107,7 @@ The following information is reported for the selected cluster.
 |Heading |Description
 |Event ID |Unique ID associated with each event.
 |Event Time |The time the event occurred.
-|Type |The type of event being logged, for example, API event or clone events. See the https://docs.netapp.com/us-en/element-software/index.html[Element Software documentation^] for more information.
+|Type |The type of event being logged, for example, API events, clone events, or gc events. See the https://docs.netapp.com/us-en/element-software/index.html[Element Software documentation^] for more information.
 |Message |Message associated with the event.
 |Service ID |The service that reported the event (if applicable).
 |Node ID |The node that reported the event (if applicable).
@@ -165,3 +171,5 @@ NOTE: In addition to these methods, SolidFire Active IQ makes some internal API 
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
+
+// Updates for DOC-4794, 2025-AUG-26

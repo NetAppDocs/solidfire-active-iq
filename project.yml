@@ -26,8 +26,12 @@ sidebar:
           entries:
             - title: Overview
               url: /task-active-iq-all-clusters-view-overview.html
-            - title: All Clusters View dashboard
-              url: /task-active-iq-all-clusters-view-dashboard.html
+            - title: All Clusters View Dashboard
+              entries:
+                - title: Dashboard
+                  url: /task-active-iq-all-clusters-view-dashboard.html
+                - title: Cluster Actions
+                  url: /task-active-iq-cluster-options.html
             - title: Alerts
               url: /task-active-iq-alerts.html
             - title: Capacity Licensing
@@ -54,6 +58,8 @@ sidebar:
               url: /task-active-iq-active-volumes.html
             - title: Snapshots and Snapshot Schedules
               url: /task-active-iq-snapshots-and-schedules.html
+            - title: Volume Performance
+              url: /task-active-iq-volume-performance.html
         - title: Replication
           url: /task_active_iq_replication.html
         - title: Virtual Volumes
