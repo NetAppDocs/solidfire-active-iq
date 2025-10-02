@@ -4,8 +4,7 @@ sidebar: sidebar
 keywords: solidfire, active, iq, nodes
 summary: 'Learn about the Active Nodes page in SolidFire Active IQ.'
 ---
-
-= Nodes
+= Nodes head
 :icons: font
 :imagesdir: ./media/
 
@@ -43,6 +42,9 @@ The status of the node:
 * Fault: There are errors associated with this node. Select the link to view the Error Log.
 |Name |The system-generated node name.
 |Type |Displays the model type of the node.
+|Platform Config Version | The config version of the chassis you are running on. 
+|BIOS Version | The BIOS version for your node's hardware.
+|BMC Firmware Revision | The revision of the firmware currently running on the Baseboard Management Controller (BMC).
 |Version |Version of Element software running on the node.
 |Serial Number |Unique serial number assigned to the node.
 |Management IP |Management IP address assigned to node for 1GbE or 10GbE network admin tasks.
@@ -59,6 +61,9 @@ Identifies what role the node has in the cluster:
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
 * Fibre Channel: An FC node in the cluster.
 * If a node does not have a role, the value is set to - (dash).
+|End of Availability |Date when nodes are no longer available for purchase, but are still supported.
+|End of Hardware Support |Date when hardware is no longer supported.
+|End of Software Support |Date when software is no longer supported.
 |===
 
 == View NetApp HCI storage and compute node details
@@ -92,6 +97,9 @@ The status of the node:
 |Type |Shows the model type of the node.
 |Chassis / Slot |Unique serial number assigned to the chassis and the slot location of the node.
 |Serial Number |Unique serial number assigned to the node.
+|Platform Config Version | The config version of the chassis you are running on.
+|BIOS Version |The BIOS version for your node's hardware.
+|BMC Firmware Revision |The revision of the firmware currently running on the Baseboard Management Controller (BMC).
 |Version |Version of Element software running on the node.
 |Management IP |Management IP address assigned to node for 1GbE or 10GbE network admin tasks.
 |Storage IP |Storage IP address assigned to the node used for iSCSI network discovery and all data network traffic.
@@ -104,7 +112,10 @@ Identifies what role the node has in the cluster:
 
 * Cluster Master: The node that performs cluster-wide administrative tasks and contains the MVIP and SVIP.
 * Ensemble Node: A node that participates in the cluster. There are either three or five ensemble nodes depending on cluster size.
-* If a node does not have a role, the value is set to - (dash).
+* If a node does not have a role, the value is set to - (dash). 
+|End of Availability |Date when nodes are no longer available for purchase, but are still supported.
+|End of Hardware Support |Date when hardware is no longer supported.
+|End of Software Support |Date when software is no longer supported.
 |===
 
 === View information about compute nodes
@@ -119,8 +130,15 @@ Select *Compute* to view the following information about the compute nodes in th
 |Chassis/Slot |Unique serial number assigned to the chassis and the slot location of the node.
 |Serial Number |Unique serial number assigned to the node.
 |vCenter IP	|IP address of the vCenter Server.
+|BIOS Version |The BIOS version for your node's hardware.
+|BMC Firmware Revision |The revision of the firmware currently running on the Baseboard Management Controller (BMC).
 |vMotion IP |VMware vMotion network IP address of the compute node.
+|End of Availability |Date when nodes are no longer available for purchase, but are still supported.
+|End of Hardware Support |Date when hardware is no longer supported.
+|End of Software Support |Date when software is no longer supported.
 |===
 
 == Find more information
 https://www.netapp.com/support-and-training/documentation/[NetApp Product Documentation^]
+
+// Updates for DOC-4794, 2025-AUG-26
