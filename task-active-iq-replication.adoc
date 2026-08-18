@@ -1,5 +1,5 @@
 ---
-permalink: task_active_iq_replication.html
+permalink: task-active-iq-replication.html
 sidebar: sidebar
 keywords: solidfire, active, iq, replication
 summary: 'Learn about the Replication page in SolidFire Active IQ.'

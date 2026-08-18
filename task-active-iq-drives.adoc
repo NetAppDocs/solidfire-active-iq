@@ -1,5 +1,5 @@
 ---
-permalink: task_active_iq_drives.html
+permalink: task-active-iq-drives.html
 sidebar: sidebar
 keywords: solidfire, active, iq, drives
 summary: 'Learn about the Drives page in SolidFire Active IQ.'
