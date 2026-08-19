@@ -50,11 +50,11 @@ sidebar:
         - title: Nodes
           url: /task-active-iq-nodes.html
         - title: Drives
-          url: /task_active_iq_drives.html
+          url: /task-active-iq-drives.html
         - title: Volumes
           entries:
             - title: Overview
-              url: /task_active_iq_volumes_overview.html
+              url: /task-active-iq-volumes-overview.html
             - title: Active Volumes
               url: /task-active-iq-active-volumes.html
             - title: Snapshots and Snapshot Schedules
@@ -62,7 +62,7 @@ sidebar:
             - title: Volume Performance
               url: /task-active-iq-volume-performance.html
         - title: Replication
-          url: /task_active_iq_replication.html
+          url: /task-active-iq-replication.html
         - title: Virtual Volumes
           url: /task-active-iq-virtual-volumes.html
         - title: QoS Management

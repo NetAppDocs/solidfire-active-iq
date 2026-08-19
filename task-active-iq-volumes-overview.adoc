@@ -1,5 +1,5 @@
 ---
-permalink: task_active_iq_volumes_overview.html
+permalink: task-active-iq-volumes-overview.html
 sidebar: sidebar
 keywords: solidfire, active, iq, volumes, cluster
 summary: 'Learn about the Volumes page in SolidFire Active IQ.'
